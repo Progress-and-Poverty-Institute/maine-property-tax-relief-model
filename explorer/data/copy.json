@@ -1,0 +1,514 @@
+{
+ "source": "report-ready-copy.md",
+ "sections": [
+  {
+   "tab": "Model",
+   "level": 2,
+   "title": "About the model",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This page provides background information about the models which underpin this explorer. It begins by explaining how the model works, highlighting some limitations to keep in mind, and conducting some sense-checks which help demonstrate that the model accurately represents the real-world. Finally, drop-down menus provide further detail about more granular aspects of the model."
+    }
+   ]
+  },
+  {
+   "tab": "Model",
+   "level": 2,
+   "title": "How the model works",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<strong>Household Engine</strong>: The backbone of our model is a household-level microsimulation which relies on the American Community Survey (ACS) Public Use Microdata Sample (PUMS). For Maine, this contains anonymized Census records for 30,029 households weighted to represent Maine’s 597,160 households. Each observation carries household demography (age, marital status, number of dependents) and economic data (income, rent/property tax bill, property value). This allows us to model changes to each individual household’s property tax burden under each of the relief scenarios, applying the statutory formula in 36 M.R.S. §5219-KK household by household."
+    },
+    {
+     "type": "p",
+     "html": "This backbone is supported by four additional engines:"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "depth": 0,
+       "html": "<strong>Municipality Engine</strong>: Changes to relief programs and reimbursement rates shift each municipality’s mill rate by modifying the taxable property base as well as how much revenue must be raised from property taxes. Our Municipality Engine uses the 2024 MVR to re-solve each town’s tax rate calculation under each scenario, ensuring that funding for municipal services remains unchanged, and then feeds mill rate changes back into the Household Engine.",
+       "ordered": true
+      },
+      {
+       "depth": 0,
+       "html": "<strong>Take-Up Engine</strong>: Estimates PTFC uptake by dividing claimants (provided by MRS) by the number of eligible households identified by the Household Engine. These are used to adjust PTFC entitlements to actual payouts in the Household Engine, ensuring that we accurately calibrate our relief scenarios on the basis of their true fiscal cost to the state (see ‘validation’ below).",
+       "ordered": true
+      },
+      {
+       "depth": 0,
+       "html": "<strong>Homestead Engine</strong>: A homestead exemption cannot exceed the value of the home it applies to, so increases to the exempt amount do not produce an exactly proportionate increase in total exempt value. Our Homestead Engine uses a statewide distribution of home values from ATTOM assessment records to estimate how much of a proposed exemption homes can use, and applies it to each municipality's homestead counts from the Municipal Valuation Return. That ratio is fed into the Municipality Engine, to calculate changes to mill rates and state reimbursement.",
+       "ordered": true
+      },
+      {
+       "depth": 0,
+       "html": "<strong>Rev-Share Engine</strong>: Replicates the FY2025 revenue-sharing calculation such that changes to Rev-Share I and II can be sent to the Municipality Engine and traced through into changes in mill rates.",
+       "ordered": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>Geography</strong>: PUMS data does not map each household to an individual town, but rather to one of ten Public Use Microdata Areas (PUMAs, viewable <a href=\"https://felt.com/map/Maine-Municipalities-Classification-n301K9Cd1RK6I6HE9AYdyNSB?share=1&amp;loc=45.263,-69.017,6.97z\" target=\"_blank\" rel=\"noopener\">here</a>). Some scenario parameters (changes to mill rates, take-up rates for the homestead exemption and PTFC) must therefore be averaged across all towns in a PUMA before feeding the Household Engine."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Scenario Calibration</strong>: Simple policy changes can produce a cascade of interacting effects. For example, doubling the homestead exemption reduces municipalities’ tax base, which is only partly offset by reimbursement, meaning that mill rates increase, but tax bills still fall overall, which reduces PTFC payments. These interactions flow through all of the engines simultaneously, such that each relief scenario is calibrated to produce the targeted fiscal impact: $35 million for the equal-cost scenarios (#1 to #8), and zero for the revenue-neutral ‘relief reallocation’ scenarios (#9 to #13) and Task Force scenarios (#15 to #19)."
+    }
+   ]
+  },
+  {
+   "tab": "Limitations",
+   "level": 1,
+   "title": "Limitations",
+   "comments": [],
+   "blocks": []
+  },
+  {
+   "tab": "Limitations",
+   "level": 3,
+   "title": "Limitations: What caveats should be kept in mind when interpreting model results?",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<strong>1. Take-up.</strong> PTFC take-up does not vary with income. Claiming rates are applied area by area, so two eligible households in the same area are treated as equally likely to claim whatever their income. They are not: the main barrier to claiming is having a reason to file a return at all, and that barrier falls away as income rises. This matters because the scenarios are calibrated to equal cost so that they can be compared on who benefits, and that equal footing holds only if claiming is independent of income. Scenario 4 is the exposed case, with 87.0% of its new money going to households above $60,000, and of the three credit scenarios it is the one MRS has not costed. If every household above $60,000 that gains under it claimed in full it would cost $48.0m rather than $35.0m, which is an upper bound rather than an estimate."
+    },
+    {
+     "type": "p",
+     "html": "Similar limitations apply to the homestead exemption, for which we infer uptake by comparing the number of homesteads recorded on each area’s municipal returns against the number of owner-occupied households the survey finds there, since the survey does not ask whether a household holds the exemption. Statewide uptake is estimated to be 73.4% and ranges from 65.6% in western York and Cumberland to 84.5% in Aroostook, Washington and northern Penobscot. Applying one rate across an entire area means that no individual household is identified as holding the exemption or not, so results for the scenarios that change it describe an expectation across both possibilities rather than any particular household; this is accurate for totals and for the distribution as a whole, and it is the reason we report how many households gain or lose rather than naming which ones do. Owners who bought their home within the last year make up about a fifth of the shortfall, though not all of them are ineligible: moving from one Maine homestead to another need not interrupt the exemption."
+    },
+    {
+     "type": "p",
+     "html": "Take-up is also held constant across every scenario. Several of these reforms would substantially increase what a household can claim, and Homestead Plus replaces the program outright. It is not plausible that claiming behavior would be unchanged. We hold it fixed because the alternative is to assume a relationship nobody has measured, and because the direction is known: $58.7m of entitlement already goes unclaimed and 70.9% of it sits in the bottom three income deciles, so if claiming rises with generosity then every one of these scenarios reaches the bottom of the distribution harder than we show. The same applies to the homestead exemption, where a larger exemption gives owners who have never applied more reason to do so."
+    },
+    {
+     "type": "p",
+     "html": "<strong>2. Mill rates are averaged within each survey area.</strong> Each household is assigned the average rate for its part of the state. Rates vary considerably between towns inside one area, and that variation is not random: poorer towns generally levy higher rates than wealthier towns nearby, by a little over two mills on average. We capture the larger pattern, that rural and service-center Maine levies higher rates than the southern coast, but not this second-order variation within an area. The effect is to understate the relief a homestead exemption delivers to lower-income households, so the homestead scenarios are somewhat more progressive than our distributional tables show. On the southern coast the gap is close to zero."
+    },
+    {
+     "type": "p",
+     "html": "<strong>3. The household data is a five-year survey sample.</strong> Our household model uses the Census Bureau’s 2020 to 2024 sample, because a single year’s sample for Maine is too small to support results at this level of detail, and a 2025 sample has not yet been released. Dollar amounts are adjusted to 2024 terms, though the households were surveyed across five years, so the picture sits nearer 2022 than the present. Because both tax bills and incomes have increased at a similar rate, the share of households eligible for PTFC has remained relatively stable, varying by only 1.3 percentage points over the survey years, with no identifiable trend. For the typical homeowner, property tax as a share of income peaked in 2022 and has eased since, as our Time Trends report shows, but households with high burdens may not have followed that pattern, so the burden counts describe the survey period rather than the present."
+    }
+   ]
+  },
+  {
+   "tab": "Validation",
+   "level": 1,
+   "title": "Validation",
+   "comments": [],
+   "blocks": []
+  },
+  {
+   "tab": "Validation",
+   "level": 3,
+   "title": "Validation: How do we know we can trust the model?",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "This section compares data and results from our model to figures published elsewhere, to help provide confidence that the model is accurately representing real-world outcomes for Maine households."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Category A: Snapshot of the Sample:</strong> These figures describe the data in our PUMS sample and compare it to published Census tables. They show that our model is analyzing data which is representative of Maine, but should not be interpreted as independent validation because both sets of figures are ultimately drawn from the same survey data."
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "depth": 1,
+       "html": "Applying survey weights to the 30,029 households in our PUMS sample reproduces 597,160 households, 74.4% of them owner-occupied, closely matching the Census Bureau <a href=\"https://www.census.gov/quickfacts/ME\" target=\"_blank\" rel=\"noopener\">QuickFacts</a> for the State of Maine.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "Median household income in our data is $73,463 (Corresponds to $74,733 in <a href=\"https://www.census.gov/quickfacts/ME\" target=\"_blank\" rel=\"noopener\">QuickFacts</a>).",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "Median owner-occupied home value in our data is $290,000, within a few percent of the $296,600 reported in <a href=\"https://www.census.gov/quickfacts/ME\" target=\"_blank\" rel=\"noopener\">QuickFacts</a>.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "23.6% of households include at least one person under 18 years of age, and 36.8% have at least one person 65 or over, corresponding to values of 23.7% and 36.7% reported in <a href=\"https://data.census.gov/table/ACSDP5Y2024.DP02?q=DP02&amp;g=040XX00US23\" target=\"_blank\" rel=\"noopener\">Census Table DP02</a>.",
+       "ordered": false
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>Category B. Model Inputs.</strong> These compare the data our model is built from against external data source."
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "depth": 1,
+       "html": "Mean property tax reported by all owner-occupiers in our data is $3,580, compared to an average bill of $3,635 per homestead implied by the 2024 Municipal Valuation Return (MVR). The two measures cover slightly different universes: PUMS samples from all owner-occupiers whereas the MVR data only counts those enrolled in the homestead exemption.",
+       "ordered": false
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>Category C. Current Relief Spending.</strong> These figures compare the cost of the existing Homestead Exemption and Property Tax Fairness Credit against amounts reported by Maine Revenue Services (MRS), the Department of Administrative and Financial Services (DAFS), and municipalities themselves. They show that the model accurately reproduces the cost of both programs under current law."
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "depth": 1,
+       "html": "<strong>Homestead Exemption</strong>: By applying each survey area’s homestead rate to an exemption worth the lesser of $25,000 or each home’s value, and reimbursing 76% of the resulting loss at the survey area’s average tax rate, the model estimates that in TY2024 the State paid $84.6 million to reimburse municipalities for lost property tax revenues due to the homestead exemption. In the <a href=\"https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/2024%20Municipal%20Valuation%20Return%20Statistical%20Summary%20Report.pdf\" target=\"_blank\" rel=\"noopener\">2024 MVR</a>, municipalities themselves reported homestead reimbursement of $85.4 million (also calculated by multiplying total homestead exempt value by each town’s mill rate and reimbursing 76% of the resulting amount). DAFS <a href=\"https://legislature.maine.gov/doc/12343\" target=\"_blank\" rel=\"noopener\">put</a> the FY2025 cost of homestead reimbursement at $85.1 million. This is a consistency check rather than an independent test: the homestead rates and tax rates come from the MVR itself, so the comparison mainly confirms that the model carries those figures through correctly.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "<strong>Property Tax Fairness Credit (PTFC)</strong>: By applying the 2024 statutory rules for the PTFC to every household in the sample and then accounting for take-up (measured against the households eligible under the same 2024 rules), the model estimates payment of $114.9 million in credits. This is within 1.4% of the $113.3 million reported in data shared by MRS in Nov 2025 detailing PTFC returns by town. Both figures cover the same 134,245 claimants, including the 297 that MRS reports only as a group of towns with fewer than ten returns. Our model’s $114.9 million is 2.2% below the $117.5 million separately reported to the Task Force by MRS in Sep 2026 (see PDF page 36 <a href=\"https://legislature.maine.gov/doc/12706\" target=\"_blank\" rel=\"noopener\">here</a>). That difference is likely due to TY2024 returns that were filed or amended after the town-level data was extracted by MRS in Nov 2025. Separately, the Department of Administrative and Financial Services (DAFS) <a href=\"https://legislature.maine.gov/doc/12343\" target=\"_blank\" rel=\"noopener\">estimated</a> that the PTFC would provide $110.0 million in property tax relief in FY2025 (corresponding to TY2024).",
+       "ordered": false
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>Category D. Fiscal Notes for Changes to Relief Spending.</strong> Whereas the previous section compared the <em>total cost</em> of the Homestead Exemption and PTFC, this section considers the cost of <em>changes</em> to them, comparing our estimates to costings produced independently by MRS. The first bullet-point compares estimates of the change made to the PTFC in April 2026. The remaining four bullet-points are prototype versions of our Scenarios 1, 3, 5 and 6, which were designed based on an earlier version of our model and then modeled by MRS in September 2026. To validate our model, those prototype parameters were re-run through the final version of our model, and the resulting costs compared to those produced by MRS."
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "depth": 1,
+       "html": "<strong>2026 Changes to PTFC (LD 2212):</strong> In 2026 the Legislature raised the maximum credit for claimants under 65 from $1,000 to $1,500. Applying that single change, our model estimates a fiscal cost of $9.4 million. Data shared by MRS in April 2026 estimated a fiscal cost of $9.5 million for that same change, using data directly from filed tax returns, a difference of only 1.0%.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "<strong>Prototype of Scenario 1</strong>: This scenario raises the homestead exemption from $25,000 to $35,275 while holding the State’s reimbursement to municipalities at 76%. With those parameters our model estimates a cost of $35.2 million, compared to $34.4 million calculated by MRS, a difference of 2.5%.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "<strong>Prototype of Scenario 3</strong>: Raising the exemption to $52,500 and cutting the reimbursement rate to 50%, our model estimates a cost of $36.8 million against the $34.3 million calculated by MRS, a difference of 7.3%.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "<strong>Prototype of Scenario 5</strong>: This scenario increases the PTFC maximum credit to $3,000 for claimants under 65 and $4,000 for 65 and over while also lowering the income threshold from 4.0% to 3.7%. With those parameters, our model estimates a cost of $32.7 million, compared to $29.4 million calculated by MRS, a difference of 11.0%.",
+       "ordered": false
+      },
+      {
+       "depth": 1,
+       "html": "<strong>Prototype of Scenario 6</strong>: Raising the maximum credit to $2,250 and $3,000 and increasing all benefit base limits by 17.3%, our model estimates a cost of $34.4 million against the $32.2 million calculated by MRS, a difference of 7.0%.",
+       "ordered": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tab": "Scenarios",
+   "level": 3,
+   "title": "Scenarios - Page Introduction",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Maine helps households with their property tax in three main ways. The <a href=\"https://www.maine.gov/revenue/faq/homestead-exemption-program\" target=\"_blank\" rel=\"noopener\"><strong>homestead exemption</strong></a> removes a fixed amount of value from the tax bill of anyone who owns and occupies their home, and the State reimburses municipalities for most of the revenue they give up by granting it. The <a href=\"https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/income-tax-credits/property-tax-fairness-credit\" target=\"_blank\" rel=\"noopener\"><strong>Property Tax Fairness Credit</strong></a> pays money back to households whose property tax, or whose rent, is large relative to their income; it is claimed each year on a Maine income tax return. <a href=\"https://www.maine.gov/treasurer/revenue-sharing\" target=\"_blank\" rel=\"noopener\"><strong>Municipal revenue sharing</strong></a> sends a share of State tax collections to municipalities, reducing what they must raise locally."
+    },
+    {
+     "type": "p",
+     "html": "The fourteen scenarios on this page are possible changes to those three programs. They fall into two groups, and the difference between the groups matters more than any single parameter."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Eight scenarios spend $35 million of new State money.</strong> They answer one question: if the State had $35 million more to spend on property tax relief, what are the different ways it could spend it, and who would each one reach? Because they all cost the same, they can be compared directly on who benefits rather than on how much they cost."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Six scenarios spend nothing new.</strong> They take money already committed to one relief program and move it to another. These answer a different question: if the State redirected what it already spends, how much more relief could it deliver, and to whom?"
+    },
+    {
+     "type": "p",
+     "html": "Two terms recur. <strong>State cost</strong> is what a change costs the State budget. <strong>Delivered relief</strong> is what households actually receive. These are not the same number, and the gap between them is one of the more revealing things in these results."
+    },
+    {
+     "type": "p",
+     "html": "One mechanism is worth understanding before reading any of the tables. A municipality sets its <strong>mill rate</strong>, the tax rate per thousand dollars of property value, to raise the budget it needs. If a larger homestead exemption removes value from the tax base, the municipality must set a higher mill rate to raise the same money. So several of these scenarios deliver relief to homeowners and raise mill rates at the same time, and the second effect falls on every property in the town, including those that receive no relief."
+    },
+    {
+     "type": "p",
+     "html": "<strong>$35 million of new State spending</strong>"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Scenario",
+      "Program",
+      "What changes",
+      "State cost",
+      "Delivered relief",
+      "Gaining",
+      "No change",
+      "Losing"
+     ],
+     "rows": [
+      [
+       "1. Raise the homestead exemption",
+       "Homestead exemption",
+       "Exemption up $11,600; mill rates up 0.34%",
+       "$34.9m",
+       "$39.3m",
+       "310,976",
+       "169,542",
+       "116,642"
+      ],
+      [
+       "2. Reimbursement to 100%",
+       "Homestead exemption",
+       "Exemption up $2,600; mill rates down 0.73%",
+       "$34.8m",
+       "$20.9m",
+       "431,739",
+       "165,421",
+       "0"
+      ],
+      [
+       "3. Reimbursement to 50%",
+       "Homestead exemption",
+       "Exemption up $31,400; mill rates up 2.77%",
+       "$35.0m",
+       "$79.0m",
+       "307,945",
+       "163,510",
+       "125,705"
+      ],
+      [
+       "4. Raise the benefit bases",
+       "Fairness Credit",
+       "Benefit bases × 1.65",
+       "$35.0m",
+       "$35.0m",
+       "67,744",
+       "529,416",
+       "0"
+      ],
+      [
+       "5. Raise the maximum credit",
+       "Fairness Credit",
+       "Maximums $3,000 / $4,000; income offset to 3.72%",
+       "$35.0m",
+       "$35.0m",
+       "215,930",
+       "381,230",
+       "0"
+      ],
+      [
+       "6. Hybrid",
+       "Fairness Credit",
+       "Maximums × 1.5, benefit bases × 1.18",
+       "$35.0m",
+       "$35.0m",
+       "94,194",
+       "502,966",
+       "0"
+      ],
+      [
+       "7. Senior liability ceiling",
+       "Fairness Credit",
+       "Tax capped at 6% of income for owners 65+, phasing out between $75,000 and $120,000 of income",
+       "$34.7m",
+       "$34.7m",
+       "22,102",
+       "575,058",
+       "0"
+      ],
+      [
+       "8. General liability ceiling",
+       "Fairness Credit",
+       "Tax capped at 6% of income, maximum $4,300, only the first $370,000 of home value counts",
+       "$35.1m",
+       "$35.1m",
+       "41,983",
+       "555,177",
+       "0"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "<strong>Revenue-neutral relief reallocation</strong>"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Scenario",
+      "Program",
+      "What changes",
+      "State cost",
+      "Delivered relief",
+      "Gaining",
+      "No change",
+      "Losing"
+     ],
+     "rows": [
+      [
+       "9. End revenue sharing I",
+       "Revenue sharing to Fairness Credit",
+       "Benefit bases × 1.41, maximum credit × 2.23, income offset to 2.84%",
+       "nil",
+       "$108.3m",
+       "307,267",
+       "69,770",
+       "220,123"
+      ],
+      [
+       "10. End revenue sharing II",
+       "Revenue sharing to Fairness Credit",
+       "Benefit bases × 1.12, maximum credit × 1.35, income offset to 3.59%",
+       "nil",
+       "$29.1m",
+       "226,889",
+       "94,325",
+       "275,946"
+      ],
+      [
+       "11. Reimbursement 76% to 50%",
+       "Homestead reimbursement to Fairness Credit",
+       "Benefit bases × 1.06, maximum credit × 1.19, income offset to 3.77%",
+       "nil",
+       "$14.9m",
+       "213,119",
+       "100,188",
+       "283,853"
+      ],
+      [
+       "12. Reimbursement 76% to nil",
+       "Homestead reimbursement to Fairness Credit",
+       "Benefit bases × 1.18, maximum credit × 1.54, income offset to 3.39%",
+       "nil",
+       "$44.8m",
+       "249,046",
+       "85,083",
+       "263,031"
+      ],
+      [
+       "13. All three stacked",
+       "Both, to Fairness Credit",
+       "Benefit bases × 1.68, maximum credit × 3.04, income offset to 2.38%",
+       "nil",
+       "$186.8m",
+       "358,782",
+       "56,068",
+       "182,310"
+      ],
+      [
+       "14. Homestead Plus",
+       "All three replaced",
+       "Tax above 2%, 3%, 5% and 8% of income met by the State at 50%, 80%, 85% and 90%",
+       "−$12.1m",
+       "$118.2m",
+       "327,214",
+       "38,337",
+       "231,609"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "“No change” means a change of a dollar or less in either direction. That is the threshold the model uses, and without it rounding would scatter households into the gaining and losing columns."
+    },
+    {
+     "type": "p",
+     "html": "Scenario 14’s State cost is negative. It spends $12.1m less than the money it frees up, so it returns that to the State rather than costing anything. Every other reallocation scenario is built to spend its pool exactly."
+    },
+    {
+     "type": "p",
+     "html": "The counts for scenarios 1, 2, 3 and 14 are expectations, not head counts. Our data does not record which households hold a homestead exemption, so for scenarios that change it we carry both possibilities weighted by how common the exemption is in each area. The totals are sound; no individual household is identified as a winner or a loser."
+    },
+    {
+     "type": "p",
+     "html": "Scenario 2 is the only one in the whole set with no losers, because it is the only one that lowers mill rates rather than raising them."
+    }
+   ]
+  },
+  {
+   "tab": "Scenarios",
+   "level": 2,
+   "title": "The six scenarios that spend nothing new",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "These scenarios reduce an existing relief program and move the money into an expanded Fairness Credit. The mechanism is the same in all six and worth reading once."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Where the money comes from, and what it costs on the way.</strong> When the State stops paying a town, the town raises its rate to make up the difference. That costs the State money twice over before a single parameter changes. The homestead reimbursement is a share of an exempt value priced at the mill rate, so it rises when the rate rises, and so does the business equipment reimbursement. Then the Fairness Credit is computed off the property tax bill, so larger bills mean larger credits automatically. Under Scenario 9 those three together consume $16.8 million of the $208.5 million freed, 8.1%, before the Task Force chooses anything. Every pool figure below is net of the first two."
+    },
+    {
+     "type": "p",
+     "html": "<strong>How the credit is expanded.</strong> The same design is used in all five of Scenarios 9 to 13: the benefit bases, both maximum credits and the income offset all move together, with the maximums moving three times as far as the bases. That ratio was chosen because it holds the division of the money between the three levers near-constant across a twelve-fold range of pool size, so the scenarios differ in scale rather than in character."
+    },
+    {
+     "type": "p",
+     "html": "<strong>A note on the mill-rate figures.</strong> Every statewide change in mill rates in this explorer is measured the same way: the average of each town's percentage change in its mill rate, weighted by the property tax the town levies today. The change in mills applies that percentage to 13.86 mills, the average full-value rate on homesteads today."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Take-up is held at today's rate in every one.</strong> Maine's last round of credit expansion raised eligibility by 53% and claimants by 54% without moving the claiming rate at all. These scenarios move the parameters further than that test covered, so holding take-up fixed is an extrapolation. If claiming does rise, each expansion would have to be smaller than shown, and because non-claiming is concentrated among households with no reason to file a return, the additional claimants would fall in the bottom deciles. The distributional results below therefore understate how progressive these reforms are."
+    }
+   ]
+  },
+  {
+   "tab": "Archetypes",
+   "level": 3,
+   "title": "Archetypes - Page Introduction",
+   "comments": [],
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Distributional results tell you that a reform sends a certain share of its money to the bottom tenth of households. They do not tell you what sort of household that is. These archetypes answer the second question, by grouping Maine households into recognizable types and showing how today's relief programs treat each one."
+    },
+    {
+     "type": "p",
+     "html": "There are two sets, built for different purposes."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The six Representative Archetypes cover every household in Maine.</strong> Each is a familiar type: families with children at home, older owners without dependents, renters under 65. They are useful because everyone is in one of them, so the shares add to the whole state. They are limited because each contains a wide range of circumstances, from comfortable to struggling, so the typical household in one is not very typical of anyone."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The seven Burdened Archetypes cover only households whose property tax, or 15% of their rent, still exceeds 6% of their income after every relief program has been applied.</strong> These are the households the current system does not adequately reach. They are a tenth of Maine, 59,103 households, and they are the group most of the policy argument is actually about."
+    },
+    {
+     "type": "p",
+     "html": "Throughout, a household's <strong>burden</strong> means its property tax as a share of its income, measured after all existing relief. For a renter it means 15% of rent, which is what Maine's Property Tax Fairness Credit deems a renter's property tax to be."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Two numbers govern every credit below.</strong> The <strong>benefit base</strong> is the ceiling on how much property tax the credit will look at: $2,600 for a single filer, $3,350 for a couple, $4,150 with dependents, $4,200 at 65 or over. The <strong>maximum credit</strong> is the ceiling on the payment itself: $1,500 under 65 and $2,000 at 65 and over. The credit pays the excess of counted property tax over 4% of income, up to that maximum. Which of the two limits binds decides which reforms can reach a household at all."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Where each archetype lives</strong> is given against the statewide share, on a four-way split: <strong>Greater Portland</strong> (Portland, South Portland and Westbrook), the <strong>service-center regions</strong> (Bangor, Augusta and Waterville, Lewiston and Auburn), the <strong>southern coast</strong> (Sagadahoc, northern and eastern Cumberland, and York), and <strong>rural Maine</strong> (Aroostook, Washington, northern Penobscot, Oxford, Somerset, Franklin, Piscataquis, Hancock, Knox, Waldo and Lincoln). Statewide, households split 9.1% Greater Portland, 26.2% service centers, 31.1% southern coast, 33.6% rural."
+    },
+    {
+     "type": "chart",
+     "text": "Toggle: Representative Archetypes | Burdened Archetypes"
+    },
+    {
+     "type": "chart",
+     "text": "Summary table of the six or seven archetypes at a glance"
+    }
+   ]
+  }
+ ]
+}

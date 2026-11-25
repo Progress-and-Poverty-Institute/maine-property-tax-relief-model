@@ -1,0 +1,2857 @@
+{
+ "scen": {
+  "1": {
+   "title": "Increase the Homestead Exemption",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption is a familiar form of property tax relief in Maine, reducing the taxable value of owner-occupied homes by $25,000. This scenario increases that exemption to $36,600 while leaving State reimbursement at 76%:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 1"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$36,600"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "Unchanged"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.05 mills (+0.34%)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "A larger exemption reduces municipalities’ taxable base, which the State only partly reimburses. Because towns still have to cover the same budget, they must increase mill rates, by an average of +0.05 mills. Homesteaders gain more from the exemption than they lose to the mill rate; all other property owners see their tax bills increase, by +0.34% on average."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000. This scenario raises it to $36,600 and leaves State reimbursement at 76%, so towns lift mill rates to cover the shortfall. Homesteaders gain more from the larger exemption than they lose to the higher rate. All other property owners pay the higher rate and gain nothing."
+    }
+   ]
+  },
+  "2": {
+   "title": "Raise the Reimbursement Rate to 100%",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose as a result. This scenario increases reimbursement to 100% and, because that costs less than $35 million on its own, also provides a slight increase to the homestead exemption."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 2"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$27,600"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "100%"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Decrease of 0.10 mills (−0.73%)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Because towns are now made whole for the homestead exemption, they are able to reduce mill rates by an average of 0.10 mills. Every property owner benefits from lower property taxes, while homesteaders also enjoy a larger homestead exemption. This is the only scenario which reduces mill rates (although several leave them unchanged)."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose. This scenario increases reimbursement to 100% and raises the exemption slightly, to $27,600. Because towns are made whole, they are able to reduce mill rates by an average of 0.10 mills. Every property owner benefits from lower taxes, and homesteaders also gain from the larger exemption."
+    }
+   ]
+  },
+  "3": {
+   "title": "Cut Homestead Reimbursement to 50%, Increase the Homestead Exemption",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose as a result. This scenario is the mirror of Scenario 2: it cuts reimbursement to 50% and spends what that frees on a much larger exemption, of $56,400:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 3"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$56,400"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "50%"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.38 mills (+2.77%)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "More than doubling the exempt amount significantly reduces municipalities’ tax base, and the State now covers only half of lost revenues, meaning that mill rates must increase by +0.38 mills statewide (+2.77%). Homesteaders gain a large exemption, funded partly by the State and partly by higher taxes on other property."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose. This scenario cuts reimbursement to 50% and spends what that frees on a much larger exemption, of $56,400. Because the State now covers only half of the lost revenue, mill rates rise by an average of +0.38 mills, or +2.77%. Homesteaders gain a large exemption, funded partly by the State and partly by higher taxes on other property."
+    }
+   ]
+  },
+  "4": {
+   "title": "Fairness Credit: Increase the Benefit Bases",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 4 was motivated by a desire to widen the number of households eligible for the Fairness Credit. Eligibility is largely limited by the benefit base: households only qualify for the credit while 4% of their income remains below their applicable benefit base."
+    },
+    {
+     "type": "p",
+     "html": "This scenario widens PTFC eligibility by increasing all four benefit bases by +65%:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 4"
+     ],
+     "rows": [
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$4,300"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$5,540"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$6,860"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$6,940"
+      ],
+      [
+       "Maximum credit",
+       "$1,500 under 65, $2,000 at 65 and over",
+       "Unchanged"
+      ],
+      [
+       "Burden threshold",
+       "4.0%",
+       "Unchanged"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Raising the benefit bases increases the income-eligibility ceiling by the same proportion. Currently, a single filer can qualify for the Fairness Credit at an income as high as $65,000, which rises to about $107,400 under Scenario 4. For a household aged 65 and over, the ceiling increases from its current $105,000 to about $173,500."
+    },
+    {
+     "type": "p",
+     "html": "This change has no effect on households already receiving the maximum Fairness Credit, nor on households whose property tax bill is already below their benefit base. Because nothing changes with respect to municipalities' revenues, Scenario 4 has no impact on mill rates."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 4 widens eligibility for the Fairness Credit by increasing all four benefit bases by +65%. Households qualify for the credit only while 4% of their income remains below their benefit base, so a higher base lifts the income-eligibility ceiling by the same proportion: a single filer can qualify at an income as high as $107,400, compared to $65,000 today. The maximum credit and burden threshold are left unchanged."
+    },
+    {
+     "type": "p",
+     "html": "Because nothing changes with respect to municipalities' revenues, there is no impact on mill rates."
+    }
+   ]
+  },
+  "5": {
+   "title": "Fairness Credit: Increase the Max Credit",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 5 was motivated by a desire to increase the size of the Fairness Credit for households that already qualify for it. The credit pays property tax above 4% of a household's income, but households can only be paid up to the max credit amount, currently set at $1,500 under 65 and $2,000 at 65 and over. This scenario increases the relief provided to existing Fairness Credit recipients by doubling the maximum credit amounts:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 5"
+     ],
+     "rows": [
+      [
+       "Benefit bases",
+       "$2,600 to $4,200",
+       "Unchanged"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$3,000"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$4,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "3.72%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Doubling the max credit only reaches households who were already receiving the maximum amount, which spends only $19 million of State funds. Indeed, abolishing the max credit altogether would cost only $400,000 more. Thus, to spend the targeted $35 million, Scenario 5 also lowers the burden threshold from 4.00% to 3.72%, such that the Fairness Credit kicks in at a lower level of property tax relative to income. That lifts the credit for every household already claiming one, and brings a further 19,941 households into eligibility."
+    },
+    {
+     "type": "p",
+     "html": "Because nothing changes with respect to municipalities' revenues, there is no impact on mill rates."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 5 increases the size of the Fairness Credit for households already receiving it, by doubling the maximum credit amounts to $3,000 under 65 and $4,000 at 65 and over. Because that only reaches households already receiving the maximum credit, this scenario also lowers the burden threshold from 4.00% to 3.72%, such that the Fairness Credit kicks in at a lower level of property tax relative to income."
+    },
+    {
+     "type": "p",
+     "html": "This increases the credit for existing recipients and brings a further 19,941 households into eligibility. Because nothing changes with respect to municipalities' revenues, there is no impact on mill rates."
+    }
+   ]
+  },
+  "6": {
+   "title": "Fairness Credit Hybrid: Increase Benefit Bases & Max Credit",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 6 tests whether increasing both Fairness Credit levers (the benefit base and maximum credit) works better together than either does alone. Increasing the benefit bases widens eligibility, as in Scenario 4, while increasing the maximum credit increases the relief paid to existing recipients, as in Scenario 5. This scenario moves both, splitting the same $35 million between them:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 6"
+     ],
+     "rows": [
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,060"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$3,940"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$4,880"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$4,940"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$2,250"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$3,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "Unchanged"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The maximum credit amounts increase by +50%, half of their increase under Scenario 5. Then, the benefit bases are increased by +17.6% to consume the remainder of the $35 million budget."
+    },
+    {
+     "type": "p",
+     "html": "Because nothing changes with respect to municipalities' revenues, there is no impact on mill rates."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 6 increases both Fairness Credit levers at once. The maximum credit amounts increase by +50%, to $2,250 under 65 and $3,000 at 65 and over, which increases the relief paid to existing recipients. The benefit bases then increase by +17.6%, which widens eligibility to more households."
+    },
+    {
+     "type": "p",
+     "html": "Because nothing changes with respect to municipalities' revenues, there is no impact on mill rates."
+    }
+   ]
+  },
+  "7": {
+   "title": "Property Tax Ceiling for Seniors",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Task Force expressed interest in a policy that would cap property tax liability at a fixed share of household income. However, a property tax ceiling set at 6% of income for every household costs $105 million, far more than the $35 million budget. To test a ceiling while remaining within budget, this scenario confines the ceiling to households aged 65 and over and phases it out by income:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 7"
+     ],
+     "rows": [
+      [
+       "<strong>Households under 65</strong>",
+       "",
+       ""
+      ],
+      [
+       "Benefit bases",
+       "$2,600 to $4,150",
+       "Unchanged"
+      ],
+      [
+       "Maximum credit",
+       "$1,500",
+       "Unchanged"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "Unchanged"
+      ],
+      [
+       "<strong>Households 65 and over</strong>",
+       "",
+       ""
+      ],
+      [
+       "Benefit base",
+       "$4,200",
+       "Unchanged"
+      ],
+      [
+       "Maximum credit",
+       "$2,000",
+       "Unchanged"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "Unchanged"
+      ],
+      [
+       "Liability ceiling",
+       "N/A",
+       "6% of income"
+      ],
+      [
+       "Ceiling payment",
+       "N/A",
+       "Counted property tax above 6% of income, no maximum"
+      ],
+      [
+       "Income-tested phase out of ceiling payment",
+       "N/A",
+       "Full payment up to $75,000 of income, then tapers in a straight line to $0 at $120,000"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Households aged 65 and over receive whichever is larger, their ordinary Fairness Credit or the ceiling payment, so none is worse off. Below $75,000 of income, the ceiling payment has no maximum: it pays whatever is needed to bring an older household's property tax bill down to 6% of income. For households aged 65 and over with incomes above $75,000, the ceiling payment covers a declining share of tax above 6%, until at $120,000 the payment reaches zero."
+    },
+    {
+     "type": "p",
+     "html": "Because counted property tax includes 15% of rent, this scenario reaches older renters as well as owners. Nothing changes with respect to municipalities' revenues, so there is no impact on mill rates. The Homestead Exemption is unchanged for all households."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 7 introduces a property tax ceiling for households aged 65 and over, set at 6% of income. The ceiling payment covers property tax above 6% of a household's income, with no maximum. That full payment applies up to $75,000 of income, after which it covers a declining share of the tax above 6%, reaching zero at $120,000. Households receive whichever is larger, the ceiling payment or their ordinary Fairness Credit, which is otherwise unchanged."
+    },
+    {
+     "type": "p",
+     "html": "Nothing changes with respect to municipalities' revenues, so there is no impact on mill rates."
+    }
+   ]
+  },
+  "8": {
+   "title": "Property Tax Ceiling for All Ages",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Task Force expressed interest in a policy that would cap property tax liability at a fixed share of household income. However, a property tax ceiling set at 6% of income for every household costs $105 million, far more than the $35 million budget. To remain within that limit, this scenario limits two things: the size of the payment, which is capped at $4,300, and the value of the home it will cover, of which only the first $370,000 counts:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 8"
+     ],
+     "rows": [
+      [
+       "Benefit bases",
+       "$2,600 to $4,200",
+       "Unchanged"
+      ],
+      [
+       "Maximum credit",
+       "$1,500 under 65, $2,000 at 65 and over",
+       "Unchanged"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "Unchanged"
+      ],
+      [
+       "Liability ceiling",
+       "N/A",
+       "6% of income, any age"
+      ],
+      [
+       "Ceiling payment",
+       "N/A",
+       "Counted property tax above 6% of income, up to $4,300"
+      ],
+      [
+       "Home value counted toward the ceiling",
+       "N/A",
+       "Up to $370,000"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Households receive whichever is larger, their ordinary Fairness Credit or the ceiling payment, so none is worse off. A household in a $700,000 house receives the ceiling payment as though the house were worth $370,000, so a little over half of its property tax counts toward the 6% test. Renters are covered in full, because their counted property tax is 15% of rent and there is no home value to apportion."
+    },
+    {
+     "type": "p",
+     "html": "Nothing changes with respect to municipalities' revenues, so there is no impact on mill rates. The Homestead Exemption is unchanged for all households."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 8 introduces a property tax ceiling for households of any age, set at 6% of income. The ceiling payment covers property tax above 6% of a household's income, up to a maximum of $4,300, and only the first $370,000 of a home's value counts toward it. Households receive whichever is larger, the ceiling payment or their ordinary Fairness Credit, which is otherwise unchanged. Renters are covered, because their counted property tax is a share of their rent."
+    }
+   ]
+  },
+  "9": {
+   "title": "Expand Fairness Credit by Abolishing Revenue-Sharing I",
+   "full": [
+    {
+     "type": "p",
+     "html": "Maine returns a share of State tax receipts to municipalities through two revenue sharing funds, which help to reduce the amount that towns must raise from property taxes. Scenario 9 abolishes Revenue-Sharing I, worth $208.5 million, and directs that money into the Fairness Credit, leaving Revenue-Sharing II in place. Towns must then raise that revenue locally, so mill rates increase:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 9"
+     ],
+     "rows": [
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Abolished"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.78 mills (+5.66%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,660"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$4,720"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$5,850"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$5,920"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$3,340"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$4,450"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "2.84%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Not all of the $208.5 million reaches the Fairness Credit. After losing funds from revenue sharing, municipalities must compensate by raising mill rates, which increases the amounts the State must pay in reimbursements for the Homestead Exemption and for exempt business equipment. Those reimbursements absorb $10.5 million of the freed-up funds, leaving $198.0 million to expand the Fairness Credit."
+    },
+    {
+     "type": "p",
+     "html": "The benefit bases increase by +41%, extending eligibility further up the income scale. Both maximum credits increase by +123%, more than doubling what the most burdened households can receive. The burden threshold falls from 4.00% to 2.84%, so that the Fairness Credit kicks in at a lower level of property tax relative to income, which increases the credit paid to every household already receiving one."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Maine returns a share of State tax receipts to municipalities through two revenue sharing funds, which help to reduce the amount that towns must raise from property taxes. Scenario 9 abolishes Revenue-Sharing I, worth $208.5 million, and directs that money into the Fairness Credit, leaving Revenue-Sharing II in place. Towns raise that revenue locally instead, so mill rates increase by an average of 0.78 mills, or +5.66%."
+    },
+    {
+     "type": "p",
+     "html": "The Fairness Credit expands on all three of its parameters at once: the benefit bases increase by +41%, both maximum credits by +123%, and the burden threshold falls from 4.00% to 2.84%."
+    }
+   ]
+  },
+  "10": {
+   "title": "Expand Fairness Credit by Abolishing Revenue-Sharing II",
+   "full": [
+    {
+     "type": "p",
+     "html": "Maine returns a share of State tax receipts to municipalities through two revenue sharing funds, which help to reduce the amount that towns must raise from property taxes. The smaller of the two, Revenue-Sharing II, goes only to municipalities whose property tax burden is highest. Scenario 10 abolishes it, worth $56.1 million, and directs that money into the Fairness Credit, leaving Revenue-Sharing I in place. The towns that lose the funding must raise that revenue locally, so their mill rates increase:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 10"
+     ],
+     "rows": [
+      [
+       "Revenue-Sharing II",
+       "$56.1m",
+       "Abolished"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.20 mills (+1.46%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$2,900"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$3,740"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$4,630"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$4,680"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$2,020"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$2,690"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "3.59%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Not all of the $56.1 million reaches the Fairness Credit. After losing funds from revenue sharing, the affected municipalities must compensate by raising mill rates, which increases the amounts the State must pay in reimbursements for the Homestead Exemption and for exempt business equipment. Those reimbursements absorb $3.6 million of the freed-up funds, leaving $52.5 million to expand the Fairness Credit."
+    },
+    {
+     "type": "p",
+     "html": "The benefit bases increase by +11.5%, extending eligibility further up the income scale. Both maximum credits increase by +35%, increasing what the most burdened households can receive. The burden threshold falls from 4.00% to 3.59%, so that the Fairness Credit kicks in at a lower level of property tax relative to income, which increases the credit paid to every household already receiving one."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Maine returns a share of State tax receipts to municipalities through two revenue sharing funds, which help to reduce the amount that towns must raise from property taxes. The smaller of the two, Revenue-Sharing II, goes only to municipalities whose property tax burden is highest. Scenario 10 abolishes it, worth $56.1 million, and directs that money into the Fairness Credit. The towns that lose the funding raise that revenue locally instead, so their mill rates increase."
+    },
+    {
+     "type": "p",
+     "html": "The Fairness Credit expands on all three of its parameters at once: the benefit bases increase by +11.5%, both maximum credits by +35%, and the burden threshold falls from 4.00% to 3.59%."
+    }
+   ]
+  },
+  "11": {
+   "title": "Expand Fairness Credit by Cutting Homestead Reimbursement to 50%",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose as a result. Scenario 11 cuts that reimbursement to 50% and directs the $28.5 million freed up into the Fairness Credit, leaving the $25,000 exemption itself in place. Towns must then raise that revenue locally, so mill rates increase:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 11"
+     ],
+     "rows": [
+      [
+       "Reimbursement rate",
+       "76%",
+       "50%"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.11 mills (+0.81%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$2,760"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$3,560"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$4,410"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$4,460"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$1,780"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$2,370"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "3.77%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Not all of the $28.5 million reaches the Fairness Credit. After losing reimbursement, municipalities must compensate by raising mill rates, which increases the amount the State must pay in reimbursements for exempt business equipment. Those reimbursements absorb $0.6 million of the freed-up funds, leaving $27.9 million to expand the Fairness Credit."
+    },
+    {
+     "type": "p",
+     "html": "The benefit bases increase by +6.2%, extending eligibility further up the income scale. Both maximum credits increase by +18.5%, increasing what the most burdened households can receive. The burden threshold falls from 4.00% to 3.77%, so that the Fairness Credit kicks in at a lower level of property tax relative to income, which increases the credit paid to every household already receiving one."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose as a result. Scenario 11 cuts that reimbursement to 50% and directs the $28.5 million freed up into the Fairness Credit, leaving the exemption itself in place. Towns raise that revenue locally instead, so mill rates increase by an average of 0.11 mills, or +0.81%."
+    },
+    {
+     "type": "p",
+     "html": "The Fairness Credit expands on all three of its parameters at once: the benefit bases increase by +6.2%, both maximum credits by +18.5%, and the burden threshold falls from 4.00% to 3.77%."
+    }
+   ]
+  },
+  "12": {
+   "title": "Expand Fairness Credit by Ending Homestead Reimbursement",
+   "full": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose as a result. Scenario 12 ends that reimbursement entirely and directs the $85.4 million freed up into the Fairness Credit. Municipalities must still grant the exemption and now receive nothing for it, so they must raise that revenue locally and mill rates increase:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 12"
+     ],
+     "rows": [
+      [
+       "Reimbursement rate",
+       "76%",
+       "Abolished"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.34 mills (+2.42%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,070"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$3,960"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$4,900"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$4,960"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$2,320"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$3,090"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "3.39%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Not all of the $85.4 million reaches the Fairness Credit. After losing reimbursement, municipalities must compensate by raising mill rates, which increases the amount the State must pay in reimbursements for exempt business equipment. Those reimbursements absorb $1.9 million of the freed-up funds, leaving $83.5 million to expand the Fairness Credit."
+    },
+    {
+     "type": "p",
+     "html": "The benefit bases increase by +18.1%, extending eligibility further up the income scale. Both maximum credits increase by +54.4%, increasing what the most burdened households can receive. The burden threshold falls from 4.00% to 3.39%, so that the Fairness Credit kicks in at a lower level of property tax relative to income, which increases the credit paid to every household already receiving one."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose as a result. Scenario 12 ends that reimbursement entirely and directs the $85.4 million freed up into the Fairness Credit. Municipalities must still grant the exemption and now receive nothing for it, so mill rates increase by an average of 0.34 mills, or +2.42%."
+    },
+    {
+     "type": "p",
+     "html": "The Fairness Credit expands on all three of its parameters at once: the benefit bases increase by +18.1%, both maximum credits by +54.4%, and the burden threshold falls from 4.00% to 3.39%."
+    }
+   ]
+  },
+  "13": {
+   "title": "Expand Fairness Credit by Abolishing Revenue-Sharing & Homestead Reimbursement",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 13 combines all three reallocation sources at once. It abolishes both revenue sharing funds and the State's homestead reimbursement, and directs the $350.0 million freed up into the Fairness Credit. Municipalities lose both forms of State support while still being required to grant the $25,000 Homestead Exemption, so they must raise that revenue locally and mill rates increase."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 13"
+     ],
+     "rows": [
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Abolished"
+      ],
+      [
+       "Revenue-Sharing II",
+       "$56.1m",
+       "Abolished"
+      ],
+      [
+       "Homestead Reimbursement",
+       "$85.4m",
+       "Abolished"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 1.36 mills (+9.80%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$4,370"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$5,630"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$6,980"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$7,060"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$4,570"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$6,090"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "2.38%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Not all of the $350.0 million reaches the Fairness Credit. After losing revenue sharing and reimbursement, municipalities must compensate by raising mill rates, which increases the amount the State must pay in reimbursements for exempt business equipment. Those reimbursements absorb $7.9 million of the freed-up funds, leaving $342.1 million to expand the Fairness Credit."
+    },
+    {
+     "type": "p",
+     "html": "The benefit bases increase by +68.2%, extending eligibility further up the income scale. Both maximum credits increase by +204.5%, roughly tripling what the most burdened households can receive. The burden threshold falls from 4.00% to 2.38%, so that the Fairness Credit kicks in at a lower level of property tax relative to income, which increases the credit paid to every household already receiving one."
+    },
+    {
+     "type": "p",
+     "html": "At this scale the maximum credit for households under 65 ($4,570) exceeds the benefit base for a single filer ($4,370). Because the Fairness Credit pays the lesser of a household's property tax and its benefit base, a single filer under 65 with no dependents cannot reach the stated maximum, and their credit is limited to $4,370. The maximum remains reachable for every other filing category."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 13 combines all three reallocation sources at once, abolishing both revenue sharing funds and the State's homestead reimbursement, and directing the $350.0 million freed up into the Fairness Credit. Municipalities must still grant the $25,000 Homestead Exemption with no State support, so mill rates increase by an average of 1.36 mills, or +9.80%, the largest increase of any scenario."
+    },
+    {
+     "type": "p",
+     "html": "The Fairness Credit expands on all three of its parameters at once: the benefit bases increase by +68.2%, both maximum credits by +204.5%, and the burden threshold falls from 4.00% to 2.38%."
+    }
+   ]
+  },
+  "14": {
+   "title": "Create Homestead Plus by Abolishing Existing Relief",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 14 evaluates Homestead Plus, a proposal put forward by Task Force member Dick Woodbury. It abolishes the State's existing property tax relief programs: revenue sharing, the homestead reimbursement, the homestead exemption itself and the Property Tax Fairness Credit. In their place it creates a single scheme under which the State meets a rising share of a household's property tax as that tax grows relative to income:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 14"
+     ],
+     "rows": [
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Abolished"
+      ],
+      [
+       "Revenue-Sharing II",
+       "$56.1m",
+       "Abolished"
+      ],
+      [
+       "Fairness Credit",
+       "$127.4m",
+       "Abolished"
+      ],
+      [
+       "Homestead Reimbursement",
+       "$85.4m",
+       "Abolished"
+      ],
+      [
+       "Homestead Exemption",
+       "$25,000",
+       "Abolished"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.88 mills (+6.32%)"
+      ],
+      [
+       "<strong>Homestead Plus:</strong>",
+       "",
+       ""
+      ],
+      [
+       "Max property tax counted, living alone",
+       "N/A",
+       "$6,000"
+      ],
+      [
+       "Max property tax counted, living with others",
+       "N/A",
+       "$8,000"
+      ],
+      [
+       "State share of tax up to 2% of income",
+       "N/A",
+       "0%"
+      ],
+      [
+       "State share of tax between 2% and 3% of income",
+       "N/A",
+       "50%"
+      ],
+      [
+       "State share of tax between 3% and 5% of income",
+       "N/A",
+       "80%"
+      ],
+      [
+       "State share of tax between 5% and 8% of income",
+       "N/A",
+       "85%"
+      ],
+      [
+       "State share of tax above 8% of income",
+       "N/A",
+       "90%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Abolishing the homestead exemption returns $7.3 billion of value to the municipal tax base, which partially offsets the rate increase that the loss of revenue-sharing and reimbursement would otherwise cause. Mill rates still increase by +0.88 mills overall (+6.32%). Abolishing existing relief programs frees $477.4 million in State funds, while the proposed Homestead Plus costs $465.4 million, so the proposal is slightly better than revenue-neutral and returns $12.1 million to the State budget."
+    },
+    {
+     "type": "p",
+     "html": "Mr Woodbury's published schedule cannot spend the money his own reform frees. It pays only on property tax above 4% of a household's income, and too little tax sits above that line: at his brackets the schedule spends $157.3 million of the $477.4 million available. The schedule modeled here keeps the shape of his proposal, a State share that rises as the burden rises, but starts the bands lower so that the freed funds are spent."
+    },
+    {
+     "type": "p",
+     "html": "The schedule reaches households the Fairness Credit never touches, since that credit pays nothing below 4% of income. Above 4% Homestead Plus pays a smaller share of the tax than current law does, but it has no benefit base and no maximum credit, so households with the largest bills relative to their incomes receive considerably more. It also sorts households by size alone, so the preferential treatment of households aged 65 and over disappears. Renters are covered on the same terms, with their counted property tax remaining 15% of rent."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 14 evaluates Homestead Plus, a proposal from Task Force member Dick Woodbury. Both revenue sharing funds, the State's homestead reimbursement, the $25,000 Homestead Exemption and the Fairness Credit all end, freeing $477.4 million, and are replaced by a single schedule under which the State meets a rising share of a household's property tax as that tax climbs against income: nothing on the first 2% of income, then 50%, 80%, 85%, and 90% above 8%. Only the first $6,000 of property tax counts for a one-person household, or $8,000 for a larger one."
+    },
+    {
+     "type": "p",
+     "html": "Because the exemption ends, $7.30 billion of value returns to the municipal tax base, and mill rates increase by an average of 0.88 mills, or +6.32%. The schedule spends $465.4 million, returning $12.1 million to the State."
+    }
+   ]
+  },
+  "15": {
+   "title": "Raise the Homestead Exemption to $40,000 and Expand the Fairness Credit",
+   "full": [
+    {
+     "type": "p",
+     "html": "Two programs change at once. The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose by granting it. Revenue-Sharing I returns $208.5 million of State tax receipts to municipalities each year, reducing what they must raise locally. Scenario 15 cuts the reimbursement rate to 50% and takes $52.3 million out of Revenue-Sharing I, splitting the proceeds roughly evenly between a larger exemption and a wider credit:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 15"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$40,000"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "50%"
+      ],
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Cut by $52.3m"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.44 mills (+3.18%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,120"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$4,020"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$4,980"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$5,040"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$3,000"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$4,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "4.00%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The two cuts raise $82.8 million between them: $52.3 million from Revenue-Sharing I, and $30.5 million saved by paying municipalities back for homestead exemptions at 50 cents in the dollar rather than 76, at the higher mill rates the scenario brings. Of that, $38.2 million pays the State's reimbursement on the larger exemption, $42.1 million expands the Fairness Credit, and $2.5 million is absorbed by the higher reimbursement the State owes on exempt business equipment, which rises automatically when mill rates do. The scenario costs the State nothing on net."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The maximum credit doubles</strong>, from $1,500 and $2,000 to $3,000 and $4,000, which raises the ceiling for the households whose property tax is largest relative to their income. The exemption adds $15,000 to the $25,000 already available, and the benefit bases rise 20%, extending the credit modestly further up the income scale. The burden threshold does not move: the credit still begins once property tax passes 4% of income, so no household becomes newly eligible on that account."
+    },
+    {
+     "type": "p",
+     "html": "Scenario 16 moves a similar amount of money, about $75 million, but puts three quarters of it into the credit rather than half, and leaves the reimbursement rate alone."
+    },
+    {
+     "type": "p",
+     "html": "Mill rates rise 0.44 mills statewide, or +3.18%. The scenario delivers $57.0 million of relief to households and cuts the number paying more than 6% of their income in property tax from 59,103 to 36,437, a reduction of 38%. Just over half the relief reaches the bottom three income deciles, and only the top decile loses on average, by $26 a household. The Aroostook, Washington and northern Penobscot area receives 8.1% of the relief against 9.0% of Maine's households, close to its share."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Two programs change at once. The Homestead Exemption reduces the taxable value of owner-occupied homes by $25,000, and the State reimburses municipalities for 76% of the revenue they lose by granting it. Revenue-Sharing I returns $208.5 million of State tax receipts to municipalities each year, reducing what they must raise locally. Scenario 15 cuts the reimbursement rate to 50% and takes $52.3 million out of Revenue-Sharing I, splitting the proceeds roughly evenly between a larger exemption and a wider credit:"
+    }
+   ],
+   "row": {
+    "programme": "Revenue sharing and homestead reimbursement to exemption and Fairness Credit",
+    "changes": "Revenue-Sharing I cut by $52.3m, reimbursement 76% to 50%; exemption $40,000; benefit bases × 1.20, maximum credit × 2"
+   },
+   "redirected": 82800000.0
+  },
+  "16": {
+   "title": "Expand the Fairness Credit and Raise the Exemption to $30,000, Reimbursement Unchanged",
+   "full": [
+    {
+     "type": "p",
+     "html": "This is the only one of these five that leaves the reimbursement rate alone. Municipalities continue to be paid back 76% of the revenue they lose by granting the Homestead Exemption, so every dollar comes from Revenue-Sharing I, which returns $208.5 million of State tax receipts to municipalities each year. Scenario 16 takes $73.5 million from it, raises the exemption to $30,000 and puts the rest into the Fairness Credit:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 16"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$30,000"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "76%"
+      ],
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Cut by $73.5m"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.29 mills (+2.12%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,250"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$4,190"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$5,190"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$5,250"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$3,000"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$4,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "4.00%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Of the $73.5 million, $52.1 million expands the Fairness Credit, $19.7 million pays the State's reimbursement on the larger exemption, and $1.6 million is absorbed by the business equipment reimbursement. About three quarters of the money goes to the credit. The scenario costs the State nothing on net."
+    },
+    {
+     "type": "p",
+     "html": "Drawing on a single source is what keeps the mill increase to 0.29 mills, or +2.12%, the smallest of these five. Municipalities lose revenue sharing, but they are still paid back three quarters of what the exemption costs them, so the only shortfall they must cover locally is the revenue sharing itself."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The maximum credit doubles</strong> to $3,000 and $4,000, and the benefit bases rise 25%, both further than in Scenario 15, because a smaller exemption leaves more of the money for the credit. The exemption adds $5,000 to the $25,000 already available, the smallest increase of these five. The burden threshold stays at 4.00%."
+    },
+    {
+     "type": "p",
+     "html": "Scenario 15 moves a similar amount of money, about $75 million, but splits it evenly between the exemption and the credit and pays for part of it by halving the reimbursement rate."
+    },
+    {
+     "type": "p",
+     "html": "Mill rates rise 0.29 mills statewide, or +2.12%. The scenario delivers $40.4 million of relief, the least of these five, and cuts the number of households paying more than 6% of their income in property tax from 59,103 to 35,804, a reduction of 39%. Two thirds of the relief reaches the bottom three income deciles, the most sharply targeted of the five, but the top three deciles lose on average, the eighth by $8 and the tenth by $65. The Aroostook, Washington and northern Penobscot area receives 4.7% of the relief against 9.0% of Maine's households, roughly half its share, because a credit follows income rather than place and that area's property values are low."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "This is the only one of these five that leaves the reimbursement rate alone. Municipalities continue to be paid back 76% of the revenue they lose by granting the Homestead Exemption, so every dollar comes from Revenue-Sharing I, which returns $208.5 million of State tax receipts to municipalities each year. Scenario 16 takes $73.5 million from it, raises the exemption to $30,000 and puts the rest into the Fairness Credit:"
+    }
+   ],
+   "row": {
+    "programme": "Revenue sharing to exemption and Fairness Credit",
+    "changes": "Revenue-Sharing I cut by $73.5m, reimbursement unchanged; exemption $30,000; benefit bases × 1.25, maximum credit × 2"
+   },
+   "redirected": 73500000.0
+  },
+  "17": {
+   "title": "Double the Homestead Exemption and Expand the Fairness Credit",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 17 is the only one of these five in which both the Homestead Exemption and the maximum Fairness Credit double. The exemption rises from $25,000 to $50,000, and the maximum credit from $1,500 and $2,000 to $3,000 and $4,000. It pays for both by cutting the reimbursement rate to 50% and taking $79.9 million out of Revenue-Sharing I:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 17"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$50,000"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "50%"
+      ],
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Cut by $79.9m"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.63 mills (+4.58%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,250"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$4,190"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$5,190"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$5,250"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$3,000"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$4,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "4.00%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The two cuts raise $110.9 million: $79.9 million from Revenue-Sharing I and $31.1 million from paying homestead reimbursements at 50 cents in the dollar rather than 76, at the higher mill rates the scenario brings. Of that, $63.4 million pays the State's reimbursement on an exemption twice its present size, $44.0 million expands the Fairness Credit, and $3.6 million is absorbed by the business equipment reimbursement. The split is a little over half to the exemption and a little under half to the credit."
+    },
+    {
+     "type": "p",
+     "html": "Doubling the exemption removes a large amount of value from municipal tax rolls, and the State now repays only half of it, so mill rates rise 0.63 mills, or +4.58%. Homeowners receive an exemption $25,000 larger to set against it. The benefit bases rise 25% and the burden threshold stays at 4.00%."
+    },
+    {
+     "type": "p",
+     "html": "The credit here is identical to Scenario 16's, to the dollar, and Scenario 18 moves a similar total. The three together show what the same money buys at different splits between the two programs."
+    },
+    {
+     "type": "p",
+     "html": "Mill rates rise 0.63 mills statewide, or +4.58%. The scenario delivers $80.2 million of relief and cuts the number of households paying more than 6% of their income in property tax from 59,103 to 33,773, a reduction of 43%. Nine income deciles gain on average and the tenth is flat, losing $4 a household, which no other scenario here achieves. Relief is spread more evenly across the income scale than elsewhere, with 42% reaching the bottom three deciles, because the exemption is worth the same on a large house as on a small one. That even spread works geographically too: the Aroostook, Washington and northern Penobscot area receives 9.7% of the relief against 9.0% of Maine's households, the only one of these five in which it receives more than its share."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 17 is the only one of these five in which both the Homestead Exemption and the maximum Fairness Credit double. The exemption rises from $25,000 to $50,000, and the maximum credit from $1,500 and $2,000 to $3,000 and $4,000. It pays for both by cutting the reimbursement rate to 50% and taking $79.9 million out of Revenue-Sharing I:"
+    }
+   ],
+   "row": {
+    "programme": "Revenue sharing and homestead reimbursement to exemption and Fairness Credit",
+    "changes": "Revenue-Sharing I cut by $79.9m, reimbursement 76% to 50%; exemption $50,000; benefit bases × 1.25, maximum credit × 2"
+   },
+   "redirected": 110900000.0
+  },
+  "18": {
+   "title": "Expand the Fairness Credit and Raise the Exemption to $35,000",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 18 raises almost the same amount as Scenario 17 and spends it the other way round. Three quarters goes to the Fairness Credit and a quarter to the Homestead Exemption, which rises to $35,000. It is funded in the same way, by cutting the reimbursement rate to 50% and taking $73.0 million out of Revenue-Sharing I:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 18"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$35,000"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "50%"
+      ],
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Cut by $73.0m"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.48 mills (+3.43%)"
+      ],
+      [
+       "Benefit base, single filer",
+       "$2,600",
+       "$3,710"
+      ],
+      [
+       "Benefit base, couple or one dependent",
+       "$3,350",
+       "$4,790"
+      ],
+      [
+       "Benefit base, with dependents",
+       "$4,150",
+       "$5,930"
+      ],
+      [
+       "Benefit base, 65 and over",
+       "$4,200",
+       "$6,000"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$3,750"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$5,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "4.00%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The two cuts raise $103.6 million: $73.0 million from Revenue-Sharing I and $30.6 million from the lower reimbursement rate, at the higher mill rates the scenario brings. Because the exemption rises only to $35,000 while the reimbursement rate halves, the State's homestead reimbursement bill ends up $3.4 million below what it pays today, so $73.8 million is free to expand the Fairness Credit, more than in any other scenario here except Scenario 19, which replaces the credit. A further $2.7 million is absorbed by the business equipment reimbursement."
+    },
+    {
+     "type": "p",
+     "html": "The exemption adds $10,000 to the $25,000 already available. The maximum credit rises by 150%, to $3,750 and $5,000, and the benefit bases by 43%, both the largest increases among the four scenarios that keep today's credit formula. The Fairness Credit is aimed by income in a way the exemption is not, so spending the money this way concentrates it on the households paying the most property tax relative to what they earn. The burden threshold stays at 4.00%."
+    },
+    {
+     "type": "p",
+     "html": "Scenario 17 moves a similar amount of money, about $100 million, and splits it evenly between the two programs instead, doubling the exemption rather than the credit."
+    },
+    {
+     "type": "p",
+     "html": "Mill rates rise 0.48 mills statewide, or +3.43%, less than in Scenario 17 because a $35,000 exemption takes less value off municipal tax rolls than a $50,000 one. The scenario delivers $63.8 million of relief and cuts the number of households paying more than 6% of their income in property tax from 59,103 to 27,738, a reduction of 53% and the deepest cut of these five. The first decile gains $238 a household, more than the first decile gains in any other scenario here, and 54% of the relief reaches the bottom three deciles. The top two deciles lose on average, by $42 and $83. The Aroostook, Washington and northern Penobscot area receives 4.8% of the relief against 9.0% of Maine's households, roughly half its share."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 18 raises almost the same amount as Scenario 17 and spends it the other way round. Three quarters goes to the Fairness Credit and a quarter to the Homestead Exemption, which rises to $35,000. It is funded in the same way, by cutting the reimbursement rate to 50% and taking $73.0 million out of Revenue-Sharing I:"
+    }
+   ],
+   "row": {
+    "programme": "Revenue sharing and homestead reimbursement to exemption and Fairness Credit",
+    "changes": "Revenue-Sharing I cut by $73.0m, reimbursement 76% to 50%; exemption $35,000; benefit bases × 1.43, maximum credit × 2.5"
+   },
+   "redirected": 103600000.0
+  },
+  "19": {
+   "title": "Replace the Fairness Credit with a Two-Tier Credit and Double the Exemption",
+   "full": [
+    {
+     "type": "p",
+     "html": "Scenario 19 was designed by Dick Woodbury, a member of the Task Force, and it is the only one here that changes the shape of the Fairness Credit rather than its size. At present the credit meets property tax above 4% of income in full, up to a maximum that depends on the claimant's age and household size. Under this scenario it meets the first $2,000 above that threshold in full and half of everything beyond, up to $5,000, and a single benefit base of $8,000 applies to every household whatever its age or size. The Homestead Exemption doubles alongside it, funded by cutting the reimbursement rate to 50% and taking $129.4 million out of Revenue-Sharing I:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Parameter",
+      "Current",
+      "Under Scenario 19"
+     ],
+     "rows": [
+      [
+       "Homestead exemption",
+       "$25,000",
+       "$50,000"
+      ],
+      [
+       "Reimbursement rate",
+       "76%",
+       "50%"
+      ],
+      [
+       "Revenue-Sharing I",
+       "$208.5m",
+       "Cut by $129.4m"
+      ],
+      [
+       "Mill rates",
+       "Average 13.86 mills",
+       "Increase of 0.82 mills (+5.95%)"
+      ],
+      [
+       "Benefit base, every household",
+       "$2,600 to $4,200",
+       "$8,000"
+      ],
+      [
+       "Credit on tax above the threshold",
+       "100% to the maximum",
+       "100% to $2,000, then 50%"
+      ],
+      [
+       "Maximum credit, under 65",
+       "$1,500",
+       "$5,000"
+      ],
+      [
+       "Maximum credit, 65 and over",
+       "$2,000",
+       "$5,000"
+      ],
+      [
+       "Burden threshold",
+       "4.00%",
+       "4.00%"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The two cuts raise $161.0 million, half as much again as any other scenario here: $129.4 million from Revenue-Sharing I and $31.6 million from the lower reimbursement rate, at the higher mill rates the scenario brings. Of that, $90.5 million pays for the restructured credit, $65.9 million pays the State's reimbursement on the doubled exemption, and $4.6 million is absorbed by the business equipment reimbursement."
+    },
+    {
+     "type": "p",
+     "html": "The revenue sharing cut is larger than it first appears it needs to be. Raising mill rates increases both the reimbursement the State owes on exempt homestead and business value and the credit it pays, because the credit is calculated from the property tax bill. Covering a $111.5 million shortfall therefore takes $129.4 million out of Revenue-Sharing I."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The exemption doubles</strong>, adding $25,000 to the $25,000 already available. The single $8,000 benefit base is the substantive change on the credit side. Four bases that rise with household size and two maximums that turn on age are replaced by one base and one schedule, so a household's entitlement depends on how large its property tax is relative to its income and on nothing else. The 50% second tier keeps the credit paying out well past the point at which the present one stops, and the maximum of $5,000 binds exactly where the benefit base does, since $2,000 plus half of the remaining $6,000 is $5,000. The burden threshold stays at 4.00%."
+    },
+    {
+     "type": "p",
+     "html": "Mill rates rise 0.82 mills statewide, or +5.95%, the largest increase here, because this is both the largest revenue sharing cut and a doubled exemption. The scenario delivers $107.2 million of relief, also the largest, and cuts the number of households paying more than 6% of their income in property tax from 59,103 to 30,496, a reduction of 48%. Only the top decile loses on average, by $68 a household. The shape of the relief is unlike the others: it peaks at the seventh decile, at $286 a household, rather than the first, because a flat $8,000 base and a tapering second tier keep paying out for middle-income owners whose property tax is large relative to their income. The Aroostook, Washington and northern Penobscot area receives 7.3% of the relief against 9.0% of Maine's households."
+    }
+   ],
+   "short": [
+    {
+     "type": "p",
+     "html": "Scenario 19 was designed by Dick Woodbury, a member of the Task Force, and it is the only one here that changes the shape of the Fairness Credit rather than its size. At present the credit meets property tax above 4% of income in full, up to a maximum that depends on the claimant's age and household size. Under this scenario it meets the first $2,000 above that threshold in full and half of everything beyond, up to $5,000, and a single benefit base of $8,000 applies to every household whatever its age or size. The Homestead Exemption doubles alongside it, funded by cutting the reimbursement rate to 50% and taking $129.4 million out of Revenue-Sharing I:"
+    }
+   ],
+   "row": {
+    "programme": "Revenue sharing and homestead reimbursement to exemption and a two-tier credit",
+    "changes": "Revenue-Sharing I cut by $129.4m, reimbursement 76% to 50%; exemption $50,000; two-tier credit with an $8,000 benefit base and $5,000 maximum"
+   },
+   "redirected": 161000000.0
+  }
+ },
+ "arch": {
+  "R1": {
+   "title": "Family household with dependents",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype R1 includes homeowners with at least one dependent living at home. There are 117,460 such households, just over a quarter of all Maine homeowners, making this the second largest of the six Representative Archetypes."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 43. Median income is $119,600 and the median home is worth $319,000. They are overrepresented on the southern coast, where 36% of them live against a statewide 31%."
+    },
+    {
+     "type": "p",
+     "html": "Their median property tax bill of $3,160 sits close to the state median, but their incomes are the highest of any archetype, so their median burden is the lightest of the owner archetypes bar one, at 2.7% of income. Fewer than one in five qualifies for the Fairness Credit."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Nathan and Erin Caouette live in New Gloucester with their children Charlotte, 11, and Will, 8. Nathan manages installations for a building-supply company in Gray; Erin is a physical therapist and works four days a week."
+    },
+    {
+     "type": "vignette",
+     "html": "Between them they bring in $126,700. Their house is worth $338,000, and after the $25,000 homestead exemption New Gloucester's full-value rate of 11.47 mills puts their bill at $3,580, which is 2.8% of what they earn. The exemption saves them $290 a year."
+    },
+    {
+     "type": "vignette",
+     "html": "They receive nothing from the Fairness Credit, because their income is too high for it to reach them: 4% of what they earn already exceeds the most property tax the credit will consider."
+    }
+   ]
+  },
+  "R2": {
+   "title": "Older owner, no dependents",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype R2 contains typical retirees: homeowners aged 65 or over with no dependents at home and income of $45,000 or more. There are 101,930 such households, 23% of all Maine homeowners."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 72. Median income is $88,300 and the median home is worth $309,000. They are overrepresented on the southern coast and in rural Maine, with 36% in each against a statewide 31% and 34%."
+    },
+    {
+     "type": "p",
+     "html": "Their median property tax bill of $3,150 is indistinguishable from the state median, but their incomes are lower than those of working-age owners, so their median burden is higher at 3.3% of income. Just under a third qualify for the Fairness Credit, and the median claimant receives $910."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Paul and Diane Thibodeau, 72 and 70, have lived in the same house in Cushing since 1994. Paul ran a marine repair shop in Thomaston until he sold it; Diane taught third grade in the regional school unit."
+    },
+    {
+     "type": "vignette",
+     "html": "With pensions and Social Security their income is $92,800. The house, a mile up from the river, is worth $319,000, and at Cushing's 10.75 mills their bill after the homestead exemption comes to $3,160, or 3.4% of income. The exemption is worth $270 a year."
+    },
+    {
+     "type": "vignette",
+     "html": "They do not qualify for the Fairness Credit, because their property tax is already below 4% of their income, which is the point at which the credit begins to pay."
+    }
+   ]
+  },
+  "R3": {
+   "title": "Working-age owner, no dependents",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype R3 includes homeowners under 65 with no dependents at home and income of $45,000 or more. At 136,230 households, 31% of all Maine homeowners, this is the largest of the six Representative Archetypes."
+    },
+    {
+     "type": "p",
+     "html": "It holds two kinds of household: working-age empty nesters whose children have grown up and left, and younger households without children. Two thirds of the archetype is aged 50 to 64 and only one in five is under 40. The median householder in this archetype is 55, median income is $111,000 and the median home is worth $301,000. They are spread more evenly across Maine than any other archetype, sitting within a couple of points of the statewide share in every region."
+    },
+    {
+     "type": "p",
+     "html": "Their median property tax bill of $3,040 is close to the state median, but their incomes are the second highest of any archetype, so they carry the lightest median burden of any group at 2.5% of income. Only about one in nine qualifies for the Fairness Credit, and of those who do, three quarters are limited by the benefit base rather than by the maximum credit, which is another way of saying their bills are modest relative to what the program would pay."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Scott and Maureen Daigle are 55 and 54 and live in Manchester, a few miles west of Augusta. Scott is a civil engineer with the Department of Transportation; Maureen manages scheduling for a hospital group. Their daughter finished college two years ago."
+    },
+    {
+     "type": "vignette",
+     "html": "Together they earn $119,300. The house is worth $307,000, and at Manchester's 11.43 mills their post-exemption bill is $3,220, or 2.7% of income, with the exemption saving them $290."
+    },
+    {
+     "type": "vignette",
+     "html": "They do not qualify for the Fairness Credit: their income is high enough that 4% of it exceeds their entire property tax bill."
+    }
+   ]
+  },
+  "R4": {
+   "title": "Lower-income owner, no dependents",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype R4 includes homeowners with no dependents at home and income under $45,000. There are 88,400 such households, 20% of all Maine homeowners. It is the counterpart to Archetypes R2 and R3, which take the same households but with incomes above $45,000."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 68. Median income is $26,400 and the median home is worth $193,000. They are the most rural group in Maine, with nearly half living in rural areas compared to one-third of Mainers overall."
+    },
+    {
+     "type": "p",
+     "html": "This is where today's relief does its work. Their median property tax bill of $1,910 is the smallest of the owner archetypes, but their incomes are far lower, so their median burden before relief is 7.6% of income, the highest of the six. Three quarters of them qualify for the Fairness Credit, the median claimant receives $1,380, and the archetype collects $55.5 million of current relief, more than any other. Their burden falls to exactly 4.0% of income."
+    },
+    {
+     "type": "p",
+     "html": "That 4.0% is a feature of the Fairness Credit formula: a household that does not hit the maximum credit receives exactly the credit required to reduce its property tax burden to 4% of income. That is what happens to most households in this archetype that claim the credit. The maximum stops the other 39% short, so they remain above 4%."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Linda Michaud is 67 and has lived alone in Canaan since her husband died six years ago. She spent twenty-two years on the line at a shoe plant in Skowhegan and then twelve in a school kitchen."
+    },
+    {
+     "type": "vignette",
+     "html": "Social Security and a small pension come to $27,000. The house is worth $200,000, and at Canaan's 10.60 mills her bill after the homestead exemption is $1,860, which is 6.9% of her income before any credit. The exemption saves her $270 a year."
+    },
+    {
+     "type": "vignette",
+     "html": "She qualifies for the Fairness Credit, and because her bill sits below her benefit base and her credit below the maximum, the credit pays the whole of her tax above 4% of income and leaves her at exactly 4%."
+    }
+   ]
+  },
+  "R5": {
+   "title": "Renter under 65",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype R5 includes all renting households headed by someone under 65. There are 117,410 such households, 77% of all Maine renters. Renters receive no property tax bill, so Maine treats 15% of their rent as property tax for the purposes of the Fairness Credit, on the reasoning that rent includes the landlord's tax. Every renter figure here uses that convention."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 38. Median income is $50,400 and median counted property tax is $1,800. They are the most urban of the Representative Archetypes, with 19% in Greater Portland against a statewide 9% and 32% in the service centers against 26%."
+    },
+    {
+     "type": "p",
+     "html": "Their median burden is 3.5% of income, higher than any of the owner archetypes except the lower-income group. Just under two fifths qualify for the Fairness Credit, and the median claimant receives $650."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Katie and Ryan rent the upstairs of a two-family house in Eddington, across the river from Brewer. Katie is 39 and a part-time dental hygienist; Ryan drives for a freight company out of Bangor."
+    },
+    {
+     "type": "vignette",
+     "html": "Their combined income is $56,200 and their contract rent is $980 a month. Under the statute, 15% of that rent, $1,760 a year, counts as property tax paid, which is 3.1% of their income."
+    },
+    {
+     "type": "vignette",
+     "html": "They receive no credit, because 4% of their income is more than the whole of that counted amount."
+    }
+   ]
+  },
+  "R6": {
+   "title": "Renter 65 and over",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype R6 includes all renting households headed by someone aged 65 or over. There are 35,740 such households, 23% of all Maine renters, making this the smallest of the six Representative Archetypes."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 75. Median income is $27,300 and median counted property tax is $1,210. They are more urban than the state as a whole, with 13% in Greater Portland against a statewide 9%, and close to the statewide share everywhere else."
+    },
+    {
+     "type": "p",
+     "html": "Their median burden is 3.9% of income. Nearly half qualify for the Fairness Credit, the median claimant receives $550, and the credit does more for them than for any other Representative Archetype: the share with a property tax burden above 4% of income falls from 47% to 3%."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Arlene is 75 and rents a one-bedroom in Mechanic Falls, a few streets up from the old mill. She worked in the office of a trucking firm in Auburn for most of her life."
+    },
+    {
+     "type": "vignette",
+     "html": "Social Security and a small annuity give her $28,800 a year, and her rent is $900 a month. 15% of that, $1,620, counts towards the Fairness Credit, making up 5.6% of her income before the credit is applied."
+    },
+    {
+     "type": "vignette",
+     "html": "After receiving a Fairness Credit of $460, her burden is exactly 4.0% of her income."
+    }
+   ]
+  },
+  "B1": {
+   "title": "Older owner, lives alone",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B1 contains burdened retirees: homeowners aged 65 or over who live alone, have no dependents, own a home worth under $1,000,000, and still pay more than 6% of their income in property tax after all existing relief. There are 9,710 such households, 16% of all burdened households and 2% of all Maine homeowners."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 75. Median income is $25,800 and the median home is worth $405,000. They are overrepresented on the southern coast, where 39% of them live against a statewide 31%."
+    },
+    {
+     "type": "p",
+     "html": "This is the most burdened archetype in Maine. Their median property tax bill is $5,400 and their median burden is 19.6% of income before any credit, ahead of every other group. Almost all of them qualify for the Fairness Credit, the median claimant already draws the full $2,000 senior maximum, and their median burden is still 10.7% of income after claiming it."
+    },
+    {
+     "type": "p",
+     "html": "86% of claimants here are at the maximum credit. Increasing the benefit base or lowering the burden threshold will not help them; only a higher maximum credit does."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Pauline Beal is 76 and has lived in the same house in Milbridge for forty-one years. She worked in a blueberry processing plant and later kept the books for a wreath company. Her husband died in 2011."
+    },
+    {
+     "type": "vignette",
+     "html": "Social Security and a small survivor pension come to $23,300 a year. The house, bought decades ago, is now worth $375,000. At Milbridge's 13.16 mills her bill after the homestead exemption is $4,610, which is nearly a fifth of her income, even after the exemption saves her $330."
+    },
+    {
+     "type": "vignette",
+     "html": "She receives the maximum credit of $2,000, meaning her after-tax burden is 11.2% of her income. Without that maximum the formula would pay her $3,270 and leave her at 5.7%, so it is the cap that prevents her burden from falling further."
+    }
+   ]
+  },
+  "B2": {
+   "title": "Older owner, lives with others",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B2 contains burdened retiree couples: homeowners aged 65 or over with no dependents, in a home worth under $1,000,000, who still pay more than 6% of their income in property tax after all existing relief. There are 10,090 such households, 17% of all burdened households and 2% of all Maine homeowners."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 72, in a home worth $493,000. They are overrepresented on the southern coast, where 40% of them live against a statewide 31%."
+    },
+    {
+     "type": "p",
+     "html": "Their median property tax bill is $6,970, one of the largest of any archetype, but because their median income is $61,900, their typical property tax burden is around 12% of their income before relief, and around 9% after."
+    },
+    {
+     "type": "p",
+     "html": "Just over half of claimants here are at the maximum credit and the rest are limited by the benefit base, so this archetype can be assisted through either lever."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Gordon and Nancy Leclerc are 73 and 71 and live in Cumberland, in a house they bought in 1988 when Gordon was still working for a paper company. Nancy worked in admissions at a community college."
+    },
+    {
+     "type": "vignette",
+     "html": "Their pensions and Social Security come to $65,400. The house is worth $486,000, four times what they paid. At Cumberland's 14.88 mills their bill (after a $370 reduction due to the homestead exemption) is $6,860, or 10.5% of their income."
+    },
+    {
+     "type": "vignette",
+     "html": "They receive a Fairness Credit of $1,580, bringing their burden to 8.1% of income. What prevents them from receiving further relief is the benefit base: the Fairness Credit only considers $4,200 of their tax bill, so increasing the maximum credit would not actually help them."
+    }
+   ]
+  },
+  "B3": {
+   "title": "Working-age owner, lives alone",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B3 contains burdened single homeowners of working age: homeowners under 65 who live alone, have no dependents, own a home worth under $1,000,000, and still pay more than 6% of their income in property tax after all existing relief. There are 10,330 such households, 17% of all burdened households and 2% of all Maine homeowners."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 56, in a home worth $338,000. They are the most urban of the burdened owner archetypes, with 16% in Greater Portland against a statewide 9%, and are overrepresented on the southern coast at 38% against 31% statewide."
+    },
+    {
+     "type": "p",
+     "html": "Their median income is $36,700 and their median property tax bill is $4,560, giving a median burden of 13.1% of income before relief and 9.3% after. Just under half of claimants here are at the maximum credit, and the median claimant receives $1,410."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Marc Bisson is 55 and lives by himself in Biddeford, in the house he kept after his divorce eleven years ago. He is a maintenance supervisor at a hospital."
+    },
+    {
+     "type": "vignette",
+     "html": "His income is $33,500. The house is worth $375,000, and at Biddeford's 14.22 mills his bill (after a $360 reduction due to the homestead exemption) is $4,980, or 14.9% of his income."
+    },
+    {
+     "type": "vignette",
+     "html": "He receives a Fairness Credit of $1,260, bringing his burden to 11.1% of income. At 55 his benefit base is $2,600, so the Fairness Credit considers only $2,600 of his tax bill. Were he ten years older, the same house and the same income would bring him the senior maximum credit of $2,000."
+    }
+   ]
+  },
+  "B4": {
+   "title": "Working-age owner, lives with a partner",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B4 contains burdened working-age couples: homeowners under 65 who live with a partner, have no dependents, own a home worth under $1,000,000, and still pay more than 6% of their income in property tax after all existing relief. There are 8,840 such households, 15% of all burdened households and 2% of all Maine homeowners."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 58, in a home worth $437,000. They are overrepresented on the southern coast, where 42% of them live against 31% statewide."
+    },
+    {
+     "type": "p",
+     "html": "Their median income is $67,400, among the highest of the burdened owner archetypes, and their median property tax bill is $6,380. That gives them the mildest median burden of any burdened owner archetype, 9.9% of income before relief and 8.0% after. Just under two thirds qualify for the Fairness Credit, and the median claimant receives $1,230."
+    },
+    {
+     "type": "p",
+     "html": "42% of claimants here are at the maximum credit, the lowest share of any burdened owner archetype, so this group is limited mainly by the benefit base rather than by the maximum."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Bruce and Carol Verrill are 63 and 61 and have been in their house in Yarmouth for nineteen years. Bruce is a parts manager for a boatyard; Carol does medical billing from home and has cut back to three days. Their two sons have long since moved out."
+    },
+    {
+     "type": "vignette",
+     "html": "Together they make $69,300. The house is worth $429,000, and at Yarmouth's 16.17 mills their bill (after a $400 reduction due to the homestead exemption) is $6,530, or 9.4% of their income."
+    },
+    {
+     "type": "vignette",
+     "html": "They receive a Fairness Credit of $580, bringing their burden to 8.6% of income. Bruce plans to stop working at 66. When he does, their income will fall by about a third and their tax bill will not change at all."
+    }
+   ]
+  },
+  "B5": {
+   "title": "Owner with children at home",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B5 contains burdened families with children: homeowners with at least one dependent at home who still pay more than 6% of their income in property tax after all existing relief. There are 9,460 such households, 16% of all burdened households and 2% of all Maine homeowners."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 44, in a home worth $486,000. They are the newest to their homes of any burdened owner archetype, with 36% having moved within the last four years. They are overrepresented on the southern coast, where 42% of them live against 31% statewide."
+    },
+    {
+     "type": "p",
+     "html": "Their median income is $73,300, the second highest of the burdened owner archetypes, and their median property tax bill is $6,980. Their median burden is 10.3% of income before relief and 8.4% after. Two thirds qualify for the Fairness Credit, and the median claimant receives the full $1,500 maximum available to a household under 65."
+    },
+    {
+     "type": "p",
+     "html": "58% of claimants here are at the maximum credit, the highest share of the working-age owner archetypes. Their dependents give them the largest benefit base available to a household under 65, which is why their burden after relief sits below that of Archetype B1 despite a much larger tax bill."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Jason and Melissa Hanscom are 45 and 43 and live in South Berwick with their children Owen, 14, and Ruby, 11. Jason is a project estimator for a contractor in Portsmouth; Melissa is an educational technician at the elementary school and does bookkeeping in the evenings. They bought the house in 2019, at the top of what they could manage."
+    },
+    {
+     "type": "vignette",
+     "html": "Their household income is $70,400. The house is worth $579,000, and at South Berwick's 13.42 mills their bill (after a $340 reduction due to the homestead exemption) is $7,440, or 10.6% of their income."
+    },
+    {
+     "type": "vignette",
+     "html": "They receive a Fairness Credit of $1,330, bringing their burden to 8.7% of income. Their two dependents give them a benefit base of $4,150, the highest available to a household under 65, and it still covers only a little over half of their tax bill."
+    }
+   ]
+  },
+  "B6": {
+   "title": "Owner of a high-value home",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B6 contains burdened owners of high-value homes: homeowners with no dependents in a home worth $1,000,000 or more who still pay more than 6% of their income in property tax after all existing relief. There are 4,530 such households, 8% of all burdened households and 1% of all Maine homeowners, making this the smallest archetype in the tool."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 68, in a home worth $1,500,000. 57% of them live on the southern coast, nearly twice the statewide share."
+    },
+    {
+     "type": "p",
+     "html": "What places these households among the burdened is the value of their homes rather than a shortage of income. Their median income of $92,800 is the highest of any burdened archetype, and half of them sit in the top four income deciles, a larger share than any other burdened archetype. But their median property tax bill is $10,810, also the highest, and a bill that size carries a household past 6% of income even on an income like that."
+    },
+    {
+     "type": "p",
+     "html": "Their median burden is 11.8% of income before relief and 10.8% after, the smallest movement of any burdened archetype. Only half qualify for the Fairness Credit, the rest are disqualified by their income. For those who do qualify, the maximum credit binds long before their bill is reduced anywhere near 4% of their income."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Peter and Susan Chadbourne are 66 and 64 and live in Cornish, in a house on land that has been in Susan's family since the 1940s. Peter sold his insurance agency some years ago; between drawdowns, Social Security and what the land brings in they report $92,800 a year."
+    },
+    {
+     "type": "vignette",
+     "html": "The property is assessed at $1,300,000. Cornish's full-value rate is just 7.82 mills, about half the statewide average, because a town with very valuable property can raise what it needs at a lower rate. Their bill still comes to $9,970, and the homestead exemption is worth only $200 to them. That is 10.7% of their income."
+    },
+    {
+     "type": "vignette",
+     "html": "They receive a Fairness Credit of $490, which lowers their burden from 10.7% to 10.2% of income. What limits them is the benefit base: the Fairness Credit will consider only $4,200 of their $9,970 bill, and 4% of their income consumes all but $490 of that."
+    }
+   ]
+  },
+  "B7": {
+   "title": "Renter",
+   "intro": [
+    {
+     "type": "p",
+     "html": "Archetype B7 contains burdened renters: renting households of any age whose counted property tax, being 15% of their rent, still exceeds 6% of their income after all existing relief. There are 6,150 such households, 10% of all burdened households and 4% of all Maine renters."
+    },
+    {
+     "type": "p",
+     "html": "The median householder in this archetype is 32, the youngest of any archetype. They are overwhelmingly urban: 47% of them live in Greater Portland, five times the statewide share."
+    },
+    {
+     "type": "p",
+     "html": "Their median income is $18,300, the lowest of any archetype, and 15% of their rent counts as $3,280 of property tax. Their median burden is 16.7% of income before relief and 8.6% after, the largest proportional fall of any burdened archetype. Almost all of them qualify for the Fairness Credit, and the median claimant receives the full $1,500 maximum available to a household under 65."
+    },
+    {
+     "type": "p",
+     "html": "77% of claimants here are at the maximum credit, second only to B1, so this group is limited chiefly by the maximum rather than by the benefit base."
+    },
+    {
+     "type": "p",
+     "html": "These figures should be read with one caution. 63% of this archetype reports annual rent above its annual income, which happens in survey data when income is understated or when a household is drawing on savings, family support or arrears. Their burdens are therefore likely to be overstated."
+    }
+   ],
+   "vignette": [
+    {
+     "type": "vignette",
+     "html": "Denise Ouellette is 46 and rents a one-bedroom in Westbrook, where she has lived for seven years. She works split shifts as a home health aide and picks up weekend hours when they are offered."
+    },
+    {
+     "type": "vignette",
+     "html": "Her income last year was $25,700 and her rent is $1,700 a month. 15% of that rent, $3,060, counts towards the Fairness Credit, making up 11.9% of her income before the credit is applied."
+    },
+    {
+     "type": "vignette",
+     "html": "She receives the maximum credit of $1,500, which brings her burden down to 6.1% of her income. Two limits keep her above 4%: the Fairness Credit considers only $2,600 of the $3,060 counted, and even that is then capped at $1,500."
+    }
+   ]
+  }
+ },
+ "archShort": {
+  "R1": [
+   {
+    "type": "p",
+    "html": "Archetype R1 includes homeowners with at least one dependent living at home. There are 117,460 such households, just over a quarter of all Maine homeowners. The median householder in this archetype is 43, median income is $119,600 and the median home is worth $319,000. They are overrepresented on the southern coast, where 36% of them live against a statewide 31%."
+   },
+   {
+    "type": "p",
+    "html": "Their median property tax bill of $3,160 sits close to the state median, but their incomes are the highest of any archetype, so their median burden is 2.7% of income. Fewer than one in five qualifies for the Fairness Credit."
+   }
+  ],
+  "R2": [
+   {
+    "type": "p",
+    "html": "Archetype R2 contains typical retirees: homeowners aged 65 or over with no dependents at home and income of $45,000 or more. There are 101,930 such households, 23% of all Maine homeowners. The median householder in this archetype is 72, median income is $88,300 and the median home is worth $309,000. They are overrepresented on the southern coast and in rural Maine."
+   },
+   {
+    "type": "p",
+    "html": "Their median property tax bill of $3,150 is indistinguishable from the state median, but their incomes are lower than those of working-age owners, so their median burden is higher at 3.3% of income. Just under a third qualify for the Fairness Credit, and the median claimant receives $910."
+   }
+  ],
+  "R3": [
+   {
+    "type": "p",
+    "html": "Archetype R3 includes homeowners under 65 with no dependents at home and income of $45,000 or more. At 136,230 households, 31% of all Maine homeowners, this is the largest of the six Representative Archetypes. It holds both working-age empty nesters whose children have grown up and left and younger households without children. The median householder in this archetype is 55, median income is $111,000 and the median home is worth $301,000. They are spread more evenly across Maine than any other archetype."
+   },
+   {
+    "type": "p",
+    "html": "Their median property tax bill of $3,040 is close to the state median, but their incomes are high, so they carry the lightest median burden of any group at 2.5% of income. Only about one in nine qualifies for the Fairness Credit, and three quarters of those who do are limited by the benefit base rather than by the maximum credit."
+   }
+  ],
+  "R4": [
+   {
+    "type": "p",
+    "html": "Archetype R4 includes homeowners with no dependents at home and income under $45,000. There are 88,400 such households, 20% of all Maine homeowners. The median householder in this archetype is 68, median income is $26,400 and the median home is worth $193,000. They are the most rural group in Maine, with nearly half living in rural areas compared to one-third of Mainers overall."
+   },
+   {
+    "type": "p",
+    "html": "This is where today's relief does its work. Their median property tax bill of $1,910 is the smallest of the owner archetypes, but their incomes are far lower, so their median burden before relief is 7.6% of income, the highest of the six. Three quarters of them qualify for the Fairness Credit, which pays property tax above 4% of income, and their median burden falls to exactly 4.0%."
+   }
+  ],
+  "R5": [
+   {
+    "type": "p",
+    "html": "Archetype R5 includes all renting households headed by someone under 65. There are 117,410 such households, 77% of all Maine renters. Renters receive no property tax bill, so Maine treats 15% of their rent as property tax for the purposes of the Fairness Credit. The median householder in this archetype is 38, median income is $50,400 and median counted property tax is $1,800. They are the most urban of the Representative Archetypes."
+   },
+   {
+    "type": "p",
+    "html": "Their median burden is 3.5% of income. Just under two fifths qualify for the Fairness Credit, and the median claimant receives $650."
+   }
+  ],
+  "R6": [
+   {
+    "type": "p",
+    "html": "Archetype R6 includes all renting households headed by someone aged 65 or over. There are 35,740 such households, 23% of all Maine renters, making this the smallest of the six Representative Archetypes. Renters receive no property tax bill, so Maine treats 15% of their rent as property tax for the purposes of the Fairness Credit. The median householder in this archetype is 75, median income is $27,300 and median counted property tax is $1,210."
+   },
+   {
+    "type": "p",
+    "html": "Their median burden is 3.9% of income. Nearly half qualify for the Fairness Credit, the median claimant receives $550, and the credit lifts them further than it lifts any other Representative Archetype: the share with a burden above 4% of income falls from 47% to 3%."
+   }
+  ],
+  "B1": [
+   {
+    "type": "p",
+    "html": "Archetype B1 contains burdened retirees: homeowners aged 65 or over who live alone, have no dependents, own a home worth under $1,000,000, and still pay more than 6% of their income in property tax after all existing relief. There are 9,710 such households, 16% of all burdened households. The median householder in this archetype is 75, median income is $25,800 and the median home is worth $405,000."
+   },
+   {
+    "type": "p",
+    "html": "This is the most burdened archetype in Maine. Their median property tax bill is $5,400 and their median burden is 19.6% of income before any credit. Almost all of them qualify for the Fairness Credit, but 86% of claimants are already at the maximum, so their median burden is still 10.7% after claiming it. Raising the benefit base or lowering the burden threshold will not reach them; only a higher maximum credit does."
+   }
+  ],
+  "B2": [
+   {
+    "type": "p",
+    "html": "Archetype B2 contains burdened retiree couples: homeowners aged 65 or over with no dependents, in a home worth under $1,000,000, who still pay more than 6% of their income in property tax after all existing relief. There are 10,090 such households, 17% of all burdened households. The median householder in this archetype is 72, in a home worth $493,000. They are overrepresented on the southern coast, where 40% of them live against a statewide 31%."
+   },
+   {
+    "type": "p",
+    "html": "Their median property tax bill is $6,970, one of the largest of any archetype, but because their median income is $61,900, their typical burden is around 12% of income before relief and around 9% after. Just over half of claimants are at the maximum credit and the rest are limited by the benefit base, so this archetype can be assisted through either lever."
+   }
+  ],
+  "B3": [
+   {
+    "type": "p",
+    "html": "Archetype B3 contains burdened single homeowners of working age: homeowners under 65 who live alone, have no dependents, own a home worth under $1,000,000, and still pay more than 6% of their income in property tax after all existing relief. There are 10,330 such households, 17% of all burdened households. The median householder in this archetype is 56, in a home worth $338,000. They are the most urban of the burdened owner archetypes."
+   },
+   {
+    "type": "p",
+    "html": "Their median income is $36,700 and their median property tax bill is $4,560, giving a median burden of 13.1% of income before relief and 9.3% after. Just under half of claimants are at the maximum credit, and the median claimant receives $1,410."
+   }
+  ],
+  "B4": [
+   {
+    "type": "p",
+    "html": "Archetype B4 contains burdened working-age couples: homeowners under 65 who live with a partner, have no dependents, own a home worth under $1,000,000, and still pay more than 6% of their income in property tax after all existing relief. There are 8,840 such households, 15% of all burdened households. The median householder in this archetype is 58, in a home worth $437,000. They are overrepresented on the southern coast, where 42% of them live against 31% statewide."
+   },
+   {
+    "type": "p",
+    "html": "Their median income is $67,400 and their median property tax bill is $6,380, giving them the mildest median burden of any burdened owner archetype, 9.9% of income before relief and 8.0% after. Just under two thirds qualify for the Fairness Credit. Only 42% of claimants are at the maximum credit, so this group is limited mainly by the benefit base."
+   }
+  ],
+  "B5": [
+   {
+    "type": "p",
+    "html": "Archetype B5 contains burdened families with children: homeowners with at least one dependent at home who still pay more than 6% of their income in property tax after all existing relief. There are 9,460 such households, 16% of all burdened households. The median householder in this archetype is 44, in a home worth $486,000. They are the newest to their homes of any burdened owner archetype, with 36% having moved within the last four years."
+   },
+   {
+    "type": "p",
+    "html": "Their median income is $73,300 and their median property tax bill is $6,980, giving a median burden of 10.3% of income before relief and 8.4% after. Two thirds qualify for the Fairness Credit, and the median claimant receives the full $1,500 maximum available to a household under 65. Their dependents give them the largest benefit base available under 65, so 58% of claimants are stopped by the maximum rather than the base."
+   }
+  ],
+  "B6": [
+   {
+    "type": "p",
+    "html": "Archetype B6 contains burdened owners of high-value homes: homeowners with no dependents in a home worth $1,000,000 or more who still pay more than 6% of their income in property tax after all existing relief. There are 4,530 such households, 8% of all burdened households, making this the smallest archetype in the tool. The median householder in this archetype is 68, in a home worth $1,500,000. 57% of them live on the southern coast, nearly twice the statewide share."
+   },
+   {
+    "type": "p",
+    "html": "What places these households among the burdened is the value of their homes rather than a shortage of income. Their median income of $92,800 is the highest of any burdened archetype, and half of them sit in the top four income deciles. But their median property tax bill is $10,810, also the highest, and a bill that size carries a household past 6% of income even on an income like that. Their median burden is 11.8% before relief and 10.8% after, the smallest movement of any burdened archetype. Only half qualify for the Fairness Credit, the rest disqualified by their income."
+   }
+  ],
+  "B7": [
+   {
+    "type": "p",
+    "html": "Archetype B7 contains burdened renters: renting households of any age whose counted property tax, being 15% of their rent, still exceeds 6% of their income after all existing relief. There are 6,150 such households, 10% of all burdened households and 4% of all Maine renters. The median householder in this archetype is 32, the youngest of any archetype, and they are overwhelmingly urban: 47% of them live in Greater Portland, five times the statewide share."
+   },
+   {
+    "type": "p",
+    "html": "Their median income is $18,300, the lowest of any archetype, and 15% of their rent counts as $3,280 of property tax. Their median burden is 16.7% of income before relief and 8.6% after, the largest proportional fall of any burdened archetype. Almost all of them qualify for the Fairness Credit and 77% of claimants are at the maximum, so this group is limited chiefly by the maximum rather than by the benefit base."
+   }
+  ]
+ },
+ "vxs": {
+  "R1": {
+   "name": "Nathan and Erin Caouette",
+   "text": {
+    "1": "A larger homestead exemption and a 0.44% higher tax rate lower the Caouettes' bill by $120 to $3,470, cutting their burden from 2.8% of income to 2.7%.",
+    "2": "A 0.95% lower tax rate and a $27,600 exemption cut their bill by $60 to $3,520, leaving their burden at 2.8% of income.",
+    "3": "A $56,400 exemption, against a 3.60% higher tax rate, cuts their bill by $240 to $3,340 and their burden from 2.8% of income to 2.6%.",
+    "4": "No change: their $3,580 bill is below 4% of their income, which is where the credit begins.",
+    "5": "No change: 3.72% of their income is $4,710, still more than their whole bill.",
+    "6": "No change: the 4% threshold is unchanged, and their bill stays below it.",
+    "7": "No change: this scenario covers only households aged 65 and over.",
+    "8": "No change: the ceiling pays tax above 6% of income, and their burden is 2.8%.",
+    "9": "Mill rates rise 8.03%, adding $290 to the Caouettes' bill, while the expanded credit reaches them for the first time, at $280. The two almost cancel: they are $10 worse off, and their burden stays at 2.8% of income.",
+    "10": "No change: local mill rates are unaffected, and the Caouettes' bill stays below 3.59% of their income, where the credit now begins.",
+    "11": "Mill rates rise 1.05%, adding $40 to the Caouettes' bill, and the expanded credit still does not reach them: their bill remains below 3.77% of their income. They are $40 worse off.",
+    "12": "Mill rates rise 3.14%, adding $110 to their bill, which remains below 3.39% of their income, so the expanded credit does not reach them. They are $110 worse off, with their burden up from 2.8% of income to 2.9%.",
+    "13": "Mill rates rise 11.41%, adding $410 to the Caouettes' bill, but the threshold falls to 2.38% and brings them a credit of $980. They are $570 better off, with their burden down from 2.8% of income to the new 2.38% threshold.",
+    "14": "Losing the homestead exemption, and a 7.00% higher tax rate, add $560 to the Caouettes' bill, taking it to $4,140. Homestead Plus pays $910 of that, leaving them $350 better off and their burden down from 2.8% of income to 2.6%.",
+    "15": "A $40,000 exemption, against a 4.33% higher tax rate, trims the Caouettes' bill by $20 to $3,560, leaving their burden at 2.8% of income. The wider credit does not reach them: their bill is well below 4% of their income.",
+    "16": "The exemption rises only $5,000 here, not enough to cover a 3.03% higher tax rate, so their bill goes up $50 to $3,630 and their burden from 2.8% of income to 2.9%. The credit still does not reach them.",
+    "17": "A doubled exemption of $50,000 beats a 6.25% higher tax rate, cutting their bill by $80 to $3,500 and leaving their burden at 2.8% of income. The money here goes to the exemption, which is the only part of this scenario they benefit from.",
+    "18": "Most of this scenario's money goes to the credit, which the Caouettes do not qualify for, and a $35,000 exemption does not cover a 4.73% higher tax rate. Their bill rises $50 to $3,630 and their burden from 2.8% of income to 2.9%.",
+    "19": "A doubled exemption against an 8.22% higher tax rate, the steepest of these five, still leaves them $20 better off at $3,570, with their burden at 2.8% of income."
+   }
+  },
+  "R2": {
+   "name": "Paul and Diane Thibodeau",
+   "text": {
+    "1": "A larger homestead exemption and a 0.26% higher tax rate lower the Thibodeaus' bill by $120 to $3,040, cutting their burden from 3.4% of income to 3.3%.",
+    "2": "A 0.57% lower tax rate and a $27,600 exemption cut their bill by $50 to $3,110, leaving their burden at 3.4% of income.",
+    "3": "A $56,400 exemption, against a 2.11% higher tax rate, cuts their bill by $280 to $2,880 and their burden from 3.4% of income to 3.1%.",
+    "4": "No change: their $3,160 bill is below 4% of their income, which is where the credit begins.",
+    "5": "No change: 3.72% of their income is $3,450, still more than their whole bill.",
+    "6": "No change: the 4% threshold is unchanged, and their bill stays below it.",
+    "7": "No change: Paul is 72, so the ceiling covers them, but their burden is 3.4%, below the 6% it pays above.",
+    "8": "No change: their burden is 3.4%, below the 6% the ceiling pays above.",
+    "9": "Mill rates rise 3.71%, adding $120 to the Thibodeaus' bill, but the threshold falls to 2.84% and brings them a credit of $640. They are $520 better off, with their burden down from 3.4% of income to the new 2.84% threshold.",
+    "10": "No change: local mill rates are unaffected, and their bill stays below 3.59% of their income, where the credit now begins.",
+    "11": "Mill rates rise 0.62%, adding $20 to their bill, which remains below 3.77% of their income, so the expanded credit does not reach them. They are $20 worse off.",
+    "12": "Mill rates rise 1.84%, adding $60 to the Thibodeaus' bill, and the threshold falls to 3.39%, just far enough to bring them a credit of $70. They are $10 better off.",
+    "13": "Mill rates rise 5.61%, adding $180 to their bill, but the 2.38% threshold brings them a credit of $1,130. They are $950 better off, with their burden down from 3.4% of income to the new 2.38% threshold.",
+    "14": "Losing the homestead exemption, and a 3.12% higher tax rate, add $380 to the Thibodeaus' bill, taking it to $3,530. Homestead Plus pays $1,060 of that, leaving them $690 better off and their burden down from 3.4% of income to 2.7%.",
+    "15": "A $40,000 exemption, against a 2.28% higher tax rate, cuts the Thibodeaus' bill by $90 to $3,060 and their burden from 3.4% of income to 3.3%. Their bill is below 4% of their income, so the credit does not reach them.",
+    "16": "A $30,000 exemption and a 1.42% higher tax rate almost cancel, leaving them $10 better off at $3,150 and their burden at 3.4% of income.",
+    "17": "A doubled exemption of $50,000, against a 3.26% higher tax rate, cuts their bill by $170 to $2,980 and their burden from 3.4% of income to 3.2%. This is the best of the five for them, because they gain from the exemption and nothing from the credit.",
+    "18": "A $35,000 exemption against a 2.41% higher tax rate leaves them $30 better off at $3,120, with their burden at 3.4% of income.",
+    "19": "A doubled exemption against a 4.15% higher tax rate cuts their bill by $150 to $3,010 and their burden from 3.4% of income to 3.2%."
+   }
+  },
+  "R3": {
+   "name": "Scott and Maureen Daigle",
+   "text": {
+    "1": "A larger homestead exemption and a 0.38% higher tax rate lower the Daigles' bill by $120 to $3,100, cutting their burden from 2.7% of income to 2.6%.",
+    "2": "A 0.82% lower tax rate and a $27,600 exemption cut their bill by $60 to $3,170, leaving their burden at 2.7% of income.",
+    "3": "A $56,400 exemption, against a 3.07% higher tax rate, cuts their bill by $270 to $2,950 and their burden from 2.7% of income to 2.5%.",
+    "4": "No change: their $3,220 bill is below 4% of their income, which is where the credit begins.",
+    "5": "No change: 3.72% of their income is $4,440, still more than their whole bill.",
+    "6": "No change: the 4% threshold is unchanged, and their bill stays below it.",
+    "7": "No change: this scenario covers only households aged 65 and over.",
+    "8": "No change: the ceiling pays tax above 6% of income, and their burden is 2.7%.",
+    "9": "Mill rates rise 6.13%, adding $200 to the Daigles' bill, and the 2.84% threshold brings them a credit of just $30. They are $160 worse off, with their burden up from 2.7% of income to 2.8%.",
+    "10": "No change: local mill rates are unaffected, and their bill stays below 3.59% of their income, where the credit now begins.",
+    "11": "Mill rates rise 0.90%, adding $30 to their bill, which remains below 3.77% of their income, so the expanded credit does not reach them. They are $30 worse off.",
+    "12": "Mill rates rise 2.68%, adding $90 to their bill, which remains below 3.39% of their income, so the expanded credit does not reach them. They are $90 worse off, with their burden up from 2.7% of income to 2.8%.",
+    "13": "Mill rates rise 8.97%, adding $290 to the Daigles' bill, but the 2.38% threshold brings them a credit of $680. They are $390 better off, with their burden down from 2.7% of income to the new 2.38% threshold.",
+    "14": "Losing the homestead exemption, and a 5.26% higher tax rate, add $470 to their bill, taking it to $3,690. Homestead Plus pays $690 of that, leaving them $220 better off and their burden down from 2.7% of income to 2.5%.",
+    "15": "A $40,000 exemption, against a 3.51% higher tax rate, cuts the Daigles' bill by $60 to $3,160 and their burden from 2.7% of income to 2.6%. The credit does not reach them: their bill is far below 4% of their income.",
+    "16": "A $5,000 larger exemption does not cover a 2.33% higher tax rate, so their bill rises $20 to $3,240, with their burden staying at 2.7% of income.",
+    "17": "A doubled exemption of $50,000 beats a 5.04% higher tax rate, cutting their bill by $140 to $3,090 and their burden from 2.7% of income to 2.6%.",
+    "18": "A $35,000 exemption and a 3.77% higher tax rate cancel exactly: their bill is unchanged at $3,230 and their burden stays at 2.7% of income. The rest of this scenario's money goes to a credit they do not qualify for.",
+    "19": "A doubled exemption against a 6.54% higher tax rate leaves them $90 better off at $3,130, with their burden down from 2.7% of income to 2.6%."
+   }
+  },
+  "R4": {
+   "name": "Linda Michaud",
+   "text": {
+    "1": "Linda's bill falls $110 to $1,740, but her credit falls by the same $110 to $660: the credit pays her tax above 4% of income, so a smaller bill brings a smaller credit and her burden stays at 4.0%.",
+    "2": "Her bill falls $60 to $1,800 and her credit by the same $60 to $720, leaving her burden at 4.0% of income.",
+    "3": "Her bill falls $240 to $1,610 and her credit by the same $240 to $530, leaving her burden at 4.0% of income.",
+    "4": "No change: her $1,860 bill is already below her $4,200 benefit base, so a higher base has nothing more to reach.",
+    "5": "The 3.72% threshold lifts her credit by $80 to $850, cutting her burden from 4.0% of income to 3.7%.",
+    "6": "No change: the threshold is unchanged, her bill is already fully counted, and her credit is far below the maximum.",
+    "7": "No change: Linda is 67, so the ceiling covers her, but the tax above 6% of her income is less than the credit she already receives.",
+    "8": "No change: as in Scenario 7, the ceiling would pay less than the credit she already receives.",
+    "9": "Mill rates rise 10.37%, adding $190 to Linda's bill, but the 2.84% threshold lifts her credit by $510 to $1,280. She is $310 better off, and her burden falls from 4.0% of income to the new 2.84% threshold.",
+    "10": "Local mill rates are unaffected, and the 3.59% threshold lifts Linda's credit by $110 to $890. She is $110 better off, and her burden falls from 4.0% of income to the new 3.59% threshold.",
+    "11": "Mill rates rise 1.74%, adding $30 to her bill, but the 3.77% threshold lifts her credit by $100 to $870. She is $60 better off, and her burden falls from 4.0% of income to the new 3.77% threshold.",
+    "12": "Mill rates rise 5.27%, adding $100 to her bill, but the 3.39% threshold lifts her credit by $260 to $1,040. She is $170 better off, and her burden falls from 4.0% of income to the new 3.39% threshold.",
+    "13": "Mill rates rise 16.19%, adding $300 to Linda's bill, but the 2.38% threshold lifts her credit by $740 to $1,510. She is $440 better off, and her burden falls from 4.0% of income to the new 2.38% threshold.",
+    "14": "Losing the homestead exemption, and an 8.65% higher tax rate, add $450 to Linda's bill, taking it to $2,300. Homestead Plus pays $1,380 of that, leaving her $160 better off and her burden down from 4.0% of income to 3.4%.",
+    "15": "Linda's bill falls $50 to $1,810 as a $40,000 exemption outweighs a 6.49% higher tax rate, but her credit falls $50 with it, because the credit pays whatever her bill exceeds 4% of her income. She is no better or worse off, and her burden stays at 4.0%.",
+    "16": "Her bill rises $20 to $1,870 as a 3.98% higher tax rate outweighs a $5,000 larger exemption, and her credit rises $20 to match. She is no better or worse off, and her burden stays at 4.0%.",
+    "17": "A doubled exemption cuts her bill $120 to $1,740 against a 9.35% higher tax rate, and her credit falls $120 to $660. She is no better or worse off, and her burden stays at 4.0%.",
+    "18": "Her bill rises $10 to $1,870 and her credit rises $10 to $790. She is no better or worse off, and her burden stays at 4.0%.",
+    "19": "Her bill falls $80 to $1,780 against an 11.95% higher tax rate, and her credit falls $80 to $700. Linda is one of the few households the two-tier credit leaves exactly where the present one does, because her whole excess falls inside the first $2,000, which is still met in full. Her burden stays at 4.0%."
+   }
+  },
+  "R5": {
+   "name": "Katie and Ryan",
+   "text": {
+    "1": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "2": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "3": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "4": "No change: the $1,760 counted as their property tax is below 4% of their income, which is where the credit begins.",
+    "5": "No change: 3.72% of their income is $2,090, still more than the amount counted as their property tax.",
+    "6": "No change: the 4% threshold is unchanged, and their counted tax stays below it.",
+    "7": "No change: this scenario covers only households aged 65 and over.",
+    "8": "No change: the ceiling pays counted tax above 6% of income, and their burden is 3.1%.",
+    "9": "The mill rate rise does not reach renters, and the 2.84% threshold brings Katie and Ryan a credit of $170. They are $170 better off, with their burden down from 3.1% of income to the new 2.84% threshold.",
+    "10": "No change: 3.59% of their income is $2,020, still more than the $1,760 counted as their property tax, and the mill rate rise does not reach renters.",
+    "11": "No change: 3.77% of their income is $2,120, still more than the amount counted as their property tax.",
+    "12": "No change: 3.39% of their income is $1,900, still more than the $1,760 counted as their property tax.",
+    "13": "The mill rate rise does not reach renters, and the 2.38% threshold brings Katie and Ryan a credit of $420. They are $420 better off, with their burden down from 3.1% of income to the new 2.38% threshold.",
+    "14": "Homestead Plus covers renters on the same terms, still counting 15% of rent as property tax. It pays Katie and Ryan $340, cutting their burden from 3.1% of income to 2.5%.",
+    "15": "No change: renters receive no property tax bill, mill rate changes are not assumed to pass through into rents, and the $1,760 counted as their property tax is below 4% of their income, where the credit begins.",
+    "16": "No change, for the same reasons: no bill to reduce, and a counted rent below the 4% threshold.",
+    "17": "No change: the larger exemption applies to owner-occupied homes, and their counted rent of $1,760 is still below 4% of their income.",
+    "18": "This scenario puts three quarters of its money into the credit, but the credit still begins at 4% of income and Katie and Ryan's counted rent is below it. No change.",
+    "19": "No change: the $8,000 benefit base is generous, but the credit still begins once counted property tax passes 4% of income, and theirs does not."
+   }
+  },
+  "R6": {
+   "name": "Arlene",
+   "text": {
+    "1": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "2": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "3": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "4": "No change: the $1,620 counted as her property tax is far below her $4,200 benefit base, so a higher base has nothing more to reach.",
+    "5": "The 3.72% threshold lifts her credit by $80 to $550, cutting her burden from 4.0% of income to 3.7%.",
+    "6": "No change: the threshold is unchanged, her counted tax is already fully counted, and her credit is far below the maximum.",
+    "7": "No change: Arlene is 75, so the ceiling covers her, but her counted tax is 5.6% of income before the credit, below the 6% it pays above.",
+    "8": "No change: her counted tax is below 6% of her income, which is where the ceiling begins to pay.",
+    "9": "The mill rate rise does not reach renters, and the 2.84% threshold lifts Arlene's credit by $330 to $800. She is $330 better off, with her burden down from 4.0% of income to the new 2.84% threshold.",
+    "10": "The 3.59% threshold lifts Arlene's credit by $120 to $580, taking her burden from 4.0% of income to the new 3.59% threshold.",
+    "11": "The 3.77% threshold lifts her credit by $70 to $530, taking her burden from 4.0% of income to the new 3.77% threshold.",
+    "12": "The 3.39% threshold lifts her credit by $180 to $640, taking her burden from 4.0% of income to the new 3.39% threshold.",
+    "13": "The 2.38% threshold lifts Arlene's credit by $470 to $930, taking her burden from 4.0% of income to the new 2.38% threshold.",
+    "14": "Homestead Plus covers renters on the same terms, still counting 15% of rent as property tax. It pays Arlene $760, $290 more than the Fairness Credit does today, cutting her burden from 4.0% of income to 3.0%.",
+    "15": "No change: Arlene's credit already pays the whole of her counted rent above 4% of her income, and neither the higher benefit bases nor the doubled maximum reaches further than that. Her burden stays at 4.0%.",
+    "16": "No change, for the same reason: her credit is set by the 4% threshold, not by the base or the maximum, and the threshold does not move.",
+    "17": "No change: the larger exemption applies to owner-occupied homes, and her credit is already paying her whole excess over 4% of income.",
+    "18": "No change: the bases and maximum rise further here than anywhere else, but neither limits Arlene's credit, which is set by the 4% threshold.",
+    "19": "No change: her excess over the threshold is $464, inside the first $2,000 the two-tier credit meets in full, so she receives exactly what she does today."
+   }
+  },
+  "B1": {
+   "name": "Pauline Beal",
+   "text": {
+    "1": "Pauline's bill falls $140 to $4,470, and because she is already at the maximum credit the whole saving reaches her, cutting her burden from 11.2% of income to 10.6%.",
+    "2": "A 0.85% lower tax rate and a $27,600 exemption cut her bill by $70 to $4,530 and her burden from 11.2% of income to 10.9%.",
+    "3": "A $56,400 exemption cuts her bill by $280 to $4,330 and her burden from 11.2% of income to 10.0%.",
+    "4": "No change: Pauline already receives the $2,000 maximum, which this scenario leaves alone.",
+    "5": "A $4,000 senior maximum and the 3.72% threshold lift her credit by $1,330 to $3,330, cutting her burden from 11.2% of income to 5.5%.",
+    "6": "The $3,000 senior maximum lifts her credit by $1,000 to $3,000, cutting her burden from 11.2% of income to 6.9%. The maximum still binds.",
+    "7": "The ceiling pays her tax above 6% of income, lifting her credit by $1,210 to $3,210 and bringing her burden to exactly 6.0%.",
+    "8": "Her credit rises $1,140 to $3,140 and her burden falls from 11.2% of income to 6.3%, short of 6% because her home is worth $375,000 and only the first $370,000 counts.",
+    "9": "Mill rates rise 4.21%, adding $190 to Pauline's bill, but the expanded credit lifts her by $2,140 to $4,140. She is $1,940 better off, and her burden falls from 11.2% of income to the new 2.84% threshold.",
+    "10": "Local mill rates are unaffected, and the $2,690 senior maximum lifts Pauline's credit by $690, cutting her burden from 11.2% of income to 8.2%. The maximum still binds.",
+    "11": "Mill rates rise 0.94%, adding $40 to her bill, and the $2,370 senior maximum lifts her credit by $370. She is $330 better off, with her burden down from 11.2% of income to 9.8%. The maximum still binds.",
+    "12": "Mill rates rise 2.79%, adding $130 to her bill, and the $3,090 senior maximum lifts her credit by $1,090. She is $960 better off, with her burden down from 11.2% of income to 7.1%. The maximum still binds.",
+    "13": "Mill rates rise 7.12%, adding $330 to Pauline's bill, but the $6,090 senior maximum is now high enough to release her: her credit rises $2,380 to $4,380. She is $2,050 better off, and her burden falls from 11.2% of income to the new 2.38% threshold.",
+    "14": "Losing the homestead exemption, and a 3.33% higher tax rate, add $490 to Pauline's bill, taking it to $5,100. Homestead Plus pays $4,000 of that, leaving her $1,500 better off and her burden down from 11.2% of income to 4.7%.",
+    "15": "Pauline's $2,000 senior maximum no longer limits her. A $40,000 exemption cuts her bill $60 to $4,550, and her credit rises $1,610 to $3,610, paying everything above 4% of her income. She is $1,670 better off and her burden falls from 11.2% of income to 4.0%.",
+    "16": "Her bill rises $10 to $4,620 as a 1.66% higher tax rate slightly outweighs a $5,000 larger exemption, but the doubled maximum lifts her credit $1,680 to $3,680. She is $1,670 better off and her burden falls from 11.2% of income to 4.0%.",
+    "17": "A doubled exemption cuts her bill $140 to $4,470 and the doubled maximum lifts her credit $1,530 to $3,530. She is $1,670 better off and her burden falls from 11.2% of income to 4.0%. The four scenarios that keep the present credit formula all bring her to exactly the threshold, because once the maximum stops binding the credit pays her whole excess however large her bill.",
+    "18": "Her bill rises $10 to $4,620 and her credit rises $1,680 to $3,680. She is $1,670 better off and her burden falls from 11.2% of income to 4.0%.",
+    "19": "Pauline is the household the two-tier structure serves least well. Her bill falls $100 to $4,510, but the credit meets only the first $2,000 above the threshold in full and half of the rest, so it reaches $2,790 rather than the $3,580 that would clear her excess. She is $880 better off and her burden falls from 11.2% of income to 7.4%, against 4.0% under the other four."
+   }
+  },
+  "B2": {
+   "name": "Gordon and Nancy Leclerc",
+   "text": {
+    "1": "The Leclercs' bill falls $160 to $6,700, and their credit does not move, so their burden falls from 8.1% of income to 7.8%.",
+    "2": "A 0.52% lower tax rate and a $27,600 exemption cut their bill by $70 to $6,780 and their burden from 8.1% of income to 8.0%.",
+    "3": "A $56,400 exemption cuts their bill by $340 to $6,510 and their burden from 8.1% of income to 7.5%.",
+    "4": "A $6,940 senior base counts much more of their bill, lifting their credit by $420 to the $2,000 maximum and cutting their burden from 8.1% of income to 7.4%.",
+    "5": "The 3.72% threshold lifts their credit by $190 to $1,770 and cuts their burden from 8.1% of income to 7.8%. The doubled maximum does nothing: the benefit base is what limits them.",
+    "6": "A $4,940 senior base lifts their credit by $740 to $2,320, cutting their burden from 8.1% of income to 6.9%.",
+    "7": "The ceiling pays their tax above 6% of income, lifting their credit by $1,350 to $2,930 and bringing their burden to exactly 6.0%.",
+    "8": "No change: their home is worth $486,000 and only the first $370,000 counts, leaving the ceiling payment below the credit they already receive.",
+    "9": "Mill rates rise 3.66%, adding $250 to the Leclercs' bill, but a $5,920 senior base lifts their credit by $2,480 to $4,060. They are $2,230 better off, with their burden down from 8.1% of income to 4.7%.",
+    "10": "Mill rates rise 0.59%, adding $40 to their bill, and a $4,680 senior base lifts their credit by $750. They are $710 better off, with their burden down from 8.1% of income to 7.0%.",
+    "11": "Mill rates rise 0.57%, adding $40 to their bill, and a $4,460 senior base lifts their credit by $410 to $2,000. They are $370 better off, with their burden down from 8.1% of income to 7.5%.",
+    "12": "Mill rates rise 1.68%, adding $110 to their bill, and a $4,960 senior base lifts their credit by $1,160 to $2,750. They are $1,050 better off, with their burden down from 8.1% of income to 6.5%.",
+    "13": "Mill rates rise 6.00%, adding $410 to the Leclercs' bill, but a $7,060 senior base lifts their credit by $3,920 to $5,510. They are $3,510 better off, with their burden down from 8.1% of income to 2.7%.",
+    "14": "Losing the homestead exemption, and a 3.71% higher tax rate, add $640 to their bill, taking it to $7,500. Homestead Plus has no benefit base and pays $5,080 of that, leaving them $2,860 better off and their burden down from 8.1% of income to 3.7%.",
+    "15": "A $40,000 exemption cuts the Leclercs' bill $80 to $6,780, and higher benefit bases lift their credit $840 to $2,420. They are $920 better off, with their burden down from 8.1% of income to 6.7%. Their benefit base still limits them: only $4,020 of the $6,780 counted as their property tax is considered.",
+    "16": "Their bill rises $20 to $6,880, but a benefit base of $4,190 lifts their credit $1,050 to $2,630. They are $1,030 better off and their burden falls from 8.1% of income to 6.5%.",
+    "17": "A doubled exemption cuts their bill $170 to $6,680 and their credit rises $1,050 to $2,630, the same credit as the previous scenario on a smaller bill. They are $1,220 better off and their burden falls from 8.1% of income to 6.2%.",
+    "18": "The largest benefit bases of these five lift their credit $1,800 to $3,380, and their bill is unchanged at $6,860. They are $1,790 better off and their burden falls from 8.1% of income to 5.3%, the best of the five for them.",
+    "19": "A flat $8,000 benefit base counts their whole bill for the first time, but the second tier pays only half of the excess above $2,000. Their credit rises $1,480 to $3,060 and their bill falls $110 to $6,740. They are $1,590 better off, with their burden down from 8.1% of income to 5.6%."
+   }
+  },
+  "B3": {
+   "name": "Marc Bisson",
+   "text": {
+    "1": "Marc's bill falls $160 to $4,820, and his credit does not move, so his burden falls from 11.1% of income to 10.6%.",
+    "2": "A 0.45% lower tax rate and a $27,600 exemption cut his bill by $60 to $4,920 and his burden from 11.1% of income to 10.9%.",
+    "3": "A $56,400 exemption cuts his bill by $370 to $4,610 and his burden from 11.1% of income to 10.0%.",
+    "4": "A $4,300 single-filer base counts more of his bill, lifting his credit by $240 to the $1,500 maximum and cutting his burden from 11.1% of income to 10.4%.",
+    "5": "The 3.72% threshold lifts his credit by $90 to $1,350 and cuts his burden from 11.1% of income to 10.8%. The doubled maximum does nothing: the benefit base is what limits him.",
+    "6": "A $3,060 single-filer base lifts his credit by $460 to $1,720, cutting his burden from 11.1% of income to 9.7%.",
+    "7": "No change: Marc is 55, and this scenario covers only households aged 65 and over.",
+    "8": "The ceiling lifts his credit by $1,640 to $2,900 and cuts his burden from 11.1% of income to 6.2%, just above 6% because his home is worth $375,000 and only the first $370,000 counts.",
+    "9": "Mill rates rise 5.38%, adding $270 to Marc's bill, but a $3,660 single-filer base lifts his credit by $1,450 to $2,710. He is $1,180 better off, with his burden down from 11.1% of income to 7.6%.",
+    "10": "Local mill rates are unaffected, and a $2,900 single-filer base lifts Marc's credit by $440 to $1,700, cutting his burden from 11.1% of income to 9.8%.",
+    "11": "Mill rates rise 0.49%, adding $20 to his bill, and a $2,760 single-filer base lifts his credit by $240 to $1,500. He is $210 better off, with his burden down from 11.1% of income to 10.5%.",
+    "12": "Mill rates rise 1.44%, adding $70 to his bill, and a $3,070 single-filer base lifts his credit by $680 to $1,940. He is $610 better off, with his burden down from 11.1% of income to 9.3%.",
+    "13": "Mill rates rise 6.89%, adding $340 to Marc's bill, but a $4,370 single-filer base lifts his credit by $2,320 to $3,580. He is $1,970 better off, with his burden down from 11.1% of income to 5.2%. He cannot reach the stated $4,570 maximum, because his benefit base is lower than it.",
+    "14": "Losing the homestead exemption, and a 4.91% higher tax rate, add $620 to Marc's bill, taking it to $5,600. Homestead Plus has no benefit base and pays $4,180 of that, leaving him $2,310 better off and his burden down from 11.1% of income to 4.2%.",
+    "15": "A $40,000 exemption cuts Marc's bill $100 to $4,880, and higher benefit bases lift his credit $520 to $1,780. He is $620 better off and his burden falls from 11.1% of income to 9.3%. His benefit base still limits him: only $3,120 of the $4,880 counted as his property tax is considered.",
+    "16": "His bill rises $30 to $5,010, but a $3,250 benefit base lifts his credit $650 to $1,910. He is $620 better off and his burden falls from 11.1% of income to 9.2%.",
+    "17": "A doubled exemption cuts his bill $190 to $4,790 and his credit rises $650 to $1,910. He is $840 better off and his burden falls from 11.1% of income to 8.6%.",
+    "18": "A $3,710 benefit base lifts his credit $1,110 to $2,370 while his bill barely moves. He is $1,120 better off and his burden falls from 11.1% of income to 7.8%.",
+    "19": "The flat $8,000 base counts his whole bill, and even with only half the excess above $2,000 met, his credit rises $1,490 to $2,750. He is $1,630 better off and his burden falls from 11.1% of income to 6.2%, the best of the five for him."
+   }
+  },
+  "B4": {
+   "name": "Bruce and Carol Verrill",
+   "text": {
+    "1": "The Verrills' bill falls $180 to $6,350, and their credit does not move, so their burden falls from 8.6% of income to 8.3%.",
+    "2": "A 0.40% lower tax rate and a $27,600 exemption cut their bill by $70 to $6,460 and their burden from 8.6% of income to 8.5%.",
+    "3": "A $56,400 exemption cuts their bill by $420 to $6,110 and their burden from 8.6% of income to 8.0%.",
+    "4": "A $5,540 base for a couple counts much more of their bill, lifting their credit by $920 to the $1,500 maximum and cutting their burden from 8.6% of income to 7.3%.",
+    "5": "The 3.72% threshold lifts their credit by $200 to $780 and cuts their burden from 8.6% of income to 8.3%. The doubled maximum does nothing: the benefit base is what limits them.",
+    "6": "A $3,940 base for a couple lifts their credit by $590 to $1,170, cutting their burden from 8.6% of income to 7.7%.",
+    "7": "No change: Bruce is 63, and this scenario covers only households aged 65 and over.",
+    "8": "The ceiling lifts their credit by $900 to $1,480 and cuts their burden from 8.6% of income to 7.3%, held above 6% because their home is worth $429,000 and only the first $370,000 counts.",
+    "9": "Mill rates rise 3.16%, adding $210 to the Verrills' bill, but a $4,720 base for a couple lifts their credit by $2,170 to $2,750. They are $1,970 better off, with their burden down from 8.6% of income to 5.7%.",
+    "10": "Mill rates rise 0.78%, adding $50 to their bill, and a $3,740 base lifts their credit by $670 to $1,250. They are $620 better off, with their burden down from 8.6% of income to 7.7%.",
+    "11": "Mill rates rise 0.43%, adding $30 to their bill, and a $3,560 base lifts their credit by $370 to $950. They are $340 better off, with their burden down from 8.6% of income to 8.1%.",
+    "12": "Mill rates rise 1.28%, adding $80 to their bill, and a $3,960 base lifts their credit by $1,030 to $1,610. They are $950 better off, with their burden down from 8.6% of income to 7.2%.",
+    "13": "Mill rates rise 5.27%, adding $340 to the Verrills' bill, but a $5,630 base lifts their credit by $3,410 to $3,990. They are $3,060 better off, with their burden down from 8.6% of income to 4.2%.",
+    "14": "Losing the homestead exemption, and a 3.52% higher tax rate, add $650 to their bill, taking it to $7,180. Homestead Plus has no benefit base and pays $4,690 of that, leaving them $3,470 better off and their burden down from 8.6% of income to 3.6%.",
+    "15": "A $40,000 exemption cuts the Verrills' bill $130 to $6,400, and a higher benefit base lifts their credit $670 to $1,250. They are $800 better off and their burden falls from 8.6% of income to 7.4%. Their base still limits them: only $4,020 of the $6,400 counted as their property tax is considered.",
+    "16": "Their bill is unchanged at $6,530, but a $4,190 base lifts their credit $840 to $1,420. They are $840 better off and their burden falls from 8.6% of income to 7.4%.",
+    "17": "A doubled exemption cuts their bill $250 to $6,280 and their credit rises $840 to $1,420. They are $1,090 better off and their burden falls from 8.6% of income to 7.0%.",
+    "18": "The largest benefit bases here lift their credit $1,440 to $2,020, with their bill down $40 to $6,490. They are $1,480 better off and their burden falls from 8.6% of income to 6.5%.",
+    "19": "A flat $8,000 base counts their whole bill, which no other scenario does, and their credit rises $2,200 to $2,780. They are $2,400 better off, more than twice what any other scenario here gives them, and their burden falls from 8.6% of income to 5.1%."
+   }
+  },
+  "B5": {
+   "name": "Jason and Melissa Hanscom",
+   "text": {
+    "1": "The Hanscoms' bill falls $130 to $7,310, and their credit does not move, so their burden falls from 8.7% of income to 8.5%.",
+    "2": "A 0.75% lower tax rate and a $27,600 exemption cut their bill by $90 to $7,350 and their burden from 8.7% of income to 8.5%.",
+    "3": "A $56,400 exemption cuts their bill by $220 to $7,210 and their burden from 8.7% of income to 8.4%.",
+    "4": "A $6,860 base for a household with dependents lifts their credit by $170 to the $1,500 maximum, cutting their burden from 8.7% of income to 8.4%. They hit the maximum at once, so most of the larger base is of no use to them.",
+    "5": "The 3.72% threshold lifts their credit by $200 to $1,530 and cuts their burden from 8.7% of income to 8.4%.",
+    "6": "A $4,880 base and a $2,250 maximum both reach them, lifting their credit by $730 to $2,060 and cutting their burden from 8.7% of income to 7.6%.",
+    "7": "No change: Jason is 45, and this scenario covers only households aged 65 and over.",
+    "8": "No change: their home is worth $579,000 and only the first $370,000 counts, leaving the ceiling payment below the credit they already receive.",
+    "9": "Mill rates rise 6.29%, adding $470 to the Hanscoms' bill, but a $3,340 maximum lifts their credit by $2,010. They are $1,540 better off, with their burden down from 8.7% of income to 6.5%. The maximum still binds.",
+    "10": "Mill rates rise 0.78%, adding $60 to their bill, and a $2,020 maximum lifts their credit by $680. They are $630 better off, with their burden down from 8.7% of income to 7.8%. The maximum still binds.",
+    "11": "Mill rates rise 0.82%, adding $60 to their bill, and a $4,410 base lifts their credit by $420 to $1,750. They are $360 better off, with their burden down from 8.7% of income to 8.2%.",
+    "12": "Mill rates rise 2.45%, adding $180 to their bill, and a $2,320 maximum lifts their credit by $980. They are $800 better off, with their burden down from 8.7% of income to 7.5%. The maximum still binds.",
+    "13": "Mill rates rise 9.69%, adding $720 to the Hanscoms' bill, but a $4,570 maximum lifts their credit by $3,230. They are $2,510 better off, with their burden down from 8.7% of income to 5.1%. Even at this scale the maximum still binds.",
+    "14": "Losing the homestead exemption, and a 6.27% higher tax rate, add $820 to their bill, taking it to $8,260. Homestead Plus counts only the first $8,000 of that and pays $5,400, leaving them $3,250 better off and their burden down from 8.7% of income to 4.1%.",
+    "15": "South Berwick's rate rises 3.38%, more than a $40,000 exemption saves the Hanscoms, so their bill goes up $40 to $7,480. A higher benefit base lifts their credit $830 to $2,160, leaving them $790 better off and their burden down from 8.7% of income to 7.6%.",
+    "16": "Their bill rises $110 to $7,550, and a $4,190 base lifts their credit $1,040 to $2,370. They are $930 better off and their burden falls from 8.7% of income to 7.3%.",
+    "17": "A doubled exemption nearly covers a 4.88% higher tax rate, leaving their bill $10 up at $7,450, and their credit rises $1,040 to $2,370. They are $1,030 better off and their burden falls from 8.7% of income to 7.2%.",
+    "18": "Their bill rises $140 to $7,570, but the largest benefit bases here lift their credit $1,780 to $3,110. They are $1,640 better off and their burden falls from 8.7% of income to 6.3%.",
+    "19": "A 6.41% higher tax rate takes their bill up $120 to $7,560, and a flat $8,000 base lifts their credit $2,040 to $3,370. They are $1,920 better off and their burden falls from 8.7% of income to 5.9%, the best of the five for them."
+   }
+  },
+  "B6": {
+   "name": "Peter and Susan Chadbourne",
+   "text": {
+    "1": "A larger homestead exemption and a 0.34% higher tax rate lower the Chadbournes' bill by $60 to $9,910, too little to move their burden from 10.2% of income.",
+    "2": "A 0.73% lower tax rate and a $27,600 exemption cut their bill by $90 to $9,880 and their burden from 10.2% of income to 10.1%.",
+    "3": "The Chadbournes are made worse off: on a home worth $1,300,000 the 2.74% higher tax rate costs them more than the larger exemption saves, and their bill rises $20 to $9,990.",
+    "4": "A $6,940 senior base counts far more of their large bill, lifting their credit by $1,510 to the $2,000 maximum and cutting their burden from 10.2% of income to 8.6%.",
+    "5": "The 3.72% threshold lifts their credit by $260 to $750 and cuts their burden from 10.2% of income to 9.9%. The doubled maximum does nothing: the benefit base is what limits them.",
+    "6": "A $4,940 senior base lifts their credit by $740 to $1,230, cutting their burden from 10.2% of income to 9.4%.",
+    "7": "The ceiling, which has no maximum, lifts their credit by $2,170 to $2,660 and cuts their burden from 10.2% of income to 7.9%. They stop short of 6% because the payment phases out between $75,000 and $120,000 of income, and at $92,800 they receive 60% of it.",
+    "8": "No change: their home is worth $1,300,000 and only the first $370,000 counts, leaving the counted amount below 6% of their income.",
+    "9": "Mill rates rise 7.17%, adding $720 to the Chadbournes' bill, but a $5,920 senior base lifts their credit by $2,790 to $3,280. They are $2,080 better off, with their burden down from 10.2% of income to 8.0%.",
+    "10": "Local mill rates are unaffected, and a $4,680 senior base lifts their credit by $870 to $1,360, cutting their burden from 10.2% of income to 9.3%.",
+    "11": "Mill rates rise 0.80%, adding $80 to their bill, and a $4,460 senior base lifts their credit by $480 to $960. They are $400 better off, with their burden down from 10.2% of income to 9.8%.",
+    "12": "Mill rates rise 2.38%, adding $240 to their bill, and a $4,960 senior base lifts their credit by $1,330 to $1,820. They are $1,090 better off, with their burden down from 10.2% of income to 9.0%.",
+    "13": "Mill rates rise 9.72%, adding $970 to the Chadbournes' bill, but a $7,060 senior base lifts their credit by $4,370 to $4,860. They are $3,400 better off, with their burden down from 10.2% of income to 6.6%.",
+    "14": "Losing the homestead exemption, and a 6.39% higher tax rate, add $850 to their bill, taking it to $10,820. Homestead Plus counts only the first $8,000 of that and pays $4,830, leaving them $3,500 better off and their burden down from 10.2% of income to 6.4%.",
+    "15": "Cornish's rate rises 3.56%, which outweighs a $40,000 exemption on a house of this value, so the Chadbournes' bill goes up $230 to $10,200. A higher benefit base lifts their credit $840 to $1,330, leaving them $610 better off and their burden down from 10.2% of income to 9.6%.",
+    "16": "Their bill rises $230 to $10,200, and a $3,250 base lifts their credit $1,050 to $1,540. They are $820 better off and their burden falls from 10.2% of income to 9.3%. This is the better of the two scenarios at this scale for them, because a bigger exemption is worth less to them than a bigger credit.",
+    "17": "A doubled exemption does not cover a 5.16% higher tax rate on a house of this value: their bill rises $310 to $10,280. Their credit rises $1,050 to $1,540, leaving them $740 better off and their burden down from 10.2% of income to 9.4%.",
+    "18": "Their bill rises $310 to $10,280, but the largest benefit bases here lift their credit $1,800 to $2,290. They are $1,490 better off and their burden falls from 10.2% of income to 8.6%.",
+    "19": "A 6.90% higher tax rate takes their bill up $480 to $10,450, the largest increase any scenario gives them. A flat $8,000 base more than offsets it, lifting their credit $2,660 to $3,140. They are $2,180 better off and their burden falls from 10.2% of income to 7.9%."
+   }
+  },
+  "B7": {
+   "name": "Denise Ouellette",
+   "text": {
+    "1": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "2": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "3": "No change: renters receive no property tax bill, and mill rate changes are not assumed to pass through into rents.",
+    "4": "No change: Denise already receives the $1,500 maximum, which this scenario leaves alone.",
+    "5": "A $3,000 maximum and the 3.72% threshold lift her credit by $150 to $1,650, cutting her burden from 6.1% of income to 5.5%. Her benefit base now limits her: only $2,600 of the $3,060 counted as her property tax is considered.",
+    "6": "A $3,060 base and a $2,250 maximum both reach her, lifting her credit by $530 to $2,030 and cutting her burden from 6.1% of income to 4.0%.",
+    "7": "No change: Denise is 46, and this scenario covers only households aged 65 and over.",
+    "8": "The ceiling pays counted tax above 6% of income, a little more than the maximum credit she already receives, lifting her credit by $20 to $1,520 and bringing her burden to exactly 6.0%.",
+    "9": "The mill rate rise does not reach renters, and a $3,660 base and $3,340 maximum release Denise entirely: her credit rises $830 to $2,330, cutting her burden from 6.1% of income to the new 2.84% threshold.",
+    "10": "A $2,900 base lifts Denise's credit by $480 to $1,980, cutting her burden from 6.1% of income to 4.2%.",
+    "11": "A $1,780 maximum lifts Denise's credit by $280, cutting her burden from 6.1% of income to 5.0%. The maximum still binds.",
+    "12": "A $3,070 base counts all of her rent proxy, lifting her credit by $690 to $2,190 and cutting her burden from 6.1% of income to the new 3.39% threshold.",
+    "13": "A $4,370 base and $4,570 maximum lift Denise's credit by $950 to $2,450, cutting her burden from 6.1% of income to the new 2.38% threshold.",
+    "14": "Homestead Plus covers renters on the same terms, still counting 15% of rent as property tax. It pays Denise $2,100, $600 more than the Fairness Credit does today, cutting her burden from 6.1% of income to 3.7%.",
+    "15": "Denise receives no bill and her rent is unaffected, but the doubled maximum releases her. She was capped at $1,500; her credit now rises $530 to $2,030, paying her whole counted rent above 4% of her income. Her burden falls from 6.1% of income to 4.0%.",
+    "16": "The doubled maximum lifts her credit $530 to $2,030, bringing her burden from 6.1% of income down to 4.0%. The maximum was what limited her, so the four scenarios that double it all do the same thing for her.",
+    "17": "The doubled maximum lifts her credit $530 to $2,030 and her burden falls from 6.1% of income to 4.0%. The larger exemption does nothing for her, since it applies to owner-occupied homes.",
+    "18": "A $3,750 maximum lifts her credit $530 to $2,030 and her burden falls from 6.1% of income to 4.0%. Her excess over the threshold is $2,030, so anything above that maximum would not reach her.",
+    "19": "The $5,000 maximum is far above what Denise needs, but the second tier pays only half of her excess above $2,000, so her credit rises $520 to $2,020 rather than the $2,030 the other four give her. Her burden falls from 6.1% of income to 4.1%."
+   }
+  }
+ },
+ "pages": {
+  "Scenarios": [
+   {
+    "type": "p",
+    "html": "On this page you can explore 19 different scenarios, each of which represents a change to the way in which Maine provides property tax relief to households, and learn about how each scenario would affect households at different levels of income or in different parts of the state."
+   },
+   {
+    "type": "p",
+    "html": "There are three distinct types of policy scenario:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "depth": 1,
+      "html": "<strong>8 scenarios which spend $35 million of new State spending</strong>: These scenarios answer the following question: what are the different ways that the State of Maine could spend an extra $35 million more on expanding the existing property tax relief programs?",
+      "ordered": false
+     },
+     {
+      "depth": 1,
+      "html": "<strong>6 scenarios which reallocate money between existing relief programs</strong>: These scenarios are designed to be revenue-neutral: they leave overall State spending unchanged. Instead, they consider what could be achieved by abolishing one or more existing relief programs and directing all of the freed-up funds into expanding a different relief program.",
+      "ordered": false
+     },
+     {
+      "depth": 1,
+      "html": "<strong>5 Task Force scenarios</strong>: These were developed using guidance from Task Force deliberations (S15-S17), the Consultants’ own proposal (S18) and a Fairness Credit redesign proposed by one member of the Task Force (S19). These scenarios all involve revenue-neutral reallocations of funds away from municipal-level relief (Homestead Exemption reimbursement &amp; Revenue-Sharing) and towards household-level relief (Homestead Exemption &amp; Fairness Credit). They differ in the scale of funds reallocated (from $73.5 million to $161.0 million) and in how the funds are split between the Homestead Exemption and Fairness Credit. All of these scenarios result in mill rate increases as municipalities replace the funds reallocated away from municipal-level relief.",
+      "ordered": false
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "html": "Start by <a href=\"#jump:overview\">comparing the three sets of scenarios</a> all at once, or scroll down to <a href=\"#jump:explore\">explore a specific scenario in greater depth</a>."
+   }
+  ],
+  "Scenarios:more": {
+   "title": "Learn more about Maine’s existing property tax relief programs",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Maine helps households with their property tax in three main ways. The <a href=\"https://www.maine.gov/revenue/faq/homestead-exemption-program\" target=\"_blank\" rel=\"noopener\"><strong>homestead exemption</strong></a> removes a fixed amount of value from the tax bill of anyone who owns and occupies their home, and the State reimburses municipalities for most of the revenue they give up by granting it. The <a href=\"https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/income-tax-credits/property-tax-fairness-credit\" target=\"_blank\" rel=\"noopener\"><strong>Property Tax Fairness Credit</strong></a> pays money back to households whose property tax, or whose rent, is large relative to their income; it is claimed each year on a Maine income tax return. <a href=\"https://www.maine.gov/treasurer/revenue-sharing\" target=\"_blank\" rel=\"noopener\"><strong>Municipal revenue sharing</strong></a> sends a share of State tax collections to municipalities, reducing what they must raise locally."
+    },
+    {
+     "type": "p",
+     "html": "The nineteen scenarios on this page are possible changes to those three programs. Scenarios 1-3 expand the Homestead Exemption, Scenarios 4-8 expand the Fairness Credit, Scenarios 9-13 redirect the funds from other relief programs into the Fairness Credit, Scenario 14 replaces all existing forms of relief with a proposed new policy called ‘Homestead Plus’, and Scenarios 15-19 move funds from Revenue-Sharing I, and in four of them from the homestead reimbursement, into a larger Homestead Exemption and a larger Fairness Credit together."
+    }
+   ]
+  },
+  "Archetypes": [
+   {
+    "type": "p",
+    "html": "While the Policy Scenarios tab displays statewide results for each of the modeled reforms, those results lump together many different types of household. On this page you can explore how changes to property tax relief affect common types of Maine households, which we refer to as Archetypes."
+   },
+   {
+    "type": "p",
+    "html": "There are three distinct sets, built for different purposes:"
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "depth": 1,
+      "html": "<strong>The 6 Representative Archetypes</strong> are broadly-defined and familiar types of household: working-age renters, a family with children, empty-nesters, etc. Every single household in Maine is placed into one of these Representative Archetypes.",
+      "ordered": false
+     },
+     {
+      "depth": 1,
+      "html": "<strong>The 7 Burdened Archetypes</strong> cover only households who we classify as ‘burdened’, meaning that their property taxes (or 15% of their rent) still exceeds 6% of their income even after existing relief programs. These are the 60,000 households that the current system does not adequately reach.",
+      "ordered": false
+     },
+     {
+      "depth": 1,
+      "html": "<strong>The 6 Commercial Archetypes</strong> are vignettes representing common types of Maine commercial property: a storefront, a repair shop, a restaurant, a professional office, a lumber yard and a ten-unit apartment building. None of them receives the Homestead Exemption or the Fairness Credit, so the only way any scenario reaches them is through their municipality's mill rate.",
+      "ordered": false
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "html": "Below you can learn more about each type of household: where they live and how much they typically earn, how their property tax burden is improved by existing relief programs, and how each of the policy scenarios would provide additional relief."
+   },
+   {
+    "type": "p",
+    "html": "Each archetype includes a vignette, which describes the circumstances of a very typical example from within it. For the household archetypes, the names and occupations are made up but the finances are real: they represent survey data from a real household within the model. For the commercial archetypes, the premises are real parcels taken from municipal commitment books and described in general terms, so that no individual business can be identified; their tax bills are the ones their municipality actually billed, while the revenue and profit figures are rough industry estimates rather than anything reported by the business itself."
+   },
+   {
+    "type": "p",
+    "html": "Start by <a href=\"#jump:overview\">comparing the archetypes within each set</a>, or scroll down to <a href=\"#jump:explore\">explore a specific archetype</a> in greater depth."
+   }
+  ],
+  "Comparison": [
+   {
+    "type": "p",
+    "html": "On this page you can examine how a Policy Scenario impacts a specific Household Archetype. Pick a specific combination using the tool below."
+   }
+  ]
+ },
+ "vtitles": {
+  "R1": "Vignette: Nathan and Erin Caouette, a family in New Gloucester",
+  "R2": "Vignette: Paul and Diane Thibodeau, retirees in Cushing",
+  "R3": "Vignette: Scott and Maureen Daigle, empty nesters in Manchester",
+  "R4": "Vignette: Linda Michaud, a widow in Canaan",
+  "R5": "Vignette: Katie and Ryan, renters in Eddington",
+  "R6": "Vignette: Arlene, a retired renter in Mechanic Falls",
+  "B1": "Vignette: Pauline Beal, a widow in Milbridge",
+  "B2": "Vignette: Gordon and Nancy Leclerc, retirees in Cumberland",
+  "B3": "Vignette: Marc Bisson, a homeowner living alone in Biddeford",
+  "B4": "Vignette: Bruce and Carol Verrill, a working couple in Yarmouth",
+  "B5": "Vignette: Jason and Melissa Hanscom, a family in South Berwick",
+  "B6": "Vignette: Peter and Susan Chadbourne, owners of family land in Cornish",
+  "B7": "Vignette: Denise Ouellette, a home health aide in Westbrook"
+ },
+ "com": {
+  "C1": {
+   "label": "A martial arts studio in Bangor",
+   "vignette": [
+    {
+     "type": "p",
+     "html": "A karate and jiu-jitsu school on a side street a few minutes from downtown Bangor. Classes run from late afternoon into the evening, children first and adults after, and enrollment swells in January and thins out by July."
+    },
+    {
+     "type": "p",
+     "html": "The school bought its building rather than renting, which is the ambition of most small operations like it and the reason this one is still in the same place after fifteen years. It has half an acre to itself and about 5,760 square feet, most of it one matted room, with changing rooms, a cramped office and a row of chairs along the wall where parents wait. The lot matters as much as the building: twenty minutes either side of each changeover the parking fills completely, and a dozen spaces of its own is the difference between a workable location and an impossible one."
+    },
+    {
+     "type": "p",
+     "html": "A school this size takes somewhere around a quarter of a million dollars a year in tuition and clears perhaps $60,000 of that before the owner draws any pay. The city assesses the property at about $500,000, and at Bangor's rate of 17.7 mills the school pays $8,788 a year in property tax, the figure its commitment book shows was billed. That is one dollar in every twenty-eight that comes through the door, and roughly a quarter of everything the school spends on having a building at all."
+    }
+   ],
+   "summary": "Bill today $8,788. Clears roughly $60,000 a year before the owner draws pay."
+  },
+  "C2": {
+   "label": "A repair shop in Gardiner",
+   "vignette": [
+    {
+     "type": "p",
+     "html": "A three-bay garage on the commercial road into Gardiner, doing brakes, exhausts, tyres and state inspections. Two bays have lifts; the third is where the long jobs sit while a part comes up from Portland. There is a waiting room with a coffee machine and magazines a year out of date, and most of the work arrives by word of mouth from people who have been coming since the owner’s father ran it."
+    },
+    {
+     "type": "p",
+     "html": "The shop takes in around $600,000 a year and clears about $57,000 of that after the owner has paid himself a wage and before income tax, which is the nine or ten cents on the dollar the trade typically returns. The town assesses the property at $275,000, and at Gardiner’s rate of 25.6 mills the shop pays $7,040 a year in property tax. That is a little over 1% of what comes through the door, and about an eighth of what the business keeps."
+    }
+   ],
+   "summary": "Bill today $7,040. Clears about $57,000 a year after the owner's wage."
+  },
+  "C3": {
+   "label": "A restaurant in Camden",
+   "vignette": [
+    {
+     "type": "p",
+     "html": "A seventy-seat restaurant a block from Camden harbor, in a commercial building put up around 1900 and converted to a dining room some decades later. Lunch and dinner through the season, dinner only once the leaf-peepers have gone, closed for a few weeks in March. Most of the year’s trade happens between the Fourth of July and the end of foliage, and the owner spends the winter working out how much of the kitchen staff can be kept on until spring."
+    },
+    {
+     "type": "p",
+     "html": "The building is 2,444 square feet on a lot barely larger than its own footprint. There is no parking and no terrace, and deliveries come through the front door in the hour before service."
+    },
+    {
+     "type": "p",
+     "html": "At the $250 to $325 per square foot that full-service restaurants typically take, a room this size turns over around $700,000 a year. Full-service restaurants clear three to five cents on the dollar after costs, so the business keeps somewhere between $25,000 and $35,000. The town assesses the property at just under $845,000, and at Camden's rate of 11.5 mills the restaurant pays $9,700 a year in property tax. That is about 1.4% of turnover, and close to a third of everything the business clears in a year."
+    }
+   ],
+   "summary": "Bill today $9,700. Clears somewhere between $25,000 and $35,000 a year."
+  },
+  "C4": {
+   "label": "A law firm in Raymond",
+   "vignette": [
+    {
+     "type": "p",
+     "html": "A two-lawyer practice on Route 302 in Raymond, doing the work a lake town generates: camp and cottage closings through the summer, wills and estates all year, and the occasional boundary dispute between neighbors who have been arguing about the same stone wall since the 1970s. One of the partners sits as counsel to a neighboring town’s planning board."
+    },
+    {
+     "type": "p",
+     "html": "The firm owns its building, a modest place set back from the highway on four tenths of an acre, with parking for clients at the door. Raymond’s commitment book records no floor area for the property, so the size of the building is not something the data can tell us."
+    },
+    {
+     "type": "p",
+     "html": "A practice of this size bills perhaps half a million dollars a year, and in an owner-operated firm the partners’ own earnings are the profit. The town assesses the property at $310,500, and at Raymond’s rate of 17.2 mills the firm pays $5,341 a year in property tax, a little over 1% of what it bills."
+    }
+   ],
+   "summary": "Bill today $5,341."
+  },
+  "C5": {
+   "label": "A lumber yard in York",
+   "vignette": [
+    {
+     "type": "p",
+     "html": "A lumber and hardware yard in York, selling framing stock, sheet goods, trim, fasteners and paint to the builders who keep the town’s houses standing and its second homes renovated. Contractors come through before seven, homeowners after nine on Saturdays, and the counter staff know which of the regulars pay on time."
+    },
+    {
+     "type": "p",
+     "html": "The yard sits on about an acre and three quarters: a covered store, racks of dimensional lumber under cover at the back, a trade counter at the front, and enough hardstanding for a delivery truck to turn around."
+    },
+    {
+     "type": "p",
+     "html": "A yard this size turns over several million dollars a year, and the building materials trade runs on roughly four cents of net profit in the dollar, so the business keeps perhaps $200,000 of it. The town assesses the property at just under $1.2 million, and at York’s rate of 8.4 mills it pays $9,940 a year in property tax, which is the figure the commitment book shows was billed. That is a fifth of one per cent of sales, and about 5% of what the yard clears."
+    }
+   ],
+   "summary": "Bill today $9,940."
+  },
+  "C6": {
+   "label": "An apartment complex in Bangor",
+   "vignette": [
+    {
+     "type": "p",
+     "html": "A ten-unit apartment complex on a residential street a few minutes from the center of Bangor. Three two-story buildings sit on just under an acre, four flats in one and three in each of the others, built in the mid-1980s and clad in vinyl siding. Each flat has two bedrooms and runs to about 950 square feet, with hot water baseboard heat and its own parking space. The tenants are a mix of working households and students, and turnover is steady rather than dramatic."
+    },
+    {
+     "type": "p",
+     "html": "It is owned by a local investor through a limited liability company, which is how most buildings of this size in Maine are held. The current owner bought it in 2010, and the city's assessment has more than doubled since."
+    },
+    {
+     "type": "p",
+     "html": "The ten flats gross somewhere around $117,000 a year in rent, at the roughly $980 a month a two-bedroom typically fetches in the Bangor area. The city assesses the property at $1,258,700, and at Bangor's rate of 17.70 mills the owner pays $22,279 a year in property tax, the figure the commitment book shows was billed. That is $2,228 per flat a year, or $186 a month, and a little under a fifth of everything the building collects in rent. After the tax and the other costs of running the place, it clears perhaps $60,000 to $70,000 a year before any mortgage."
+    }
+   ],
+   "summary": ""
+  }
+ },
+ "comx": {
+  "C1": {
+   "text": {
+    "1": "A larger exemption takes value off the taxable base and the State repays only 76 cents of each dollar lost, so the remainder falls on the rate. Bangor's rate rises 0.4% and the school's bill goes up $31 to $8,819.",
+    "2": "The State covers the whole cost of the homestead exemption, so Bangor needs less from its own taxpayers. The rate falls 0.8% and the bill drops $69 to $8,719, the only scenario of the nineteen that makes a business better off.",
+    "3": "Bangor loses half its homestead reimbursement and part of its base at the same time. The rate rises 2.9% and the bill goes up $255 to $9,043.",
+    "4": "No change. The Fairness Credit is claimed by households on an income tax return and the State pays for it, so Bangor's levy and its mill rate are untouched.",
+    "5": "No change, for the same reason: a larger maximum credit costs the State money, not the city.",
+    "6": "No change. Both levers move, both are paid by the State, and neither appears in a municipal budget.",
+    "7": "No change. The ceiling is a State payment to households over 65, and a business has neither an age nor an income tax return.",
+    "8": "No change. Extending the ceiling to every age extends it to every household, which still leaves commercial property outside it.",
+    "9": "Bangor loses its Revenue Sharing I and must raise the difference locally. The rate rises 8.95%, adding $786 and taking the bill to $9,574. The credit this funds reaches households only, so the $786 comes out of roughly $60,000 the school clears.",
+    "10": "Revenue Sharing II goes to municipalities carrying the heaviest tax burdens, and Bangor is one of them. The rate rises 6.16% and the bill goes up $542 to $9,330.",
+    "11": "The State repays half as much of the exemptions Bangor already grants, and the city covers the gap. The rate rises 0.86%, adding $76 to take the bill to $8,864.",
+    "12": "The State stops repaying the exemption altogether, so all of it falls on Bangor's own taxpayers. The rate rises 2.56%, adding $225 and taking the bill to $9,013.",
+    "13": "All three sources of state aid go at once. Bangor's rate rises 18.1%, the largest increase of any scenario, adding $1,587 and taking the bill to $10,375. That is about 2.6% of what the school clears in a year.",
+    "14": "Homestead Plus abolishes the exemption, which puts value back on Bangor's base, but it ends revenue sharing and the reimbursement too, and the aid lost outweighs the base regained. The rate rises 14.2%, adding $1,249 and taking the bill to $10,037.",
+    "15": "The Revenue Sharing cut and a halved reimbursement on a larger exemption both land on the rate. Bangor's rate rises 4.13% and the bill goes up $363 to $9,151.",
+    "16": "Bangor keeps its homestead reimbursement here, so only the Revenue Sharing cut bites. The rate rises 3.31% and the bill goes up $291 to $9,079, the smallest increase of the newer scenarios.",
+    "17": "Doubling the exemption while halving the reimbursement takes both the base and the aid at once. The rate rises 6.00% and the bill goes up $527 to $9,316.",
+    "18": "A smaller exemption costs Bangor less of its base, but the Revenue Sharing cut and the halved reimbursement still fall on the rate. It rises 4.70%, adding $413 to take the bill to $9,201.",
+    "19": "This is the largest Revenue Sharing cut of the newer scenarios, and Bangor absorbs it in proportion. The rate rises 8.18%, adding $719 and taking the bill to $9,507."
+   }
+  },
+  "C2": {
+   "text": {
+    "1": "Gardiner's rate rises 0.50% as exempt value comes off the base, adding $35 to take the bill to $7,075.",
+    "2": "With the State covering the full cost of homestead exemptions, Gardiner needs less locally. The rate falls 1.08% and the bill drops $76 to $6,964.",
+    "3": "Gardiner loses half its reimbursement and part of its base together, so the rate rises 4.12%, adding $290 to take the bill to $7,330.",
+    "4": "No change. The benefit base governs a credit households claim from the State, and nothing in Gardiner's budget moves.",
+    "5": "No change. A higher maximum credit is a cost to the State, not to the town.",
+    "6": "No change. Both parts of the credit are State-funded, so the local levy is unaffected.",
+    "7": "No change. The ceiling pays tax above a share of a household's income, and a repair shop has neither.",
+    "8": "No change. Removing the age test widens the ceiling among households without reaching commercial property.",
+    "9": "Gardiner receives a large share of its budget from Revenue Sharing I, and loses all of it. The rate rises 9.18%, adding $646 and taking the bill to $7,686.",
+    "10": "Gardiner receives Revenue Sharing II, which is directed at towns with heavy tax burdens. Losing it raises the rate 2.00% and the bill by $141, to $7,181.",
+    "11": "The State repays half as much of the exemptions Gardiner already grants, and the town covers the gap. The rate rises 1.19% and the bill goes up $84 to $7,124.",
+    "12": "Losing the reimbursement entirely raises the rate 3.57%, adding $252 to take the bill to $7,292.",
+    "13": "Gardiner loses $1.55m of state aid, about 15% of what its own property tax raises. The rate rises 15.2%, adding $1,067 and taking the bill to $8,107, roughly a fiftieth of what the shop clears in a year.",
+    "14": "Homestead Plus ends revenue sharing and the reimbursement while abolishing the exemption, and for Gardiner the aid lost outweighs the base returned. The rate rises 9.99%, adding $703 and taking the bill to $7,743.",
+    "15": "The Revenue Sharing cut and a halved reimbursement on a larger exemption both fall on the rate. Gardiner's rate rises 4.95% and the bill goes up $349 to $7,389.",
+    "16": "The homestead reimbursement survives here, so Gardiner keeps that revenue and only the Revenue Sharing cut bites. The rate rises 3.46% and the bill goes up $244 to $7,284.",
+    "17": "Doubling the exemption while halving the reimbursement takes the base and the aid together, on top of the Revenue Sharing cut. The rate rises 7.16%, the steepest any of the newer scenarios produces in these five towns apart from the last one, adding $504 and taking the bill to $7,544.",
+    "18": "A smaller exemption costs Gardiner less of its base, but the Revenue Sharing cut and the halved reimbursement still land on the rate. It rises 5.41%, adding $381 to take the bill to $7,421.",
+    "19": "Funding the credit takes $129.4m out of Revenue Sharing I, and Gardiner depends on that money more than most. The rate rises 9.42% and the bill goes up $663 to $7,703."
+   }
+  },
+  "C5": {
+   "text": {
+    "1": "A larger exemption takes value off the base and the State repays only part of it, but York's base is large enough that the rate barely moves. It rises 0.10%, adding $10 to take the bill to $9,950.",
+    "2": "The State covers the whole cost of the exemption, so York needs less from its own taxpayers. The rate falls 0.22% and the bill drops $22 to $9,918.",
+    "3": "York loses half its reimbursement and part of its base together. The rate rises 0.81%, adding $81 to take the bill to $10,021.",
+    "4": "No change. The credit is a State payment to households, and York's levy does not move.",
+    "5": "No change, for the same reason.",
+    "6": "No change. Neither lever touches a municipal budget.",
+    "7": "No change. The ceiling is available to households over 65 and to no business.",
+    "8": "No change. The ceiling still runs through household income, which a lumber yard does not have.",
+    "9": "York's rate rises 2.13%, adding $212 and taking the bill to $10,152. York has a very large tax base relative to the state aid it receives, which is why the same policy costs its businesses so much less than those inland.",
+    "10": "No change. Revenue Sharing II is directed at municipalities with high tax burdens, and York receives none of it.",
+    "11": "The State repays half as much of the exemptions York already grants, and the town covers the gap. The rate rises 0.24%, adding $24 to take the bill to $9,964.",
+    "12": "The State stops repaying the exemption altogether. The rate rises 0.71%, adding $70 to take the bill to $10,010.",
+    "13": "Every source of state aid goes at once, and York's rate still rises only 2.85%, adding $284 to take the bill to $10,224.",
+    "14": "Homestead Plus ends revenue sharing and the reimbursement while abolishing the exemption, and York regains enough base to absorb much of the loss. The rate rises 1.90%, adding $189 and taking the bill to $10,129.",
+    "15": "The Revenue Sharing cut and a halved reimbursement on a larger exemption both fall on the rate. It rises 1.05% and the bill goes up $105 to $10,045.",
+    "16": "With the reimbursement left intact, York's rate rises only 0.80%, adding $79 to take the bill to $10,019.",
+    "17": "Doubling the exemption while halving the reimbursement takes the base and the aid together. The rate rises 1.52%, adding $151 and taking the bill to $10,091.",
+    "18": "A smaller exemption costs York less of its base, but the Revenue Sharing cut and the halved reimbursement still reach the rate. It rises 1.17%, adding $117 to take the bill to $10,057.",
+    "19": "This is the largest Revenue Sharing cut of the newer scenarios, and York absorbs its share. The rate rises 2.03%, adding $202 and taking the bill to $10,142."
+   }
+  },
+  "C3": {
+   "text": {
+    "1": "A larger exemption takes value off the base and the State repays only part of it, leaving the rest to the rate. Camden's rises 0.14%, adding $13 to take the bill to $9,713.",
+    "2": "The State covers the whole cost of the exemption, so Camden needs less from its own taxpayers. The rate falls 0.30% and the bill drops $29 to $9,671.",
+    "3": "Camden loses half its reimbursement and part of its base together. The rate rises 1.09%, adding $106 to take the bill to $9,806.",
+    "4": "No change. The Fairness Credit is a State payment to households and does not appear in Camden's budget.",
+    "5": "No change. A higher maximum credit costs the State, not the town.",
+    "6": "No change. Both levers are State-funded.",
+    "7": "No change. The ceiling reaches households over 65 and no commercial property.",
+    "8": "No change. Every version of the ceiling runs through a household income tax return.",
+    "9": "Camden must raise locally what Revenue Sharing I used to send it, though it is a small part of the town's budget. The rate rises 2.79%, adding $271 and taking the bill to $9,971.",
+    "10": "No change. Camden receives no Revenue Sharing II, which is directed at municipalities with heavier tax burdens than its own.",
+    "11": "The State repays half as much of the exemptions Camden already grants. The rate rises 0.32%, adding $31 to take the bill to $9,731.",
+    "12": "The State stops repaying the exemption altogether. The rate rises 0.95%, adding $92 to take the bill to $9,792.",
+    "13": "Every stream of state aid ends at once. The rate rises 3.77%, adding $366 and taking the bill to $10,066. The increase is modest, but it sits on top of a property tax that already takes close to a third of what the restaurant clears.",
+    "14": "Homestead Plus ends revenue sharing and the reimbursement while abolishing the exemption, and the aid lost outweighs the base returned. The rate rises 2.49%, adding $241 and taking the bill to $9,941.",
+    "15": "The Revenue Sharing cut and a halved reimbursement on a larger exemption both fall on the rate. It rises 1.40%, adding $136 to take the bill to $9,836.",
+    "16": "Camden keeps its homestead reimbursement here, so the rate rises only 1.04%, adding $101 to take the bill to $9,801.",
+    "17": "Doubling the exemption while halving the reimbursement takes the base and the aid together. The rate rises 2.02%, adding $195 and taking the bill to $9,895.",
+    "18": "A smaller exemption costs Camden less of its base, but the Revenue Sharing cut and the halved reimbursement still reach the rate. It rises 1.55%, adding $151 to take the bill to $9,851.",
+    "19": "This is the largest Revenue Sharing cut of the newer scenarios. The rate rises 2.69%, adding $260 and taking the bill to $9,960."
+   }
+  },
+  "C4": {
+   "text": {
+    "1": "A larger exemption takes value off the base and the State repays only part of it. Raymond's rate rises 0.17%, adding $9 to take the bill to $5,350.",
+    "2": "The State covers the whole cost of the exemption, so Raymond needs less from its own taxpayers. The rate falls 0.38% and the bill drops $20 to $5,321.",
+    "3": "Raymond loses half its reimbursement and part of its base together. The rate rises 1.39%, adding $74 to take the bill to $5,415.",
+    "4": "No change. The benefit base belongs to a credit households claim from the State, and Raymond's levy is untouched.",
+    "5": "No change. The cost falls on the State.",
+    "6": "No change. Both levers are State-funded and neither reaches a municipal budget.",
+    "7": "No change. A law firm has neither an age nor a household income.",
+    "8": "No change. The ceiling is still a household program.",
+    "9": "Raymond must raise locally what Revenue Sharing I used to send it. The rate rises 2.56%, adding $137 and taking the bill to $5,478.",
+    "10": "No change. Raymond receives no Revenue Sharing II.",
+    "11": "The State repays half as much of the exemptions Raymond already grants. The rate rises 0.41%, adding $22 to take the bill to $5,362.",
+    "12": "The State stops repaying the exemption altogether. The rate rises 1.21%, adding $65 to take the bill to $5,405.",
+    "13": "Every stream of state aid ends at once, and a town with a substantial base for its population absorbs it comfortably. The rate rises 3.80%, adding $203 and taking the bill to $5,544.",
+    "14": "Homestead Plus ends revenue sharing and the reimbursement while abolishing the exemption, and the aid lost outweighs the base returned. The rate rises 2.18%, adding $116 and taking the bill to $5,457.",
+    "15": "The Revenue Sharing cut and a halved reimbursement on a larger exemption both fall on the rate. It rises 1.53%, adding $82 to take the bill to $5,422.",
+    "16": "With the reimbursement intact, Raymond's rate rises 0.98%, adding $52 to take the bill to $5,393.",
+    "17": "Doubling the exemption while halving the reimbursement takes the base and the aid together. The rate rises 2.19%, adding $117 and taking the bill to $5,457.",
+    "18": "A smaller exemption costs Raymond less of its base, but the Revenue Sharing cut and the halved reimbursement still reach the rate. It rises 1.63%, adding $87 to take the bill to $5,428.",
+    "19": "This is the largest Revenue Sharing cut of the newer scenarios. The rate rises 2.80%, adding $150 and taking the bill to $5,490."
+   }
+  },
+  "C6": {
+   "text": {
+    "1": "A larger exemption takes value off the taxable base and the State repays only 76 cents of each dollar lost, so the remainder falls on the rate. Bangor's rate rises 0.4%, adding $79 to the bill, $8 a flat for the year.",
+    "2": "The State covers the whole cost of the homestead exemption, so Bangor needs less from its own taxpayers. The rate falls 0.8% and the bill drops $174 to $22,105, the only scenario of the nineteen that makes this building cheaper to own.",
+    "3": "Bangor loses half its homestead reimbursement and part of its base at the same time. The rate rises 2.9%, adding $646 to take the bill to $22,925, or $65 a flat.",
+    "4": "No change to the bill. The Fairness Credit goes to households, not to the owners of buildings, so Bangor's levy does not move. The tenants are a different matter: a renter can claim the credit on 15% of their rent, and a higher benefit base reaches those whose rent is large against their income.",
+    "5": "No change to the bill, and the same point applies with more force. Doubling the maximum credit gives burdened renters a median $283 a year, and the hybrid in Scenario 6 gives them more; none of the eight $35 million scenarios touches what their landlord pays.",
+    "6": "No change to the bill. Both levers are State-funded and neither appears in a municipal budget.",
+    "7": "No change to the bill. The ceiling runs through a household income tax return, and a building does not have one.",
+    "8": "No change to the bill. Extending the ceiling to every age extends it to every household, which still leaves rental property outside it, though for the tenants themselves it does more than any other $35 million scenario to bring burdens below 6%.",
+    "9": "Bangor loses its Revenue Sharing I and must raise the difference locally. The rate rises 8.95%, adding $1,994 to take the bill to $24,273. That is $199 a flat for the year, about $17 a month.",
+    "10": "Revenue Sharing II goes to municipalities carrying the heaviest tax burdens, and Bangor is one of them. The rate rises 6.16%, adding $1,373 to take the bill to $23,652, or $137 a flat.",
+    "11": "The State repays half as much of the exemptions Bangor already grants, and the city covers the gap. The rate rises 0.86%, adding $192 to take the bill to $22,471.",
+    "12": "The State stops repaying the exemption altogether, so all of it is raised locally. The rate rises 2.56%, adding $571 to take the bill to $22,850, or $57 a flat.",
+    "13": "Every stream of state aid ends at once. Bangor's rate rises 18.1%, the largest increase of any scenario, adding $4,023 and taking the bill to $26,302. That is $402 a flat for the year, $34 a month, against a typical rent of about $980.",
+    "14": "Homestead Plus abolishes the exemption, which puts value back on Bangor's base, but it ends revenue sharing and the reimbursement too, and the aid lost outweighs the base regained. The rate rises 14.2%, adding $3,166 to take the bill to $25,445, or $317 a flat.",
+    "15": "The Revenue Sharing cut and a halved reimbursement on a larger exemption both land on the rate. It rises 4.13%, adding $919 to take the bill to $23,198, or $92 a flat for the year.",
+    "16": "Bangor keeps its homestead reimbursement here, so only the Revenue Sharing cut bites. The rate rises 3.31%, adding $738 to take the bill to $23,017, the smallest increase of the newer scenarios at $74 a flat.",
+    "17": "Doubling the exemption while halving the reimbursement takes both the base and the aid at once. The rate rises 6.00%, adding $1,337 to take the bill to $23,616, or $134 a flat.",
+    "18": "A smaller exemption costs Bangor less of its base, but the Revenue Sharing cut and the halved reimbursement still fall on the rate. It rises 4.70%, adding $1,046 to take the bill to $23,325, or $105 a flat.",
+    "19": "This is the largest Revenue Sharing cut of the newer scenarios, and Bangor absorbs it in proportion. The rate rises 8.18%, adding $1,823 to take the bill to $24,102. That is $182 a flat for the year, about $15 a month."
+   }
+  }
+ },
+ "kf": {
+  "R1": [
+   "117,000 households, one in five, mildly concentrated on the Southern Coast. Medians: $119,600 income, $319,000 home, $3,160 bill, 2.7% of income. 8% are burdened after today's relief, down from 14% before it.",
+   "Only 19% qualify for the Fairness Credit. Of those who do, a quarter sit at the maximum and a third at the benefit base, so neither credit lever has much purchase on the group as a whole.",
+   "Homestead changes reach them and credit changes largely do not. Cutting reimbursement to 50% to fund a much larger exemption [S3] gives $184 a household, against $63 from higher benefit bases [S4], which reaches only one household in eight.",
+   "Most of them pay more under reallocation. Under three of the five reallocations [S10, S11, S12] a clear majority pay more, and even ending Revenue Sharing I [S9] leaves 59% worse off for an average gain of $117.",
+   "Their best outcome is all three sources combined [S13], at $279 a household, which cuts their burdened share from 8% to 3%. Even then, 48% pay more than they do today."
+  ],
+  "R2": [
+   "102,000 households, one in six. Medians: $88,300 income, $309,000 home, $3,150 bill, 3.3% of income. 11% are burdened after relief, down from 22% before it.",
+   "A third qualify for the credit, and the typical claimant receives $910, well below the maximum. 36% are held by the benefit base and only 10% by the maximum, so the base does more for them than the maximum does.",
+   "The senior liability ceiling [S7] is the only $35 million option built for them. It gives $132 a household and cuts their burdened share from 11% to 6%, further than any other $35 million scenario.",
+   "A larger exemption helps broadly [S3, $173] but does little for burden, because it is worth the same whatever a household's income.",
+   "Reallocation treats them better than it treats R1 or R3. All three sources combined [S13] gives $468 with 62% gaining, and ending Revenue Sharing I [S9] gives $283 with 53% gaining. Their burdened share falls to 4% under both S13 and Homestead Plus [S14]."
+  ],
+  "R3": [
+   "136,000 households, nearly one in four and the largest archetype. Medians: $111,000 income, $301,000 home, $3,040 bill, 2.5% of income, the lightest burden of any group.",
+   "Only 11% qualify for the credit, the lowest share of any archetype, and three quarters of those are held by the benefit base rather than the maximum.",
+   "The credit levers therefore barely reach them. A higher maximum credit [S5] gives $15 a household. Higher benefit bases [S4] give $94 and reach fewer than one in five.",
+   "The Homestead Exemption is their program: $198 under a 50% reimbursement with a much larger exemption [S3], $98 under a straightforward increase [S1].",
+   "They are the clearest losers from reallocation. Under S10, S11 and S12 more than three quarters pay more, and cutting the homestead reimbursement into the credit [S11] leaves them $3 worse off on average. Ending Revenue Sharing I [S9] and the two largest reallocations [S13, S14] leave them better off on average, by $65, $189 and $173, but a majority still pay more under all three."
+  ],
+  "R4": [
+   "88,000 households, one in seven, half of them rural. Medians: $26,400 income, $193,000 home, $1,910 bill, 4.0% of income after relief. 25% are burdened, down from 67% before relief, the largest reduction today's programs achieve for any representative archetype.",
+   "Three quarters qualify for the credit and 39% sit at the maximum, but for most of them the 4% threshold is the binding limit.",
+   "That is why homestead changes are partly clawed back. A smaller bill means a smaller credit, so a larger exemption [S1] gives only $69 a household, against $185 for doubling the maximum credit [S5].",
+   "What reaches them is anything that lifts the maximum or lowers the threshold: $185 [S5], $226 under the senior ceiling [S7], $330 from ending Revenue Sharing I [S9], $427 from all three sources combined [S13].",
+   "They are the one representative archetype that gains broadly from reallocation. Under S9 and S13, 79% gain and 16% lose, and S13 cuts their burdened share from 25% to 7%. Homestead Plus [S14] is the exception: half pay more and their burdened share falls only to 14%."
+  ],
+  "R5": [
+   "117,000 households, one in five, overrepresented in Greater Portland. Medians: $50,400 income, $1,800 of rent counted towards the credit, 3.5% of income. 5% are burdened, down from 21% before relief.",
+   "Homestead changes give them nothing at all [S1 to S3]. The exemption applies to owner-occupied homes, and mill rate changes are not assumed to pass through into rents.",
+   "Two in five qualify for the credit, so credit changes reach them, but modestly: $42 from a higher maximum [S5], $23 from higher benefit bases [S4].",
+   "Reallocation is where they gain, because all of the money goes through the credit: $197 from ending Revenue Sharing I [S9], $307 from all three combined [S13], $248 from Homestead Plus [S14]. No renter loses under any reallocation.",
+   "S13 removes their burden almost entirely, from 5% to under 1%."
+  ],
+  "R6": [
+   "36,000 households, the smallest representative archetype, slightly more urban. Medians: $27,300 income, $1,200 of rent counted towards the credit, 3.9% of income. Only 1% are burdened after relief, against 26% before it, proportionally the largest reduction today's relief achieves for any group.",
+   "Half qualify for the credit, and for most of them it already resolves the burden, so there is little left for a larger credit to do.",
+   "The pattern is the same as R5: homestead changes do nothing, credit changes help a little, and reallocation helps most, at $129 [S9] and $193 [S13].",
+   "Homestead Plus [S14] is the one scenario that leaves more of them burdened than today, at 3% against 1%, and 6% of them pay more."
+  ],
+  "B1": [
+   "9,700 households, half in Greater Portland and on the Southern Coast. Medians: $25,800 income, $405,500 home. Their burden is 19.6% of income before the credit, the heaviest of any archetype, and still 10.7% after it.",
+   "98% are eligible and 86% sit at the maximum credit. The credit is working and the burden remains, which is the central fact about this group. They gain only if the maximum rises; the benefit base does almost nothing for them.",
+   "The senior liability ceiling [S7] is transformative: a median gain of $1,020, and the share above 6% falls from 100% to 8%, the largest reduction any $35 million scenario achieves for any owner archetype.",
+   "A higher maximum credit [S5] and the hybrid [S6] both reach them, at around $600, leaving about 60% above 6%. Higher benefit bases alone [S4] give the median household nothing.",
+   "Among reallocations, all three sources combined [S13] gives $1,623 and leaves 16% above 6%. Homestead Plus [S14] gives $809 and leaves 52%. Homestead changes do almost nothing: a larger exemption [S1] leaves 93% above 6%."
+  ],
+  "B2": [
+   "10,100 households, often on the Southern Coast. Medians: $61,900 income, $493,000 home, burden 8.9% of income after relief.",
+   "The same age profile as B1 on 2.4 times the income, and a burden 7.7 points lighter before the credit. That contrast is the clearest evidence in the set that what drives burden among older owners is living alone rather than age itself.",
+   "Only half sit at the maximum, so the benefit base does as much work here as the maximum credit. Higher bases [S4] reach 51% of them.",
+   "The senior ceiling [S7] is again their best $35 million option, at $709, leaving 39% above 6%. The universal ceiling [S8] does much less, at $77, because for many of them its payment falls below the credit they already receive.",
+   "All three sources combined [S13] gives $1,798 and leaves 27% above 6%; Homestead Plus [S14] gives $1,563 and leaves 32%."
+  ],
+  "B3": [
+   "10,300 households, mostly urban. Medians: $36,700 income, $337,600 home, burden 9.3% of income after relief.",
+   "Too young for the senior benefit base or the senior ceiling, and with no dependent uplift, so both credit levers are set at their least generous for them. Age rather than wealth is what separates this group from B1.",
+   "The senior ceiling [S7] does nothing for them at all: 100% remain above 6%.",
+   "The universal ceiling [S8] is their best $35 million option, at $396, and the only one that moves them materially, leaving 48% above 6%.",
+   "Reallocation and Homestead Plus are close to equivalent here, at $1,167 [S13] and $1,171 [S14], leaving 33% and 36% above 6%. Homestead Plus does relatively well for them because it has no benefit base to limit what they can claim."
+  ],
+  "B4": [
+   "8,800 households, often on the Southern Coast. Medians: $67,400 income, $437,500 home, burden 8.0% of income after relief, the mildest of the burdened set.",
+   "Among the highest incomes of the burdened owner archetypes, so after B6 the fewest qualify, at 63%. They are in this set because the burdened group is not only the old and the poor.",
+   "Base-bound rather than cap-bound: 58% are held by the benefit base against 42% by the maximum. Higher bases [S4] give $315, nearly three times what a higher maximum gives [S5, $111].",
+   "Homestead Plus [S14] is their best outcome by a clear margin: $1,601, with 99% better off and 24% left above 6%, against $1,323 and 40% under all three sources combined [S13]."
+  ],
+  "B5": [
+   "9,500 households, often on the Southern Coast. Medians: $73,300 income, $485,800 home, burden 8.4% of income after relief. The newest to their homes of any owner archetype: the median household moved in five to nine years ago and 36% within the last four years.",
+   "Their dependents lift their benefit base, which is why their post-credit burden lands below B1's despite a much larger bill. 58% sit at the maximum credit.",
+   "No $35 million scenario does much for them. The hybrid [S6] gives the most, a median $476, but leaves 82% above 6%; the universal ceiling [S8] leaves the fewest above 6%, at 76%.",
+   "Reallocation is where the change happens: $1,600 under all three sources combined [S13], leaving 33% above 6%, and $1,687 under Homestead Plus [S14], leaving 27%."
+  ],
+  "B6": [
+   "4,500 households, often on the Southern Coast. Medians: $92,800 income, $1.5m home, burden 10.8% of income after relief.",
+   "The largest bills of any archetype and the smallest share eligible of the burdened set, because income disqualifies about half of them.",
+   "The only burdened archetype whose burden barely moves after the credit, from 11.8% to 10.8%, because the maximum binds long before the bill does. They are burdened by the value of their home rather than by low income, which makes them both the case for a liability ceiling and the case against it.",
+   "The senior ceiling [S7] does the most for their burden of any $35 million option, cutting the share above 6% from 100% to 73%. The universal ceiling [S8] does nothing for them at all, because it counts only the first $370,000 of a home's value.",
+   "Even the largest reallocations leave most of them burdened: about $1,300 under both S13 and S14, with roughly 70% still above 6%."
+  ],
+  "B7": [
+   "6,100 households, often in Greater Portland. Median income $18,330, the lowest of any archetype. Burden 8.6% of income after relief.",
+   "93% are eligible, second only to B1, and 77% sit at the maximum credit. The credit does more work here than anywhere else, cutting their burden roughly in half.",
+   "Homestead changes do nothing at all [S1 to S3]: 100% remain above 6%.",
+   "The universal ceiling [S8] is the single most effective scenario for them of any on this page, cutting the share above 6% from 100% to 3%, provided renters are included in it.",
+   "All three sources combined [S13] leaves 7% above 6%; Homestead Plus [S14] leaves 27%.",
+   "Two cautions. A renter's \"tax\" is the statutory 15% of rent, a proxy rather than a bill anyone receives. And 63% of this group reports annual rent exceeding annual income, so cash income understates their resources and this burden figure is indicative rather than directly comparable with an owner's."
+  ]
+ }
+}

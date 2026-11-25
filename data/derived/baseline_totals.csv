@@ -1,0 +1,16 @@
+item,dollars
+"PTFC entitlement, full claiming (TY2026 law)",186118421.17793736
+PTFC delivered at PUMA take-up (TY2026 law),127448795.55366641
+PTFC delivered at PUMA take-up (TY2025 law),115641567.44312596
+"  MRS actual paid, TY2024",113317957.0
+"PTFC recipients, delivered (TY2026 law)",135556.12053046655
+"HE static value, m0 x exempt value (MVR)",112351034.50481999
+HE State reimbursement at 76% (MVR),85386786.22366321
+HE dynamic: homesteaders' gain (MVR),101601276.72707978
+HE dynamic: paid by other property via mill rate (MVR),16214490.503416575
+"HE static value, household side (PUMS, check)",112351034.50482
+HE dynamic net to resident households (PUMS),99430547.30766541
+  of which: gain to homesteaders,102493606.83856128
+  of which: cost to owners w/o homestead,-3063059.530895864
+"HE dynamic net, with 15%-of-rent pass-through",97418029.29421592
+PTFC the exemption displaces (HE standalone - net),11323961.697270261

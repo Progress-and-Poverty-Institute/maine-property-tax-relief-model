@@ -1,0 +1,495 @@
+MUNI,MuniType_Economy,MuniType_Size,MuniType_Service
+ABBOT,bedroom,Small Town,Non-SC
+ACTON,tourism,Large Town,Non-SC
+ADDISON,fishing,Medium Town,Non-SC
+ALBION,bedroom,Large Town,Non-SC
+ALEXANDER,bedroom,Small Town,Non-SC
+ALFRED,manufacturing,Large Town,Non-SC
+ALLAGASH,unclassified,Tiny Town,Non-SC
+ALNA,bedroom,Small Town,Non-SC
+ALTON,bedroom,Small Town,Non-SC
+AMHERST,unclassified,Tiny Town,Non-SC
+AMITY,unclassified,Tiny Town,Non-SC
+ANDOVER,farm_forest,Small Town,SC-adjacent
+ANSON,manufacturing,Large Town,Non-SC
+APPLETON,bedroom,Medium Town,Non-SC
+AROOSTOOK UT,unclassified,UT,UT
+ARROWSIC,bedroom,Small Town,Non-SC
+ARUNDEL,diversified,Small City,SC-adjacent
+ASHLAND,farm_forest,Medium Town,Small
+ATHENS,farm_forest,Small Town,Non-SC
+AUBURN,diversified,City,Primary
+AUGUSTA,institutional,City,Primary
+AURORA,unclassified,Tiny Town,Non-SC
+AVON,institutional,Small Town,Non-SC
+BAILEYVILLE,manufacturing,Medium Town,Non-SC
+BALDWIN,institutional,Medium Town,Non-SC
+BANGOR,institutional,City,Primary
+BAR HARBOR,tourism,Small City,Primary
+BARING PLT,unclassified,Tiny Town,SC-adjacent
+BATH,manufacturing,Small City,Specialized
+BEALS,fishing,Small Town,Non-SC
+BEAVER COVE,unclassified,Tiny Town,SC-adjacent
+BEDDINGTON,unclassified,Tiny Town,Non-SC
+BELFAST,professional_services,Small City,Primary
+BELGRADE,manufacturing,Large Town,Non-SC
+BELMONT,bedroom,Small Town,SC-adjacent
+BENTON,manufacturing,Large Town,SC-adjacent
+BERWICK,bedroom,Small City,Non-SC
+BETHEL,tourism,Large Town,Specialized
+BIDDEFORD,diversified,City,Primary
+BINGHAM,farm_forest,Small Town,Secondary
+BLAINE,bedroom,Small Town,SC-adjacent
+BLUE HILL,fishing,Large Town,Secondary
+BOOTHBAY,fishing,Large Town,SC-adjacent
+BOOTHBAY HARBOR,tourism,Large Town,Secondary
+BOWDOIN,bedroom,Large Town,Non-SC
+BOWDOINHAM,bedroom,Large Town,Non-SC
+BOWERBANK,unclassified,Tiny Town,SC-adjacent
+BRADFORD,bedroom,Medium Town,Non-SC
+BRADLEY,bedroom,Medium Town,SC-adjacent
+BREMEN,fishing,Small Town,SC-adjacent
+BREWER,diversified,Small City,Secondary
+BRIDGEWATER,farm_forest,Small Town,Non-SC
+BRIDGTON,manufacturing,Small City,Small
+BRIGHTON PLT,unclassified,Tiny Town,SC-adjacent
+BRISTOL,fishing,Large Town,SC-adjacent
+BROOKLIN,professional_services,Small Town,SC-adjacent
+BROOKS,bedroom,Medium Town,Non-SC
+BROOKSVILLE,fishing,Small Town,Non-SC
+BROWNFIELD,bedroom,Medium Town,Non-SC
+BROWNVILLE,manufacturing,Medium Town,Non-SC
+BRUNSWICK,institutional,City,Primary
+BUCKFIELD,bedroom,Medium Town,Non-SC
+BUCKSPORT,institutional,Small City,Non-SC
+BURLINGTON,bedroom,Small Town,Non-SC
+BURNHAM,institutional,Medium Town,SC-adjacent
+BUXTON,farm_forest,Small City,SC-adjacent
+BYRON,unclassified,Tiny Town,Non-SC
+CALAIS,institutional,Large Town,Primary
+CAMBRIDGE,bedroom,Small Town,Non-SC
+CAMDEN,tourism,Small City,Primary
+CANAAN,bedroom,Large Town,SC-adjacent
+CANTON,farm_forest,Medium Town,Non-SC
+CAPE ELIZABETH,professional_services,Small City,SC-adjacent
+CARATUNK,unclassified,Tiny Town,Non-SC
+CARIBOU,institutional,Small City,Primary
+CARMEL,bedroom,Large Town,Non-SC
+CARRABASSETT VALLEY,tourism,Small Town,Non-SC
+CARROLL PLT,unclassified,Tiny Town,Non-SC
+CARTHAGE,bedroom,Small Town,Non-SC
+CASCO,tourism,Small City,Non-SC
+CASTINE,institutional,Medium Town,Non-SC
+CASTLE HILL,institutional,Small Town,Non-SC
+CASWELL,unclassified,Tiny Town,SC-adjacent
+CHAPMAN,bedroom,Small Town,SC-adjacent
+CHARLESTON,farm_forest,Medium Town,SC-adjacent
+CHARLOTTE,bedroom,Small Town,SC-adjacent
+CHEBEAGUE ISLAND,fishing,Small Town,SC-adjacent
+CHELSEA,institutional,Large Town,SC-adjacent
+CHERRYFIELD,fishing,Medium Town,SC-adjacent
+CHESTER,bedroom,Small Town,Non-SC
+CHESTERVILLE,bedroom,Medium Town,SC-adjacent
+CHINA,bedroom,Small City,Non-SC
+CLIFTON,bedroom,Small Town,Non-SC
+CLINTON,farm_forest,Large Town,SC-adjacent
+COLUMBIA,fishing,Small Town,Non-SC
+COLUMBIA FALLS,fishing,Small Town,Non-SC
+COOPER,unclassified,Tiny Town,Non-SC
+COPLIN PLT,unclassified,Tiny Town,Non-SC
+CORINNA,farm_forest,Large Town,Non-SC
+CORINTH,diversified,Large Town,Non-SC
+CORNISH,tourism,Medium Town,Small
+CORNVILLE,bedroom,Medium Town,SC-adjacent
+CRANBERRY ISLES,unclassified,Tiny Town,SC-adjacent
+CRAWFORD,unclassified,Tiny Town,Non-SC
+CRYSTAL,unclassified,Tiny Town,SC-adjacent
+CUMBERLAND,professional_services,Small City,Non-SC
+CUSHING,bedroom,Medium Town,Non-SC
+CUTLER,fishing,Small Town,Non-SC
+CYR PLT,unclassified,Tiny Town,Non-SC
+DALLAS PLT,bedroom,Small Town,Non-SC
+DAMARISCOTTA,fishing,Large Town,Primary
+DANFORTH,institutional,Small Town,Non-SC
+DAYTON,bedroom,Large Town,SC-adjacent
+DEBLOIS,unclassified,Tiny Town,Non-SC
+DEDHAM,bedroom,Medium Town,SC-adjacent
+DEER ISLE,fishing,Large Town,Non-SC
+DENMARK,manufacturing,Medium Town,Non-SC
+DENNISTOWN PLT,unclassified,Tiny Town,Non-SC
+DENNYSVILLE,institutional,Small Town,Non-SC
+DETROIT,diversified,Small Town,SC-adjacent
+DEXTER,institutional,Small City,Specialized
+DIXFIELD,manufacturing,Large Town,Non-SC
+DIXMONT,bedroom,Medium Town,Non-SC
+DOVER-FOXCROFT,institutional,Small City,Secondary
+DRESDEN,bedroom,Medium Town,Non-SC
+DURHAM,bedroom,Small City,SC-adjacent
+DYER BROOK,unclassified,Tiny Town,Non-SC
+EAGLE LAKE,farm_forest,Small Town,Non-SC
+EAST MACHIAS,fishing,Medium Town,SC-adjacent
+EAST MILLINOCKET,institutional,Medium Town,Non-SC
+EASTBROOK,bedroom,Small Town,Non-SC
+EASTON,farm_forest,Medium Town,SC-adjacent
+EASTPORT,fishing,Medium Town,Primary
+EDDINGTON,bedroom,Large Town,SC-adjacent
+EDGECOMB,bedroom,Medium Town,Non-SC
+EDINBURG,unclassified,Tiny Town,Non-SC
+ELIOT,manufacturing,Small City,Non-SC
+ELLSWORTH,diversified,Small City,Primary
+EMBDEN,bedroom,Small Town,SC-adjacent
+ENFIELD,farm_forest,Medium Town,Non-SC
+ETNA,institutional,Medium Town,Non-SC
+EUSTIS,tourism,Small Town,Non-SC
+EXETER,bedroom,Small Town,Non-SC
+FAIRFIELD,institutional,Small City,SC-adjacent
+FALMOUTH,professional_services,City,Specialized
+FARMINGDALE,institutional,Large Town,SC-adjacent
+FARMINGTON,institutional,Small City,Primary
+FAYETTE,bedroom,Medium Town,Non-SC
+FORT FAIRFIELD,farm_forest,Large Town,SC-adjacent
+FORT KENT,farm_forest,Small City,Primary
+FRANKFORT,bedroom,Medium Town,Non-SC
+FRANKLIN,bedroom,Medium Town,Non-SC
+FRANKLIN UT,unclassified,UT,UT
+FREEDOM,bedroom,Small Town,Non-SC
+FREEPORT,diversified,Small City,Secondary
+FRENCHBORO,unclassified,Tiny Town,Non-SC
+FRENCHVILLE,manufacturing,Medium Town,SC-adjacent
+FRIENDSHIP,fishing,Medium Town,Non-SC
+FRYE ISLAND,unclassified,Tiny Town,Non-SC
+FRYEBURG,farm_forest,Large Town,Non-SC
+GARDINER,institutional,Small City,Small
+GARFIELD PLT,unclassified,Tiny Town,Non-SC
+GARLAND,bedroom,Medium Town,SC-adjacent
+GEORGETOWN,tourism,Medium Town,SC-adjacent
+GILEAD,unclassified,Tiny Town,Non-SC
+GLENBURN,bedroom,Small City,SC-adjacent
+GLENWOOD PLT,unclassified,Tiny Town,Non-SC
+GORHAM,diversified,City,SC-adjacent
+GOULDSBORO,fishing,Medium Town,SC-adjacent
+GRAND ISLE,bedroom,Small Town,SC-adjacent
+GRAND LAKE STREAM PLT,unclassified,Tiny Town,Non-SC
+GRAY,professional_services,Small City,Non-SC
+GREAT POND,unclassified,Tiny Town,Non-SC
+GREENBUSH,bedroom,Medium Town,Non-SC
+GREENE,bedroom,Small City,SC-adjacent
+GREENVILLE,tourism,Medium Town,Secondary
+GREENWOOD,bedroom,Small Town,SC-adjacent
+GUILFORD,manufacturing,Medium Town,Small
+HALLOWELL,institutional,Large Town,Primary
+HAMLIN,unclassified,Tiny Town,Non-SC
+HAMMOND,unclassified,Tiny Town,Non-SC
+HAMPDEN,institutional,Small City,SC-adjacent
+HANCOCK,fishing,Large Town,SC-adjacent
+HANCOCK UT,unclassified,UT,UT
+HANOVER,unclassified,Tiny Town,SC-adjacent
+HARMONY,bedroom,Small Town,Non-SC
+HARPSWELL,bedroom,Small City,SC-adjacent
+HARRINGTON,fishing,Small Town,SC-adjacent
+HARRISON,bedroom,Large Town,SC-adjacent
+HARTFORD,bedroom,Medium Town,Non-SC
+HARTLAND,bedroom,Medium Town,SC-adjacent
+HAYNESVILLE,unclassified,Tiny Town,Non-SC
+HEBRON,bedroom,Medium Town,Non-SC
+HERMON,institutional,Small City,SC-adjacent
+HERSEY,unclassified,Tiny Town,SC-adjacent
+HIGHLAND PLT,unclassified,Tiny Town,Non-SC
+HIRAM,farm_forest,Medium Town,Non-SC
+HODGDON,bedroom,Medium Town,SC-adjacent
+HOLDEN,institutional,Large Town,SC-adjacent
+HOLLIS,diversified,Small City,Non-SC
+HOPE,bedroom,Medium Town,SC-adjacent
+HOULTON,diversified,Small City,Primary
+HOWLAND,farm_forest,Medium Town,Non-SC
+HUDSON,bedroom,Medium Town,Non-SC
+INDUSTRY,bedroom,Small Town,SC-adjacent
+ISLAND FALLS,farm_forest,Small Town,Non-SC
+ISLE AU HAUT,unclassified,Tiny Town,Non-SC
+ISLESBORO,fishing,Small Town,SC-adjacent
+JACKMAN,institutional,Small Town,Small
+JACKSON,bedroom,Small Town,Non-SC
+JAY,bedroom,Small City,Non-SC
+JEFFERSON,bedroom,Large Town,Non-SC
+JONESBORO,fishing,Small Town,Non-SC
+JONESPORT,fishing,Medium Town,Non-SC
+KENDUSKEAG,bedroom,Medium Town,Non-SC
+KENNEBEC UT,unclassified,UT,UT
+KENNEBUNK,tourism,City,Small
+KENNEBUNKPORT,tourism,Small City,SC-adjacent
+KINGFIELD,farm_forest,Small Town,Non-SC
+KINGSBURY PLT,unclassified,Tiny Town,Non-SC
+KITTERY,diversified,City,Small
+KNOX,bedroom,Small Town,Non-SC
+KNOX UT,unclassified,UT,UT
+LAGRANGE,bedroom,Small Town,Non-SC
+LAKE VIEW PLT,unclassified,Tiny Town,Non-SC
+LAKEVILLE,unclassified,Tiny Town,Non-SC
+LAMOINE,bedroom,Medium Town,SC-adjacent
+LEBANON,bedroom,Small City,Non-SC
+LEE,farm_forest,Small Town,Non-SC
+LEEDS,manufacturing,Large Town,Non-SC
+LEVANT,bedroom,Large Town,Non-SC
+LEWISTON,diversified,City,Primary
+LIBERTY,manufacturing,Small Town,Non-SC
+LIMERICK,diversified,Large Town,Non-SC
+LIMESTONE,institutional,Medium Town,Secondary
+LIMINGTON,bedroom,Small City,Non-SC
+LINCOLN,institutional,Small City,Small
+LINCOLN PLT,unclassified,Tiny Town,Non-SC
+LINCOLN UT,unclassified,UT,UT
+LINCOLNVILLE,fishing,Large Town,SC-adjacent
+LINNEUS,bedroom,Small Town,SC-adjacent
+LISBON,institutional,Small City,SC-adjacent
+LITCHFIELD,bedroom,Small City,Non-SC
+LITTLETON,institutional,Small Town,SC-adjacent
+LIVERMORE,farm_forest,Large Town,Non-SC
+LIVERMORE FALLS,manufacturing,Large Town,Non-SC
+LONG ISLAND,unclassified,Tiny Town,SC-adjacent
+LOVELL,farm_forest,Medium Town,Non-SC
+LOWELL,bedroom,Small Town,Non-SC
+LUBEC,tourism,Medium Town,SC-adjacent
+LUDLOW,bedroom,Small Town,SC-adjacent
+LYMAN,bedroom,Small City,Non-SC
+MACHIAS,institutional,Large Town,Primary
+MACHIASPORT,fishing,Small Town,SC-adjacent
+MACWAHOC PLT,unclassified,Tiny Town,Non-SC
+MADAWASKA,manufacturing,Small City,Secondary
+MADISON,farm_forest,Small City,SC-adjacent
+MANCHESTER,institutional,Large Town,SC-adjacent
+MAPLETON,bedroom,Medium Town,SC-adjacent
+MARIAVILLE,bedroom,Small Town,SC-adjacent
+MARS HILL,farm_forest,Medium Town,Secondary
+MARSHFIELD,fishing,Small Town,SC-adjacent
+MASARDIS,unclassified,Tiny Town,Non-SC
+MATINICUS ISLE PLT,unclassified,Tiny Town,Non-SC
+MATTAWAMKEAG,bedroom,Small Town,Non-SC
+MAXFIELD,unclassified,Tiny Town,Non-SC
+MECHANIC FALLS,diversified,Large Town,Non-SC
+MEDDYBEMPS,unclassified,Tiny Town,Non-SC
+MEDFORD,unclassified,Tiny Town,Non-SC
+MEDWAY,tourism,Medium Town,Non-SC
+MERCER,bedroom,Small Town,Non-SC
+MERRILL,unclassified,Tiny Town,Non-SC
+MEXICO,farm_forest,Large Town,Specialized
+MILBRIDGE,fishing,Medium Town,Secondary
+MILFORD,bedroom,Large Town,Non-SC
+MILLINOCKET,diversified,Small City,Secondary
+MILO,manufacturing,Large Town,Non-SC
+MINOT,bedroom,Large Town,SC-adjacent
+MONHEGAN PLT,unclassified,Tiny Town,Non-SC
+MONMOUTH,institutional,Small City,Non-SC
+MONROE,bedroom,Small Town,Non-SC
+MONSON,farm_forest,Small Town,Non-SC
+MONTICELLO,bedroom,Small Town,Non-SC
+MONTVILLE,bedroom,Medium Town,Non-SC
+MOOSE RIVER,unclassified,Tiny Town,Non-SC
+MORO PLT,unclassified,Tiny Town,Non-SC
+MORRILL,institutional,Small Town,SC-adjacent
+MOSCOW,bedroom,Small Town,SC-adjacent
+MOUNT CHASE,unclassified,Tiny Town,SC-adjacent
+MOUNT DESERT,tourism,Large Town,SC-adjacent
+MOUNT VERNON,bedroom,Medium Town,Non-SC
+NAPLES,tourism,Small City,Non-SC
+NASHVILLE PLT,unclassified,Tiny Town,Non-SC
+NEW CANADA,farm_forest,Small Town,SC-adjacent
+NEW GLOUCESTER,diversified,Small City,SC-adjacent
+NEW LIMERICK,farm_forest,Small Town,SC-adjacent
+NEW PORTLAND,bedroom,Small Town,Non-SC
+NEW SHARON,bedroom,Medium Town,SC-adjacent
+NEW SWEDEN,bedroom,Small Town,SC-adjacent
+NEW VINEYARD,bedroom,Small Town,SC-adjacent
+NEWBURGH,bedroom,Medium Town,Non-SC
+NEWCASTLE,professional_services,Medium Town,SC-adjacent
+NEWFIELD,bedroom,Medium Town,Non-SC
+NEWPORT,institutional,Large Town,Small
+NEWRY,tourism,Small Town,SC-adjacent
+NOBLEBORO,fishing,Medium Town,SC-adjacent
+NORRIDGEWOCK,manufacturing,Large Town,SC-adjacent
+NORTH BERWICK,institutional,Small City,Non-SC
+NORTH HAVEN,fishing,Small Town,SC-adjacent
+NORTH YARMOUTH,bedroom,Small City,Non-SC
+NORTHFIELD,unclassified,Tiny Town,Non-SC
+NORTHPORT,diversified,Medium Town,SC-adjacent
+NORWAY,farm_forest,Small City,Secondary
+OAKFIELD,bedroom,Small Town,Non-SC
+OAKLAND,diversified,Small City,SC-adjacent
+OGUNQUIT,tourism,Medium Town,Non-SC
+OLD ORCHARD BEACH,tourism,Small City,Specialized
+OLD TOWN,institutional,Small City,SC-adjacent
+ORIENT,unclassified,Tiny Town,Non-SC
+ORLAND,fishing,Large Town,SC-adjacent
+ORONO,institutional,City,Secondary
+ORRINGTON,institutional,Small City,SC-adjacent
+OSBORN,unclassified,Tiny Town,Non-SC
+OTIS,bedroom,Small Town,SC-adjacent
+OTISFIELD,bedroom,Medium Town,SC-adjacent
+OWLS HEAD,fishing,Medium Town,SC-adjacent
+OXFORD,tourism,Small City,Specialized
+OXFORD UT,unclassified,UT,UT
+PALERMO,bedroom,Medium Town,Non-SC
+PALMYRA,farm_forest,Medium Town,SC-adjacent
+PARIS,manufacturing,Small City,SC-adjacent
+PARKMAN,bedroom,Small Town,Non-SC
+PARSONSFIELD,bedroom,Medium Town,Non-SC
+PASSADUMKEAG,bedroom,Small Town,Non-SC
+PATTEN,institutional,Small Town,Primary
+PEMBROKE,bedroom,Small Town,Non-SC
+PENOBSCOT,bedroom,Medium Town,SC-adjacent
+PENOBSCOT UT,unclassified,UT,UT
+PERHAM,bedroom,Small Town,Non-SC
+PERRY,institutional,Small Town,SC-adjacent
+PERU,bedroom,Medium Town,SC-adjacent
+PHILLIPS,farm_forest,Small Town,Non-SC
+PHIPPSBURG,bedroom,Large Town,Non-SC
+PISCATAQUIS UT,unclassified,UT,UT
+PITTSFIELD,manufacturing,Small City,Secondary
+PITTSTON,bedroom,Large Town,Non-SC
+PLEASANT RIDGE PLT,unclassified,Tiny Town,Non-SC
+PLYMOUTH,bedroom,Medium Town,Non-SC
+POLAND,institutional,Small City,SC-adjacent
+PORTAGE LAKE,farm_forest,Small Town,Non-SC
+PORTER,farm_forest,Medium Town,Non-SC
+PORTLAND,professional_services,City,Primary
+POWNAL,bedroom,Medium Town,SC-adjacent
+PRESQUE ISLE,institutional,Small City,Primary
+PRINCETON,manufacturing,Small Town,Non-SC
+PROSPECT,bedroom,Small Town,Non-SC
+RANDOLPH,institutional,Medium Town,Non-SC
+RANGELEY,farm_forest,Medium Town,Specialized
+RANGELEY PLT,unclassified,Tiny Town,Non-SC
+RAYMOND,tourism,Small City,Non-SC
+READFIELD,institutional,Large Town,Non-SC
+REED PLT,unclassified,Tiny Town,Non-SC
+RICHMOND,diversified,Small City,Non-SC
+RIPLEY,bedroom,Small Town,Non-SC
+ROBBINSTON,bedroom,Small Town,SC-adjacent
+ROCKLAND,fishing,Small City,Secondary
+ROCKPORT,institutional,Small City,Specialized
+ROME,tourism,Medium Town,Non-SC
+ROQUE BLUFFS,unclassified,Tiny Town,SC-adjacent
+ROXBURY,bedroom,Small Town,SC-adjacent
+RUMFORD,manufacturing,Small City,Secondary
+SABATTUS,bedroom,Small City,SC-adjacent
+SACO,diversified,City,Secondary
+SAGADAHOC UT,unclassified,UT,UT
+SAINT AGATHA,farm_forest,Small Town,SC-adjacent
+SAINT ALBANS,bedroom,Large Town,Non-SC
+SAINT FRANCIS,farm_forest,Small Town,Non-SC
+SAINT GEORGE,fishing,Large Town,Non-SC
+SAINT JOHN PLT,unclassified,Tiny Town,SC-adjacent
+SANDY RIVER PLT,unclassified,Tiny Town,Non-SC
+SANFORD,manufacturing,City,Small
+SANGERVILLE,institutional,Medium Town,SC-adjacent
+SCARBOROUGH,professional_services,City,Specialized
+SEARSMONT,institutional,Medium Town,Non-SC
+SEARSPORT,manufacturing,Large Town,SC-adjacent
+SEBAGO,bedroom,Medium Town,Non-SC
+SEBEC,farm_forest,Small Town,SC-adjacent
+SEBOEIS PLT,unclassified,Tiny Town,Non-SC
+SEDGWICK,bedroom,Medium Town,SC-adjacent
+SHAPLEIGH,bedroom,Large Town,Non-SC
+SHERMAN,farm_forest,Small Town,SC-adjacent
+SHIRLEY,unclassified,Tiny Town,SC-adjacent
+SIDNEY,bedroom,Small City,SC-adjacent
+SKOWHEGAN,diversified,Small City,Primary
+SMITHFIELD,diversified,Small Town,Non-SC
+SMYRNA,bedroom,Small Town,Non-SC
+SOLON,institutional,Small Town,SC-adjacent
+SOMERSET UT,unclassified,UT,UT
+SOMERVILLE,bedroom,Small Town,Non-SC
+SORRENTO,unclassified,Tiny Town,Non-SC
+SOUTH BERWICK,institutional,Small City,Non-SC
+SOUTH BRISTOL,institutional,Medium Town,Non-SC
+SOUTH PORTLAND,diversified,City,Secondary
+SOUTH THOMASTON,fishing,Medium Town,SC-adjacent
+SOUTHPORT,institutional,Small Town,SC-adjacent
+SOUTHWEST HARBOR,fishing,Medium Town,Specialized
+SPRINGFIELD,unclassified,Tiny Town,Non-SC
+STACYVILLE,farm_forest,Small Town,SC-adjacent
+STANDISH,diversified,City,Non-SC
+STARKS,bedroom,Small Town,Non-SC
+STETSON,bedroom,Medium Town,Non-SC
+STEUBEN,bedroom,Medium Town,SC-adjacent
+STOCKHOLM,unclassified,Tiny Town,Non-SC
+STOCKTON SPRINGS,bedroom,Medium Town,Non-SC
+STONEHAM,unclassified,Tiny Town,Non-SC
+STONINGTON,fishing,Medium Town,Specialized
+STOW,bedroom,Small Town,Non-SC
+STRONG,diversified,Medium Town,SC-adjacent
+SULLIVAN,fishing,Medium Town,Non-SC
+SUMNER,diversified,Small Town,Non-SC
+SURRY,bedroom,Medium Town,SC-adjacent
+SWANS ISLAND,fishing,Small Town,Non-SC
+SWANVILLE,bedroom,Medium Town,SC-adjacent
+SWEDEN,bedroom,Small Town,Non-SC
+TALMADGE,unclassified,Tiny Town,Non-SC
+TEMPLE,bedroom,Small Town,SC-adjacent
+THE FORKS PLT,unclassified,Tiny Town,Non-SC
+THOMASTON,fishing,Large Town,Small
+THORNDIKE,farm_forest,Small Town,Non-SC
+TOPSFIELD,unclassified,Tiny Town,Non-SC
+TOPSHAM,diversified,Small City,Specialized
+TREMONT,fishing,Medium Town,SC-adjacent
+TRENTON,professional_services,Medium Town,SC-adjacent
+TROY,bedroom,Medium Town,Non-SC
+TURNER,farm_forest,Small City,SC-adjacent
+UNION,professional_services,Large Town,Non-SC
+UNITY,farm_forest,Large Town,Non-SC
+UPTON,unclassified,Tiny Town,Non-SC
+VAN BUREN,farm_forest,Large Town,Small
+VANCEBORO,unclassified,Tiny Town,Non-SC
+VASSALBORO,bedroom,Small City,SC-adjacent
+VEAZIE,diversified,Medium Town,SC-adjacent
+VERONA,bedroom,Small Town,Non-SC
+VIENNA,bedroom,Small Town,Non-SC
+VINALHAVEN,fishing,Medium Town,Non-SC
+WADE,unclassified,Tiny Town,Non-SC
+WAITE,unclassified,Tiny Town,Non-SC
+WALDO,bedroom,Small Town,SC-adjacent
+WALDOBORO,fishing,Small City,SC-adjacent
+WALES,bedroom,Medium Town,Non-SC
+WALLAGRASS,bedroom,Small Town,SC-adjacent
+WALTHAM,bedroom,Small Town,Non-SC
+WARREN,fishing,Small City,SC-adjacent
+WASHBURN,farm_forest,Medium Town,SC-adjacent
+WASHINGTON,bedroom,Medium Town,Non-SC
+WASHINGTON UT,unclassified,UT,UT
+WATERBORO,diversified,Small City,Non-SC
+WATERFORD,bedroom,Medium Town,SC-adjacent
+WATERVILLE,institutional,City,Primary
+WAYNE,bedroom,Medium Town,Non-SC
+WEBSTER PLT,unclassified,Tiny Town,Non-SC
+WELD,bedroom,Small Town,Non-SC
+WELLINGTON,unclassified,Tiny Town,Non-SC
+WELLS,tourism,City,Non-SC
+WESLEY,unclassified,Tiny Town,Non-SC
+WEST BATH,manufacturing,Medium Town,SC-adjacent
+WEST FORKS PLT,unclassified,Tiny Town,Non-SC
+WEST GARDINER,bedroom,Small City,Non-SC
+WEST PARIS,bedroom,Medium Town,SC-adjacent
+WESTBROOK,professional_services,City,Secondary
+WESTFIELD,bedroom,Small Town,SC-adjacent
+WESTMANLAND,unclassified,Tiny Town,Non-SC
+WESTON,unclassified,Tiny Town,Non-SC
+WESTPORT ISLAND,bedroom,Small Town,SC-adjacent
+WHITEFIELD,bedroom,Large Town,SC-adjacent
+WHITING,bedroom,Small Town,Non-SC
+WHITNEYVILLE,unclassified,Tiny Town,SC-adjacent
+WILLIMANTIC,unclassified,Tiny Town,SC-adjacent
+WILTON,institutional,Small City,SC-adjacent
+WINDHAM,diversified,City,Specialized
+WINDSOR,bedroom,Large Town,SC-adjacent
+WINN,farm_forest,Small Town,Non-SC
+WINSLOW,diversified,Small City,SC-adjacent
+WINTER HARBOR,fishing,Small Town,Specialized
+WINTERPORT,bedroom,Small City,Non-SC
+WINTERVILLE PLT,unclassified,Tiny Town,Non-SC
+WINTHROP,institutional,Small City,Non-SC
+WISCASSET,manufacturing,Small City,Specialized
+WOODLAND,bedroom,Medium Town,SC-adjacent
+WOODSTOCK,bedroom,Medium Town,Non-SC
+WOODVILLE,unclassified,Tiny Town,Non-SC
+WOOLWICH,institutional,Large Town,Non-SC
+YARMOUTH,institutional,Small City,SC-adjacent
+YORK,tourism,City,Non-SC

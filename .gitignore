@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+data/derived/.pums_cache/
+output/homestead_plus/
+output/reallocation/
+.DS_Store
+~$*
